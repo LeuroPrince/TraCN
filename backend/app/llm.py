@@ -13,6 +13,10 @@ class LlmConfigurationError(RuntimeError):
     pass
 
 
+class LlmResponseError(RuntimeError):
+    pass
+
+
 @dataclass(frozen=True)
 class LlmRuntimeConfig:
     provider: str
@@ -69,14 +73,33 @@ async def chat_completion(config: LlmRuntimeConfig, messages: list[dict[str, str
         response = await client.post(url, json=payload, headers=headers)
         response.raise_for_status()
         data = response.json()
-    return data["choices"][0]["message"]["content"]
+    try:
+        choice = data["choices"][0]
+        message = choice["message"]
+    except (KeyError, IndexError, TypeError) as exc:
+        raise LlmResponseError("LLM response did not include choices[0].message.") from exc
+
+    content = str(message.get("content") or "").strip()
+    if content:
+        return content
+
+    finish_reason = choice.get("finish_reason")
+    reasoning_content = str(message.get("reasoning_content") or "").strip()
+    if reasoning_content and finish_reason == "length":
+        raise LlmResponseError(
+            "LLM returned reasoning_content but no final content because max_tokens was exhausted. "
+            "Use a non-reasoning chat model or increase the model output token budget."
+        )
+    if reasoning_content:
+        raise LlmResponseError("LLM returned reasoning_content but no final content.")
+    raise LlmResponseError("LLM returned an empty message content.")
 
 
 async def test_llm(config: LlmRuntimeConfig) -> str:
     return await chat_completion(
         config,
         [{"role": "user", "content": "Return exactly: TraCN connection OK"}],
-        max_tokens=20,
+        max_tokens=128,
     )
 
 
@@ -145,7 +168,7 @@ async def classify_teacher_directions(
                 "content": json.dumps({"teacher": teacher, "directions": directions}, ensure_ascii=False),
             },
         ],
-        max_tokens=700,
+        max_tokens=2000,
     )
     try:
         parsed = json.loads(raw)
