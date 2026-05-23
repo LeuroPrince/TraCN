@@ -2,6 +2,7 @@ import React, { useEffect, useMemo, useState } from "react";
 import { createRoot } from "react-dom/client";
 import { Check, ChevronDown, ChevronUp, ExternalLink, FileUp, FlaskConical, Layers, RefreshCw, Search, Settings, Upload } from "lucide-react";
 import { api } from "./api";
+import tracnLogo from "./assets/tracn-logo.png";
 import type { Direction, DirectionCategory, LlmConfig, LlmConfigCreate, MatchProfileResponse, TeacherDetail, TeacherSummary } from "./types";
 import "./styles.css";
 
@@ -75,10 +76,10 @@ function App() {
     <div className="app-shell">
       <aside className="sidebar">
         <div className="brand">
-          <div className="brand-mark">T</div>
+          <div className="brand-mark"><img src={tracnLogo} alt="" /></div>
           <div>
             <h1>TraCN</h1>
-            <p>计算神经科学导师追踪</p>
+            <p>Tracking for Computational Neuroscience</p>
           </div>
         </div>
         <nav>
@@ -369,6 +370,12 @@ function TeacherDetailPane({ teacher }: { teacher: TeacherDetail | null }) {
       </div>
       <section>
         <h3>研究方向</h3>
+        {teacher.bio && (
+          <div className="source-summary">
+            <b>原网页记载</b>
+            <p>{teacher.bio}</p>
+          </div>
+        )}
         {teacher.directions.map((item) => (
           <div className="evidence" key={item.id}>
             <b>{item.direction_name} · {item.effective_weight.toFixed(1)}</b>
@@ -386,16 +393,16 @@ function TeacherDetailPane({ teacher }: { teacher: TeacherDetail | null }) {
         {teacher.publications.length ? teacher.publications.map((pub) => <p key={pub.id}>{pub.year || ""} {pub.title}</p>) : <p>官方主页暂未导入论文；可通过来源链接继续补全。</p>}
       </section>
       <section>
-        <h3>基金</h3>
-        {teacher.grants.length ? teacher.grants.map((grant) => <p key={grant.id}>{grant.year || ""} {grant.name}</p>) : <p>基金信息待补充。</p>}
+        <h3>主持项目</h3>
+        {teacher.grants.length ? teacher.grants.map((grant) => <p key={grant.id}>{grant.year || ""} {grant.name}</p>) : <p>主持项目信息待补充。</p>}
       </section>
       <section>
-        <h3>来源证据</h3>
+        <h3>官方主页</h3>
         {teacher.sources.length ? teacher.sources.map((source) => (
           <a className="source-link" href={source.source_url} target="_blank" rel="noreferrer" key={source.id}>
-            {source.source_type} · {source.field_name || "source"} <ExternalLink size={13} />
+            <span>{source.source_url}</span> <ExternalLink size={13} />
           </a>
-        )) : <p>暂无来源证据。</p>}
+        )) : <p>暂无官方主页链接。</p>}
       </section>
     </aside>
   );

@@ -3,19 +3,19 @@
   --ink-soft: #35454b;
   --muted: #6c7a80;
   --line: #dfe7e2;
-  --line-strong: #cbd8d1;
+  --line-strong: #d3d4e8;
   --paper: #fffdf8;
   --surface: #ffffff;
-  --surface-soft: #f7faf5;
+  --surface-soft: #f7f7fd;
   --field: #fbfcf8;
-  --teal: #176d68;
-  --teal-soft: #e5f1ee;
-  --sage: #6c8f77;
-  --sage-soft: #edf4ea;
-  --copper: #b76f4c;
-  --copper-soft: #f7ece5;
-  --shadow: 0 14px 36px rgba(31, 42, 46, 0.08);
-  --shadow-soft: 0 8px 22px rgba(31, 42, 46, 0.06);
+  --teal: #4d418f;
+  --teal-soft: #efecfb;
+  --sage: #2f78bb;
+  --sage-soft: #eaf3fc;
+  --copper: #d77a31;
+  --copper-soft: #fbefe4;
+  --shadow: 0 14px 36px rgba(34, 38, 75, 0.09);
+  --shadow-soft: 0 8px 22px rgba(34, 38, 75, 0.07);
   color: var(--ink);
   background: #f4f7f1;
   font-family: Inter, "Microsoft YaHei", "PingFang SC", Arial, sans-serif;
@@ -60,7 +60,7 @@ a {
 button:focus-visible,
 input:focus-visible,
 a:focus-visible {
-  outline: 2px solid rgba(23, 109, 104, 0.35);
+  outline: 2px solid rgba(77, 65, 143, 0.35);
   outline-offset: 2px;
 }
 
@@ -88,19 +88,25 @@ a:focus-visible {
   display: flex;
   align-items: center;
   gap: 12px;
-  padding: 2px 2px 8px;
+  padding: 4px 2px 12px;
 }
 
 .brand-mark {
-  width: 42px;
-  height: 42px;
+  width: 54px;
+  height: 54px;
   display: grid;
   place-items: center;
-  background: var(--teal);
-  color: #ffffff;
-  font-weight: 800;
+  background: #fffaf1;
   border-radius: 8px;
-  box-shadow: 0 8px 18px rgba(23, 109, 104, 0.22);
+  border: 1px solid rgba(77, 65, 143, 0.16);
+  box-shadow: 0 8px 18px rgba(77, 65, 143, 0.16);
+  overflow: hidden;
+}
+
+.brand-mark img {
+  width: 88%;
+  height: 88%;
+  object-fit: contain;
 }
 
 .brand h1,
@@ -114,7 +120,7 @@ a:focus-visible {
 }
 
 .brand h1 {
-  font-size: 22px;
+  font-size: 28px;
   line-height: 1.05;
   letter-spacing: 0;
 }
@@ -122,7 +128,8 @@ a:focus-visible {
 .brand p {
   color: var(--muted);
   font-size: 12px;
-  margin-top: 3px;
+  margin-top: 5px;
+  line-height: 1.25;
 }
 
 nav {
@@ -170,7 +177,7 @@ nav button:hover,
 }
 
 nav button.active {
-  border-color: rgba(23, 109, 104, 0.42);
+  border-color: rgba(77, 65, 143, 0.42);
   background: var(--teal-soft);
   color: var(--teal);
   box-shadow: inset 3px 0 0 var(--teal);
@@ -240,7 +247,7 @@ nav button.active {
 
 .direction-item:hover,
 .direction-item.selected {
-  border-color: rgba(23, 109, 104, 0.38);
+  border-color: rgba(77, 65, 143, 0.38);
   background: var(--surface);
   box-shadow: var(--shadow-soft);
 }
@@ -306,8 +313,8 @@ nav button.active {
 }
 
 .searchbox:focus-within {
-  border-color: rgba(23, 109, 104, 0.42);
-  box-shadow: 0 0 0 4px rgba(23, 109, 104, 0.08), var(--shadow-soft);
+  border-color: rgba(77, 65, 143, 0.42);
+  box-shadow: 0 0 0 4px rgba(77, 65, 143, 0.08), var(--shadow-soft);
 }
 
 .searchbox input {
@@ -341,7 +348,7 @@ nav button.active {
 }
 
 .notice {
-  border: 1px solid rgba(23, 109, 104, 0.28);
+  border: 1px solid rgba(77, 65, 143, 0.28);
   background: var(--teal-soft);
   color: var(--teal);
   padding: 11px 13px;
@@ -431,13 +438,13 @@ nav button.active {
 }
 
 .category-buttons button:hover {
-  border-color: rgba(108, 143, 119, 0.45);
+  border-color: rgba(47, 120, 187, 0.45);
   background: var(--surface-soft);
   transform: translateY(-1px);
 }
 
 .category-buttons button.active {
-  border-color: rgba(23, 109, 104, 0.42);
+  border-color: rgba(77, 65, 143, 0.42);
   background: var(--teal-soft);
   box-shadow: inset 3px 0 0 var(--teal);
 }
@@ -487,11 +494,11 @@ nav button.active {
 .teacher-row:hover {
   background: #fbfdfa;
   transform: translateY(-1px);
-  box-shadow: inset 0 0 0 1px rgba(108, 143, 119, 0.16);
+  box-shadow: inset 0 0 0 1px rgba(47, 120, 187, 0.16);
 }
 
 .teacher-row.selected {
-  border-color: rgba(23, 109, 104, 0.35);
+  border-color: rgba(77, 65, 143, 0.35);
   background: var(--teal-soft);
   box-shadow: inset 4px 0 0 var(--teal);
 }
@@ -506,7 +513,7 @@ nav button.active {
   color: var(--teal);
   font-weight: 800;
   overflow: hidden;
-  border: 1px solid rgba(108, 143, 119, 0.18);
+  border: 1px solid rgba(47, 120, 187, 0.18);
 }
 
 .avatar img {
@@ -566,7 +573,7 @@ nav button.active {
 .tag-row span {
   background: var(--surface-soft);
   color: var(--ink-soft);
-  border: 1px solid rgba(108, 143, 119, 0.16);
+  border: 1px solid rgba(47, 120, 187, 0.16);
   border-radius: 6px;
   padding: 3px 8px;
   font-size: 12px;
@@ -574,7 +581,7 @@ nav button.active {
 
 .tag-row span:first-child {
   background: var(--sage-soft);
-  color: #42644f;
+  color: #255f95;
 }
 
 .review-actions {
@@ -589,9 +596,9 @@ nav button.active {
 }
 
 .review-actions .secondary {
-  color: #8a4637;
+  color: #9c521f;
   background: var(--copper-soft);
-  border-color: rgba(183, 111, 76, 0.28);
+  border-color: rgba(215, 122, 49, 0.28);
 }
 
 .detail-pane {
@@ -623,7 +630,7 @@ nav button.active {
 
 .detail-head a:hover,
 .source-link:hover {
-  color: #0f5955;
+  color: #382e78;
   text-decoration: underline;
 }
 
@@ -673,12 +680,37 @@ nav button.active {
   color: var(--ink);
 }
 
+.source-summary {
+  border: 1px solid rgba(47, 120, 187, 0.18);
+  background: var(--sage-soft);
+  border-radius: 8px;
+  padding: 10px 11px;
+  margin-bottom: 12px;
+}
+
+.source-summary b {
+  color: var(--sage);
+}
+
+.source-summary p {
+  margin-bottom: 0;
+}
+
 .source-link {
   display: flex;
   gap: 5px;
   align-items: center;
   margin: 6px 0;
   font-size: 13px;
+}
+
+.source-link span {
+  min-width: 0;
+  overflow-wrap: anywhere;
+}
+
+.source-link svg {
+  flex: 0 0 auto;
 }
 
 .import-tools {
@@ -866,7 +898,7 @@ nav button.active {
 }
 
 .llm-card.active {
-  border-color: rgba(23, 109, 104, 0.42);
+  border-color: rgba(77, 65, 143, 0.42);
   background: var(--teal-soft);
   box-shadow: inset 3px 0 0 var(--teal);
 }
@@ -1002,6 +1034,20 @@ nav button.active {
   .content-grid,
   .category-layout {
     grid-template-columns: minmax(0, 1fr);
+  }
+
+  .category-layout {
+    grid-template-columns: minmax(360px, 1fr) minmax(320px, 0.9fr);
+  }
+
+  .category-layout .category-index {
+    grid-column: 1 / -1;
+  }
+
+  .category-layout .detail-pane {
+    position: sticky;
+    top: 18px;
+    max-height: calc(100vh - 36px);
   }
 
   .detail-pane {
