@@ -1,0 +1,2 @@
+name,institution,department,city,latitude,title,homepage_url,lab_url,email,phone,bio,direction_keys,evidence_sentence,source_url,source_type
+张三,示例大学,脑科学与智能技术学院,北京,39.9042,教授,https://example.edu.cn/faculty/zhangsan,,zhangsan@example.edu.cn,,此行为格式示例，请替换为真实官方来源信息。,"network_dynamics_modeling;ai_for_neuroscience",开发神经网络动力学模型并用 AI 方法分析神经数据。,https://example.edu.cn/faculty/zhangsan,official
