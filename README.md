@@ -73,6 +73,7 @@ To rebuild the local database from a batch:
 cd backend
 .\.venv\Scripts\python.exe scripts\import_teachers.py ..\data\import_batches\national_batch_001.json
 .\.venv\Scripts\python.exe scripts\import_teachers.py ..\data\import_batches\national_batch_002.json
+.\.venv\Scripts\python.exe scripts\import_teachers.py ..\data\import_batches\official_enrichment_001.json
 ```
 
 Each user should create their own `backend/.env` and configure their own API key locally.

@@ -16,7 +16,7 @@ ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 
 from app.database import SessionLocal  # noqa: E402
-from app.models import Publication, ReviewStatus, Teacher  # noqa: E402
+from app.models import Grant, Publication, ReviewStatus, Teacher  # noqa: E402
 
 
 USER_AGENT = "TraCN local official-page enrichment/0.1"
@@ -52,6 +52,8 @@ PUBLICATION_HEADINGS = (
     "主要论文",
     "论文发表",
     "学术论文",
+    "学术研究",
+    "部分期刊论文",
     "论著",
 )
 
@@ -73,6 +75,24 @@ STOP_HEADINGS = (
     "成员",
     "团队",
     "news",
+)
+
+PROJECT_CUES = (
+    "主持",
+    "承担",
+    "获得",
+    "资助",
+    "支持",
+    "基金",
+    "项目",
+    "课题",
+    "荣誉",
+    "称号",
+    "获奖",
+    "grant",
+    "project",
+    "fund",
+    "award",
 )
 
 NAVIGATION_TERMS = (
@@ -201,6 +221,84 @@ def collect_after_heading(lines: list[str], headings: Iterable[str], *, max_char
     return clean_section(" ".join(collected), max_chars=max_chars)
 
 
+def section_after_heading(lines: list[str], headings: Iterable[str]) -> list[str]:
+    sections = sections_after_heading(lines, headings)
+    return sections[0] if sections else []
+
+
+def sections_after_heading(lines: list[str], headings: Iterable[str]) -> list[list[str]]:
+    lower_headings = tuple(item.lower() for item in headings)
+    sections: list[list[str]] = []
+    for index, line in enumerate(lines):
+        lowered = line.lower().strip(":：")
+        if any(heading == lowered or heading in lowered for heading in lower_headings):
+            section: list[str] = []
+            for following in lines[index + 1 :]:
+                if section and is_heading(following):
+                    break
+                if len(following) > 2:
+                    section.append(following)
+            if section:
+                sections.append(section)
+    return sections
+
+
+def extract_research_and_projects(lines: list[str]) -> tuple[str, list[str]]:
+    best_research = ""
+    best_projects: list[str] = []
+    for section in sections_after_heading(lines, RESEARCH_HEADINGS):
+        research_lines: list[str] = []
+        project_lines: list[str] = []
+        for line in section:
+            lowered = line.lower()
+            if any(cue in lowered for cue in PROJECT_CUES):
+                project_lines.append(line)
+                continue
+            if looks_like_publication(line):
+                continue
+            research_lines.append(line)
+
+        research_text = clean_section(" ".join(research_lines), max_chars=2200)
+        if is_good_research_text(research_text) and len(research_text) > len(best_research):
+            best_research = research_text
+            best_projects = split_project_items(project_lines)
+    return best_research, best_projects
+
+
+def split_project_items(lines: list[str]) -> list[str]:
+    items: list[str] = []
+    for line in lines:
+        line_items: list[str] = []
+        normalized = clean_section(line, max_chars=1600)
+        if not normalized:
+            continue
+        if "交叉学部优秀青年基金项目" in normalized:
+            line_items.append("国家自然基金委交叉学部优秀青年基金项目")
+        if "青年人才托举工程项目" in normalized:
+            line_items.append("青年人才托举工程项目")
+        if "北京市科技新星" in normalized:
+            line_items.append("北京市科技新星荣誉称号")
+        if "国家自然科学基金委青年" in normalized:
+            line_items.append("国家自然科学基金委青年项目")
+        if "面上项目" in normalized:
+            line_items.append("国家自然科学基金委面上项目")
+        if "科技创新2030" in normalized:
+            line_items.append("科技部科技创新2030-“脑科学与类脑研究”重大项目课题")
+        quoted_projects = re.findall(r"《([^》]+)》", normalized)
+        for title in quoted_projects:
+            line_items.append(f"《{title}》")
+        if not line_items:
+            parts = [part.strip() for part in re.split(r"[。；;]\s*", normalized) if part.strip()]
+            line_items.extend(part for part in parts if any(cue in part.lower() for cue in PROJECT_CUES))
+        items.extend(line_items)
+
+    deduped: list[str] = []
+    for item in items:
+        if item and item not in deduped:
+            deduped.append(item)
+    return deduped[:12]
+
+
 def clean_section(text: str, *, max_chars: int) -> str:
     text = re.sub(r"\s+", " ", text).strip(" ;；")
     text = re.sub(r"(上一页|下一页|打印|关闭|分享|版权所有).*", "", text)
@@ -246,6 +344,11 @@ def looks_like_publication(line: str) -> bool:
             "neuroscience",
             "neuroimage",
             "proceedings",
+            "physical review",
+            "phys. rev",
+            "phys. revs",
+            "neurips",
+            "nips",
             "ieee",
             "bioinformatics",
         )
@@ -278,18 +381,18 @@ def looks_like_publication(line: str) -> bool:
 
 
 def extract_publications(lines: list[str]) -> list[dict[str, str | int | None]]:
-    section = collect_after_heading(lines, PUBLICATION_HEADINGS, max_chars=7000)
-    candidate_lines = normalize_lines(section) if section else []
+    sections = sections_after_heading(lines, PUBLICATION_HEADINGS)
+    candidate_lines = max(sections, key=len) if sections else []
     if not candidate_lines:
         candidate_lines = [line for line in lines if looks_like_publication(line)]
 
     publications: list[dict[str, str | int | None]] = []
     seen: set[str] = set()
-    for line in candidate_lines:
+    for line in split_numbered_publication_lines(candidate_lines):
         if not looks_like_publication(line):
             continue
         title = clean_section(line, max_chars=900)
-        key = title.casefold()
+        key = publication_key(title)
         if key in seen:
             continue
         seen.add(key)
@@ -303,6 +406,23 @@ def extract_publications(lines: list[str]) -> list[dict[str, str | int | None]]:
         if len(publications) >= MAX_PUBLICATIONS:
             break
     return publications
+
+
+def split_numbered_publication_lines(lines: list[str]) -> list[str]:
+    split_lines: list[str] = []
+    for line in lines:
+        parts = re.split(r"(?<!\d)(?=\s*\d{1,2}[.、]\s*[A-Z\u4e00-\u9fff])", line)
+        if len(parts) > 1:
+            split_lines.extend(part.strip() for part in parts if part.strip())
+        else:
+            split_lines.append(line)
+    return split_lines
+
+
+def publication_key(title: str) -> str:
+    key = re.sub(r"^\s*\d{1,2}[.、]\s*", "", title)
+    key = re.sub(r"\s+", " ", key)
+    return key.casefold().strip()
 
 
 def source_url_for_teacher(teacher: Teacher) -> str:
@@ -335,6 +455,7 @@ def fallback_bio_for_teacher(teacher: Teacher, batch_bios: dict[tuple[str, str],
 def main() -> None:
     updated_bio = 0
     added_publications = 0
+    added_grants = 0
     removed_publications = 0
     repaired_bio = 0
     failed: list[dict[str, str]] = []
@@ -349,10 +470,14 @@ def main() -> None:
                 teacher.bio = fallback_bio_for_teacher(teacher, batch_bios)
                 repaired_bio += 1
 
+            seen_publication_keys: set[str] = set()
             for publication in list(teacher.publications):
-                if publication.is_official_source and not looks_like_publication(publication.title):
+                key = publication_key(publication.title)
+                if publication.is_official_source and (not looks_like_publication(publication.title) or key in seen_publication_keys):
                     db.delete(publication)
                     removed_publications += 1
+                    continue
+                seen_publication_keys.add(key)
             db.flush()
 
             url = source_url_for_teacher(teacher)
@@ -361,15 +486,24 @@ def main() -> None:
                 continue
             try:
                 lines = normalize_lines(fetch_text(url))
-                research_text = collect_after_heading(lines, RESEARCH_HEADINGS, max_chars=1600)
-                if is_good_research_text(research_text) and len(research_text) > max(80, len(teacher.bio or "") + 20):
+                research_text, project_items = extract_research_and_projects(lines)
+                if is_good_research_text(research_text) and len(research_text) > max(80, len(teacher.bio or "")):
                     teacher.bio = research_text
                     updated_bio += 1
 
-                existing_titles = {publication.title.casefold() for publication in teacher.publications}
+                existing_grants = {grant.name.casefold() for grant in teacher.grants}
+                for item in project_items:
+                    if item.casefold() in existing_grants:
+                        continue
+                    db.add(Grant(teacher_id=teacher.id, name=item, source_url=url))
+                    existing_grants.add(item.casefold())
+                    added_grants += 1
+
+                existing_titles = {publication_key(publication.title) for publication in teacher.publications}
                 for item in extract_publications(lines):
                     title = str(item["title"])
-                    if title.casefold() in existing_titles:
+                    key = publication_key(title)
+                    if key in existing_titles:
                         continue
                     db.add(
                         Publication(
@@ -380,7 +514,7 @@ def main() -> None:
                             is_official_source=True,
                         )
                     )
-                    existing_titles.add(title.casefold())
+                    existing_titles.add(key)
                     added_publications += 1
                 db.commit()
             except (urllib.error.URLError, TimeoutError, RuntimeError) as exc:
@@ -393,6 +527,7 @@ def main() -> None:
             {
                 "updated_bio": updated_bio,
                 "repaired_bio": repaired_bio,
+                "added_grants": added_grants,
                 "added_publications": added_publications,
                 "removed_publications": removed_publications,
                 "failed": failed,
