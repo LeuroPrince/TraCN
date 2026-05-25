@@ -3,7 +3,7 @@
     "name": "吴思",
     "institution": "北京大学",
     "homepage_url": "https://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/ws/index.htm",
-    "bio": "代表性论文（*通讯作者）： Y. Mi , X. Liao , X. Huang , L. Zhang , W. Gu, G. Hu* and S. Wu* (2013). Long-Period Rhythmic Synchronous Firing in a Scale-Free Network. Proc. Natl. Acad. Sci. USA 110:E4931-4936. Tsodyks, M. and Wu, S* (2013). Short-term synaptic plasticity. Scholarpedia, 8(10):3153. 计算神经科学与类脑计算的开源软件平台： BrainPy：https://github.com/PKU-NIP-Lab/BrainPy ©北京大学心理与认知科学学院 Tips Please note that we no longer supports Internet Explorer 6, 7 and 8. We recommend upgrading to the latest Internet Explorer, Google Chrome, or Firefox. If you are using IE 9 or later, make sure you turn off \"Compatibility View\". Close",
+    "bio": "官方主页显示其研究方向包括脑网络动力学和计算神经科学，并关注神经系统功能机制的理论建模。",
     "publications": [
       {
         "title": "Chaoming Wang#, Tianqiu Zhang#, Sichao He, Hongyaoxing Gu, Shangyang Li, Si Wu*(2024). A differentiable brain simulator bridging brain simulation and brain-inspired computing, ICLR, 2024.",
@@ -132,7 +132,7 @@
     "name": "张洳源",
     "institution": "北京大学",
     "homepage_url": "https://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/zhry/index.htm",
-    "bio": "Luo, G., Ma, X., Yea, J., Liu, Y., Xia, Y., Li, C., Kuang, Y., Zhang, R.Y., Lou, S., Yu, K., Wu, M., Li, W. (2025). Audio multi-feature fusion detection for depression based on graph convolutional networks. Ann. N. Y. Acad. Sci, 1150(1), 309-320. Link, PDF Zhang, R. Y.#, Zhao, Y.J.#, Zhang, L., Ran, X., Chen, J., Ku, Y. (2025). Unexpected higher resilience to distraction during visual working memory in schizophrenia. Schizophrenia, 11, 93. Link, PDF Gao, Y-Y., Fang, Z., Zhou, Q.*, Zhang, R.Y.*. (2024). Enhanced 'learning to learn' through a hierarchical dual-learning system: the case of action video game players. BMC Psychology, 12, 460. Link, PDF Wang, Q.*, Wang, Q., Zhang, R.Y.*. (2023). Claim causality with clarity. Psychoradiology, 3, kkad007. Link, PDF Zhao, S., You, H., Zhang, R.Y., Si, B., Zhen, Z., Wan, X., Wang, D.H. (2023). An interpretable neuro-symbolic model on raven’s progressive matrices reasoning. Cognitive Computation, 15(5), 1703-1724. Link, PDF Zhao, Y.J.#, Ma, T.#, Zhang, L., Ran, X., Zhang, R. Y.*, Ku, Y.* (2021). Atypically larger variability of resource allocation accounts for visual working memory deficits in schizophrenia. PLoS computational biology, 17(11): e1009544. Link, PDF Zhang, R. Y.#, Chopin, A.#, Shibata, K., Lu, Z. L., Jaeggi, S., Buschkuehl, M., Green, C.S., & Bavelier, D. (2021). Action video game play facilitates 'learning to learn'. Communications biology, 4, 1154. Link, PDF Liu, S., Zhang, R. Y., & Kishimoto, T. (2021). Analysis and prospect of clinical psychology based on topic models: hot research topics and scientific trends in the latest decades. Psychology, health & medicine, 26(4), 395-407. Link, PDF Zhang, R. Y.*, & Tadin, D. (2019). Disentangling locus of perceptual learning in the visual hierarchy of motion processing. Scientific reports, 9(1), 1-10. Link, PDF, Supp Park, W. J., Schauder, K. B., Zhang, R. Y., Bennetto, L., & Tadin, D. (2017). High internal noise and poor external noise filter characterize perception in autism spectrum disorder. Scientific reports, 7(1), 1-12. Link, PDF ©北京大学心理与认知科学学院 Tips Please note that we no longer supports Internet Explorer 6, 7 and 8. We recommend upgrading to the latest Inte",
+    "bio": "知觉 决策 复杂问题解决 贝叶斯理论 神经网络",
     "publications": [
       {
         "title": "Yang, L, Xie, X., Zheng, W., Fang, F.*, Zhang, R.Y.*. (2026) Neural prediction errors as a unified cue of abstract visual reasoning. IEEE Transactions on Pattern Analysis and Machine Intelligence (TPAMI), 48(2):1795-18",
@@ -368,7 +368,7 @@
     "name": "方方",
     "institution": "北京大学",
     "homepage_url": "https://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/ffjs/index.htm",
-    "bio": "Liu M., Zheng X., Sun X.*, Fang F. and Wang Y. (2023) Which invariance should we transfer? A causal minimax learning approach. The Fortieth International Conference on Machine Learning (ICML), Hawaii, USA. Zhao L.#*, Zheng Y.#, Zhao J., Li G., Compton B.J., Zhang R., Fang F.*, Heyman G.D. and Lee K.* (2023) Cheating among elementary school children: A machine learning approach. Child Development. 94, 922-940. (# co-first authors) Zhang Y., Bi K., Li J., Wang Y. and Fang F.* (2023) Dyadic visual perceptual learning on orientation discrimination. Current Biology. 33, 2407-2416. Zhao Y.#, Zeng T.#, Wang T., Fang F., Pan Y.* and Jia J.* (2023) Subcortical encoding of summary statistics in humans. Cognition. 234, 105384 (# co-first authors) Zhao L.*, Li Y., Qin W., Amemiya J., Fang F.*, Compton B.J. and Heyman G.D.* (2022) Overheard evaluative comments: Implications for beliefs about effort and ability. Child Development. 93, 1889-1902. He Q., Yang X., Zhao D. and Fang F.* (2022) Enhancement of visual perception by combining transcranial electrical stimulation and visual perceptual learning. Medical Review. 2(3), 271-284. Zang X.#*, Zinchenko A.#, Wu J., Zhu X., Fang F.* and Shi Z.* (2022) Contextual cueing in co-active visual search: joint action allows acquisition of task-irrelevant context. Attention, Perception, & Psychophysics. 84, 1114-1129. (# co-first authors) Zhao L.*, Mao H., Compton B.J., Peng J., Fu G., Fang F.*, Heyman G.D. and Lee K.* (2022) Academic dishonesty and its relations to peer cheating and culture: A meta-analysis of the perceived peer cheating effect. Educational Research Review. 36, 100455. He D., Wang Y. and Fang F.* (2019) The critical role of V2 population receptive fields in visual orientation crowding. Current Biology. 29(13), 2229-2236. Wang Y., Zhu Z., Chen B. and Fang F.* (2019) Perceptual learning and recognition confusion reveal the underlying relationships among the six basic emotions. Cognition and Emotion. 33(4), 754-767. Na R., Bi T., Tjan B.S., Liu Z.* and Fang F.* (2018) Effect of task difficulty on blood-oxygen-level-dependent signal: a functional magnetic resonance imaging study in a motion discrimination task. PLoS ONE. 13",
+    "bio": "官方主页列出研究方向为人类视觉感知、注意、意识和学习，方法包括心理物理、脑成像、神经调控和计算建模。",
     "publications": [
       {
         "title": "Jiang Z.#, Liu Z.#, Shi L., Fang F., Tang S. and Zhou Y.* (2026) Single-neuron network topology governs neural computation and learning in primate cortex. Nature Communications. (in press) (# co-first authors)",
@@ -491,7 +491,20 @@
         "is_official_source": 1
       }
     ],
-    "grants": []
+    "grants": [
+      {
+        "name": "中国科学基金，第31卷，第3期，266页-274页",
+        "year": null,
+        "funder": null,
+        "source_url": "https://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/ffjs/index.htm"
+      },
+      {
+        "name": "生命科学（纪念国家杰出青年科学基金20周年专题)，第27卷，第7期，819页-826页",
+        "year": null,
+        "funder": null,
+        "source_url": "https://www.psy.pku.edu.cn/szdw/qzjy/jsyjy/ffjs/index.htm"
+      }
+    ]
   },
   {
     "name": "梁希同",
@@ -505,7 +518,7 @@
     "name": "陶乐天",
     "institution": "北京大学",
     "homepage_url": "https://cqb.pku.edu.cn/info/1002/1810.htm",
-    "bio": "代表性文章： 1. Zheng, C. Yu, Z., Zhou, Y., Tao, L., Pang, Y., Chen, T., Zhang X. Qiu, H., Zhou, H., Chen, Z. and Huang Y., “Live cell imaging analysis of the epigenetic regulation of the human endothelial cell migration at single cell resolution,” accepted for publication in Lab on a Chip. 2. Tao, L., Praissman, J., and Sornborger, A.T., “Improved dimensionally-reduced visual cortical network using stochastic noise modeling,” J. Comput. Neurosci., 32, 367-376 (2012). 4. Tao, L., Lauderdale, J.D. and Sornborger, A.T., “Mapping functional connectivity between neuronal ensembles with larval zebrafish transgenic for a ratiometric calcium indicator,” Frontiers in Neural Circuits 11. Kovacic, G., Tao, L., Cai, D., and Shelley, M.J. “Theoretical analysis of reverse-time correlation for idealized tuning dynamics,” J. Comput. Neurosci. 25, 401-438 (2008) 13. Tao, L., Cai, D., McLaughlin, D., Shelley, M., and Shapley, R., “Orientation selectivity in visual cortex by fluctuation-controlled criticality,” Proc. Natl. Acad. Sci. USA 103, 12911-12916 (2006) 科研队伍",
+    "bio": "官方主页列出计算神经科学、数学建模与大规模科学计算，并涉及神经元网络动力学模拟。",
     "publications": [
       {
         "title": "3. Cai, D., Tao, L., Shkarayev, M.S., Rangan, A.V., McLaughlin, D.W., and Kovacic, G., “The role of fluctuations in coarse-grained descriptions of neuronal networks,” Comm. Math. Sci. 10, 307-354 (2012).",
@@ -786,7 +799,7 @@
     "name": "胡晓林",
     "institution": "清华大学",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2164.html",
-    "bio": "深度学习、计算神经科学。致力于在深度学习和脑科学之间建立桥梁，研究脑启发的深度学习模型，同时利用深度学习理解脑的计算机制。 [简历] 2013.12 - 清华大学计算机科学与技术系 副教授 2009.09 - 2013.11 清华大学计算机科学与技术系 助理研究员 2007.09 - 2009.08 清华大学计算机科学与技术系 博士后 2004.08 - 2007.07 香港中文大学机械与自动化系 博士 2001.09 - 2004.06 武汉理工大学汽车工程学院 硕士 1997.09 - 2001.06 武汉理工大学汽车工程学院 学士 [部分发表] Fangzhou Liao, Ming Liang, Yinpeng Dong, Tianyu Pang, Xiaolin Hu*, Jun Zhu, “Defense against adversarial attacks using high-level representation guided denoiser,” Proc. of the 31th IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, USA, June 18-22, 2018. Yulong Wang, Hang Su, Bo Zhang, Xiaolin Hu*, “Interpret neural networks by identifying critical data routing paths,” Proc. of the 31th IEEE Conference on Computer Vision and Pattern Recognition (CVPR), Salt Lake City, USA, June 18-22, 2018. Wentao Liu, Jie Chen, Cheng Li, Chen Qian, Xiao Chu, Xiaolin Hu*, “A cascaded inception of inception network with attention modulated feature fusion for human pose estimation,” The Thirty-Second AAAI Conference on Artificial Intelligence (AAAI), New Orleans, USA, Feb 14-19, 2018. Jianfeng Wang, Xiaolin Hu*, “Gated recurrent convolution neural network for OCR,” Advancies in Neural Information Processing (NIPS), Long Beach, USA, Dec. 4-9, 2017. Ming Liang, Xiaolin Hu*, Bo Zhang, “Convolutional neural networks with intra-layer recurrent connections for scene labeling,” Advances in Neural Information Processing (NIPS), Montréal, Canada, Dec. 7-12, 2015. Ming Liang, Xiaolin Hu*, “Recurrent convolutional neural network for object recognition,” Proc. of the 28th IEEE Conference on Computer",
+    "bio": "官方主页列出人工神经网络、神经形态计算、计算神经科学等研究方向，和类脑智能高度相关。",
     "publications": [
       {
         "title": "Qingtian Zhang, Xiaolin Hu*, Bo Hong, Bo Zhang, “A hierarchical sparse coding model predicts acoustic feature encoding in both auditory midbrain and cortex,” PLOS Computational Biology, 2019.",
@@ -865,7 +878,7 @@
     "name": "米璐",
     "institution": "清华大学",
     "homepage_url": "https://collegeai.tsinghua.edu.cn/rydw/qzpi/milu.htm",
-    "bio": "在脑科学研究中得到广泛关注和应用，被近年来多篇发表在Nature及其子刊的多篇文章引用。与清华大学、哈佛大学、麻省理工学院、华盛顿大学、艾伦脑科学研究所等顶尖高校和科研机构中脑科学研究学者开展广泛合作。 代表性工作 代表性研究工作主要以人工智能为工具，针对脑科学中的关键问题提出基于人工智能的跨学科创新方案，将打造脑科学与人工智能交叉的新范式，为加速脑科学研究、脑机接口和类脑智能研发提供技术支撑。 工作贡献主要包括： 1、人工智能赋能脑科学的基础模型与智能体框架加速科学发现； 2、脑科学赋能人工智能的类脑算法与模型； 3、脑机接口平台和双向闭环脑机解码控制 Email milu@mail.tsinghua.edu.cn Office 中关村智造大街F座408 地址：北京市海淀区成府路45号中关村智造大街F座3层 100083 电话：62788817/62788836/62788805 邮箱：collegeai@mail.tsinghua.edu.cn",
+    "bio": "在脑科学研究中得到广泛关注和应用，被近年来多篇发表在Nature及其子刊的多篇文章引用。与清华大学、哈佛大学、麻省理工学院、华盛顿大学、艾伦脑科学研究所等顶尖高校和科研机构中脑科学研究学者开展广泛合作。 代表性工作 代表性研究工作主要以人工智能为工具，针对脑科学中的关键问题提出基于人工智能的跨学科创新方案，将打造脑科学与人工智能交叉的新范式，为加速脑科学研究、脑机接口和类脑智能研发提供技术支撑。 工作贡献主要包括： 1、人工智能赋能脑科学的基础模型与智能体框架加速科学发现； 2、脑科学赋能人工智能的类脑算法与模型； 3、脑机接口平台和双向闭环脑机解码控制",
     "publications": [],
     "grants": [
       {
@@ -880,7 +893,7 @@
     "name": "于歆杰",
     "institution": "清华大学",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2730.html",
-    "bio": "胶质细胞、机器学习、计算脑科学。主要研究领域为计算科学与脑科学的交叉领域，即理论脑科学或计算神经科学，具体研究对象为超大规模、复杂、高维脑科学数据理解与分析中的数学模型、理论与方法，具体数据类型包括光学显微镜视频、电子显微镜图像、单细胞组学和空间转录组学等，具体生物问题涉及星形胶质细胞、多突出细胞和小胶质细胞在大脑正常功能与疾病中的作用。 [简历] 2024.04 - 清华-IDG/麦戈文脑科学研究院 研究员 2023.08 - 清华大学自动化系 教授 2022.08 - 2023.08 美国弗吉尼亚理工大学 教授 2018.08 - 2022.08 美国弗吉尼亚理工大学 副教授 2012.08 - 2018.08 美国弗吉尼亚理工大学 助理教授 2011.09 - 2012.08 美国斯坦福大学 博士后 2006.08 - 2011.09 美国弗吉尼亚理工大学 博士 2001.09 - 2004.07 清华大学 硕士 1997.09 - 2001.07 山东大学 学士 [部分发表] Xuelong Mi, Mengfan Wang, Alex Bo-Yuan Chen, Jing-Xuan Lim, Yizhi Wang, Misha Ahrens, Guoqiang Yu*, “BILCO: An Efficient Algorithm for Joint Alignment of Time Series”, Advances in Neural Information Processing Systems (NeurIPS’22), November 28, 2022. (*corresponding author) Mengfan Wang, Boyu Lyu, Guoqiang Yu*, “ConvexVST: A Convex Optimization Approach to Variance-stabilizing Transformation”, The International Conference on Machine Learning (ICML’21), July 18, 2021. (*corresponding author). Congchao Wang, Yizhi Wang, Guoqiang Yu*, “Efficient Global Multi-object Tracking Under Minimum-cost Circulation Framework”, IEEE Transactions on Pattern Analysis and Machine Intelligence (IEEE TPAMI), April, 2020. (*corresponding author). Yizhi Wang, Congchao Wang, Petter Ranefall, Gerard Joey Broussard, Yinxue Wang, Guilai Shi, Boyu Lyu, Yue Wang, Lin Tian, Guoqiang Yu*, “SynQuant: An Automatic Tool to Quantify Synapses from Microscopy Images”, Bioinformatics, March 1, 2020. (*corresponding author). Congchao Wang, Yizhi Wang, Yinxue Wang, Chiung-Ting Wu, Guoqiang Yu*, “muSSP: Efficient Min-cost Flow Algorithm for Multi-object Tracking”, Advances",
+    "bio": "清华麦戈文官网页面显示其研究涉及脑机接口、神经信息处理和智能系统方向。",
     "publications": [
       {
         "title": "Xuelong Mi, Mengfan Wang, Alex Bo-Yuan Chen, Jing-Xuan Lim, Yizhi Wang, Misha Ahrens, Guoqiang Yu*, “BILCO: An Efficient Algorithm for Joint Alignment of Time Series”, Advances in Neural Information Processing Systems (NeurIPS’22), November 28, 2022. (*corresponding author)",
@@ -949,7 +962,7 @@
     "name": "陈育涵",
     "institution": "北京师范大学",
     "homepage_url": "https://sss.bnu.edu.cn/sszdw/szzjs/sfjs/11946b5bf6424fcba10fc90b6ccdaa40.htm",
-    "bio": "长期从事计算神经科学研究，主要将神经解剖学和神经影像学实验技术提取脑连接组数据，结合统计物理、非线性动力学和认知神经科学建立系列计算模型，在神经元、神经柱，到覆盖多脑区等不同层次，从全脑结构连接网络、脑结构、功能与代谢的关系等多维度探索脑连接网络形成，信息传递的机制。致力于探索理解灵长类脑功能实现，大脑发育等复杂问题。 现在共发表论文9篇，其中第一作者或通讯作者在PNAS, Cerebral Cortex, PLoS Computational Biology等发表论文6篇。发表论文列表详见https://scholar.google.com/citations?hl=en&user=UteC4i0AAAAJ 代表工作 3. 指出灵长类大脑中大部分脑区连接服从基本约束-成本效率平衡约束，病指出违反约束的特殊长程连接子脑区集团在功能分离整合中的重要作用。[Chen et al., 2017, PLoS Computational Biology, 第一作者] 4. 指出灵长类猕猴大脑结构网络的重要基本特征-模块结构和大度核心脑区并存的拓扑特征，受到基本生物限制-连接成本和通讯效率的平衡约束产生的机制。[Chen et al., 2013, PLoS Computational Biology, 第一作者]",
+    "bio": "长期从事计算神经科学研究，主要将神经解剖学和神经影像学实验技术提取脑连接组数据，结合统计物理、非线性动力学和认知神经科学建立系列计算模型，在神经元、神经柱，到覆盖多脑区等不同层次，从全脑结构连接网络、脑结构、功能与代谢的关系等多维度探索脑连接网络形成，信息传递的机制。致力于探索理解灵长类脑功能实现，大脑发育等复杂问题。",
     "publications": [
       {
         "title": "1. 揭示人脑能量代谢的结构基础，并指出高代谢脑区的优化连接揭示人脑的收益风险平衡机制。[Chen et al., 2021, PNAS, 第一作者]",
@@ -995,7 +1008,7 @@
     "name": "邵宇秀",
     "institution": "北京师范大学",
     "homepage_url": "https://sss.bnu.edu.cn/en/Faculty/Programs/0e3da105086a46f49163d4b038af6902.htm",
-    "bio": "His main research area lies in Computational Neuroscience, Intelligent Robotics and Brain inspired Intelligence. His works are published in journals including Nature Neurosciece, Hippocanpus, PLOS Computational Biology and Frontiers in Neurorobotics. Professional Affiliations： Regular Associate to ICTP (2016-2021) Visiting scientist to HHMI Janelia Farm Research Campus (2015-2016)",
+    "bio": "His main research area lies in Computational Neuroscience, Intelligent Robotics and Brain inspired Intelligence. His works are published in journals including Nature Neurosciece, Hippocanpus, PLOS Computational Biology and Frontiers in Neurorobotics.",
     "publications": [],
     "grants": []
   },
@@ -1164,7 +1177,7 @@
     "name": "王立平",
     "institution": "中国科学院脑科学与智能技术卓越创新中心",
     "homepage_url": "https://people.ucas.ac.cn/~wangliping",
-    "bio": "招生信息 教育背景 教授课程 指导学生 基本信息 王立平 男 博导 中国科学院脑科学与智能技术卓越创新中心（神经科学研究所） 电子邮件： liping.wang@ion.ac.cn 通信地址： 上海市岳阳路320号 邮政编码： 200031 研究方向 人类通常被称为“使用符号的物种”，那是因为人类可以对抽象的逻辑符号进行学习，并将此举一反三大量应用于从未学习过的新事物中。人类对抽象符号的泛化学习能力在语言学习、数学计算和音乐等领域一一得到体现。相对于其它物种，研究者普遍认为该能力在人类中进化和发展的更为强大。从更广义的角度上来说，我们能掌握语言的能力或许并不仅仅局限于语言本身，反映了人类独具的某种更普遍的学习能力——学习、理解递归结构和组合不同逻辑符号的能力。因此，在大脑中探索人类独有的这种能力是一个极为吸引人的研究课题。通过比较不同物种（例如：人类和猕猴）大脑的神经网络对规则和符号的表征方式，或许将以更为独到的视角帮助我们理解人类认知能力的进化起源。 我们实验室主要的研究兴趣在于理解序列学习、工作记忆和自我意识等的神经机制。我们通过在人类上利用心理物理学、头皮脑电（EEG）和功能性磁共振（fMRI）等研究手段，以及在清醒猕猴上进行单细胞记录和fMRI扫描，比较在执行序列学习等认知任务时，不同物种之间大脑神经网络的异同。探讨的科学问题主要有以下5点： Q1. 人类大脑如何编码语言和非语言的序列结构？ Q2. 猕猴大脑如何在细胞层面编码具有等级结构的序列？我们能否在与人类语言脑区（如Broca区等）同源的的动物大脑区域中，找到编码序列等级结构的神经环路或群体神经元？ Q3. 人类和动物在编码序列中的单元（primitives）和符号（operations）时的神经机制有何不同？两者结合工作的神经机理是什么？ Q4. 大脑跨模式工作记忆的神经机制是什么？ Q5. 与人类相比，猕猴大脑如何编码身体的自我意识？",
+    "bio": "我们实验室主要的研究兴趣在于理解序列学习、工作记忆和自我意识等的神经机制。我们通过在人类上利用心理物理学、头皮脑电（EEG）和功能性磁共振（fMRI）等研究手段，以及在清醒猕猴上进行单细胞记录和fMRI扫描，比较在执行序列学习等认知任务时，不同物种之间大脑神经网络的异同。探讨的科学问题主要有以下5点： Q1. 人类大脑如何编码语言和非语言的序列结构？ Q2. 猕猴大脑如何在细胞层面编码具有等级结构的序列？我们能否在与人类语言脑区（如Broca区等）同源的的动物大脑区域中，找到编码序列等级结构的神经环路或群体神经元？ Q3. 人类和动物在编码序列中的单元（primitives）和符号（operations）时的神经机制有何不同？两者结合工作的神经机理是什么？ Q4. 大脑跨模式工作记忆的神经机制是什么？ Q5. 与人类相比，猕猴大脑如何编码身体的自我意识？",
     "publications": [],
     "grants": [
       {
@@ -1179,7 +1192,7 @@
     "name": "文冬",
     "institution": "北京科技大学",
     "homepage_url": "https://faculty.ustb.edu.cn/wendong/zh_CN/index.htm",
-    "bio": "智能脑机接口、机器学习与模式识别、健康医疗大数据与安全诊疗平台、虚拟现实与多模态穿戴系统、认知数字药物与增强 教育经历 1999.9-2003.6 华中师范大学，人工智能教育学部 2006.9-2009.1 燕山大学，信息科学与工程学院（导师：刘国华教授） 2010.9-2014.9 燕山大学 (与认知神经科学与学习国家重点实验室联合培养），电气工程学（导师：李小俚教授）",
+    "bio": "北京科技大学官方主页显示其研究方向包括智能脑机接口、机器学习与模式识别、认知数字药物与增强等。",
     "publications": [],
     "grants": []
   },
@@ -1187,7 +1200,7 @@
     "name": "刘宝林",
     "institution": "北京科技大学",
     "homepage_url": "https://faculty.ustb.edu.cn/CCIIP/zh_CN/index.htm",
-    "bio": "了解更多 机器学习与数据挖掘 模式识别与智能信息处理 情感计算与人机交互 认知计算与脑机接口 类脑智能系统及类脑计算关键技术 科研成果 论文成果 暂无内容 专利成果 著作成果 暂无内容 访问量： 开通时间： 最后更新时间：",
+    "bio": "北京科技大学官方团队页显示团队致力于脑机接口、认知计算与智能信息处理，并列出类脑智能系统及类脑计算关键技术。",
     "publications": [],
     "grants": [
       {
@@ -1210,7 +1223,7 @@
     "name": "斯白露",
     "institution": "北京师范大学",
     "homepage_url": "https://sss.bnu.edu.cn/shfw/gcjy/msmj/1895d0b01ff8476cad4057037cf0ae2f.htm",
-    "bio": "2002-2007：德国不来梅大学理论神经物理专业博士 1999-2002：中国科学院计算技术研究所 计算机应用技术专业硕士 1995-1999：北方工业大学学计算机及应用学士学位 研究兴趣：计算神经科学、智能机器人、类脑智能。代表成果发表在Nature Neuroscience、Hippocampus、PLOS Computational Biology 、Frontiers in Neurorobotics等期刊上。 邮箱：sss@bnu.edu.cn 邮编：100875 地址：北京市海淀区新街口外大街19号 学院联系电话：(010)58807880 北京师范大学系统科学学院",
+    "bio": "研究计算神经科学、智能机器人和类脑智能，关注大脑感知和记忆的神经计算机制。",
     "publications": [],
     "grants": []
   },
@@ -1218,7 +1231,7 @@
     "name": "Zhong-Lin Lu",
     "institution": "上海纽约大学",
     "homepage_url": "https://shanghai.nyu.edu/academics/faculty/directory/zhong-lin-lu",
-    "bio": "Lu’s research focuses on computational models of perception and cognition, with applications in clinical settings. Using psychophysical experiments, physiological studies, and computational modeling, he explores: (1) visual and auditory perception, attention, and perceptual learning; (2) vision testing for optometry and ophthalmology; (3) second language acquisition, memory, and decision-making; (4) visual deficits in myopia, dyslexia, amblyopia, and Alzheimer’s disease; and (5) brain imaging and data analytics. Portal Campuses New York Shanghai Abu Dhabi Get in Touch",
+    "bio": "Lu’s research focuses on computational models of perception and cognition, with applications in clinical settings. Using psychophysical experiments, physiological studies, and computational modeling, he explores: (1) visual and auditory perception, attention, and perceptual learning; (2) vision testing for optometry and ophthalmology; (3) second language acquisition, memory, and decision-making; (4) visual deficits in myopia, dyslexia, amblyopia, and Alzheimer’s disease; and (5) brain imaging and data analytics.",
     "publications": [
       {
         "title": "Lu, Z.-L. & Dosher, B. A. (2022) Current directions in visual perceptual learning, Nature Review Psychology, 1, 654–668.",
@@ -1257,7 +1270,7 @@
     "name": "Xing Tian",
     "institution": "上海纽约大学",
     "homepage_url": "https://shanghai.nyu.edu/academics/faculty/directory/xing-tian",
-    "bio": "Human Cognitive Neuroscience Courses Taught Behavioral and Integrative Neuroscience Action and Cognition Independent Study - Neural Science Capstone Neural Bases of Speech and Language Portal Campuses New York Shanghai Abu Dhabi Get in Touch",
+    "bio": "研究动作与感知交互如何支持语言、记忆和高级认知，使用行为、计算、电生理和神经影像方法。",
     "publications": [
       {
         "title": "Yang, F., Zhu, H., Cao, X., Li, H., Fang, X., Yu, L., ... & Tian, X. (2024). Impaired motor-to-sensory transformation mediates auditory hallucinations. PLoS Biology, 22(10): e3002836. doi.org/10.1371/journal.pbio.3002836",
@@ -1296,7 +1309,7 @@
     "name": "Sukbin Lim",
     "institution": "上海纽约大学",
     "homepage_url": "https://shanghai.nyu.edu/academics/faculty/directory/sukbin-lim",
-    "bio": "Computational Neuroscience Network interactions and dynamics Cognitive functions including learning, memory and decision-making Courses Taught Math Tools for Life Sciences Modeling & Simulations in Neuroscience Introduction to Theoretical Neuroscience Portal Campuses New York Shanghai Abu Dhabi Get in Touch",
+    "bio": "Computational Neuroscience Network interactions and dynamics Cognitive functions including learning, memory and decision-making",
     "publications": [
       {
         "title": "H. Gu, J. Lee, S. Kim, J. Lim, H. Lee, H. Lee, M. Choe, D. Yoo, J. Ryu, S. Lim [co-corresponding author], S. Lee (2025) Attractor dynamics of working memory explain a concurrent evolution of stimulus-specific and decision-consistent biases in visual estimation, Neuron, https://doi.org/10.1016/j.neuron.2025.07.003.",
@@ -1345,7 +1358,7 @@
     "name": "Zhuo-Cheng Xiao",
     "institution": "上海纽约大学",
     "homepage_url": "https://shanghai.nyu.edu/academics/faculty/directory/zhuo-cheng-xiao",
-    "bio": "Mathematics: Data-Driven Modeling Applied Dynamical Systems Coarse-Graining Spiking Neural Networks Neuroscience: Computational Neuroscience Visual Cortex Hippocampus Neural Oscillations Portal Campuses New York Shanghai Abu Dhabi Get in Touch",
+    "bio": "Mathematics: Data-Driven Modeling Applied Dynamical Systems Coarse-Graining Spiking Neural Networks Neuroscience: Computational Neuroscience Visual Cortex Hippocampus Neural Oscillations",
     "publications": [
       {
         "title": "Dong, Y; Li, Y; Xiang, X; Xiao, Z; Hu, J; Li, Y; Li, H; Hu, H. Stress relief as a natural resilience mechanism against depression-like behaviors. Neuron (2023).",
@@ -1453,7 +1466,7 @@
     "name": "韩亚宁",
     "institution": "南方科技大学",
     "homepage_url": "https://med.sustech.edu.cn/Home/Default/teachersMore?AID=5928&name=%E9%9F%A9%E4%BA%9A%E5%AE%81",
-    "bio": "韩亚宁，南方科技大学医学院研究助理教授/副研究员，2025年7月博士毕业于中国科学院大学，获神经生物学理学博士学位，2021年7月硕士毕业于中国科学院大学，获神经生物学理学硕士学位，2018年7月本科毕业于中国石油大学（华东），获电子信息工程工学学士学位。2024-2025年于欧洲分子生物学实验室神经科学与表观遗传学分部（EMBL Rome)交流访学。研究方向聚焦于理解自然生物智能的运作机理，在数智稳态医学理念的基础上，使用人工智能技术解析细胞、器官、和个体跨尺度的动态生命活动，相关研究工作发表在Nature Machine Intelligence、Nature Communications、Molecular Psychiatry和eLife等期刊，获授权国家发明专利9项。",
+    "bio": "研究领域 1. 数智稳态医学：人工智能数字生命体构建 2. 计算神经行为学：自然大脑的神经计算机制解析",
     "publications": [
       {
         "title": "4. Yaning Han*, Pengfei Wei* (2025); Decoding Natural Behavior from Neuroethological Embedding. Journal of Visualized Experiments",
@@ -1580,7 +1593,7 @@
     "name": "鲍进",
     "institution": "中国科学院深圳先进技术研究院",
     "homepage_url": "https://isynbio.siat.ac.cn/siat/2025-02/12/article_2025021201135290997.html",
-    "bio": "Dr. Jin BAO is Principal Investigator of Neuroscience in Shenzhen Institutes of Advanced Technology (SIAT), Chinese Academy of Sciences (CAS). She received her Bachelor’s degree of Biomedical Engineering from Zhejiang University in China and PhD of Neuroscience from Goettingen University in Germany. After receiving her PhD, she conducted postdoctoral research as Marie Curie Fellow at the Laboratory of Brain Physiology of the French National Centre for Scientific Research (CNRS) in Paris. In 2014, she returned to China from Europe and worked at the School of Life Sciences, University of Science and Technology of China, as an associate researcher. She joined the Shenzhen Institutes of Advanced Technology, Chinese Academy of Sciences, as Principal Investigator in 2020.",
+    "bio": "研究领域 Her research focuses on the brain network mechanisms underlying motor and emotional control by applying multidisciplinary approaches to understand the brain's \"language\": how the brain encodes information into patterns of electrical and chemical signals.",
     "publications": [
       {
         "title": "1.Chen YF#, Hong ZX#, Wang JY, Liu KL, Liu J, Lin JB, Feng SJ, Zhang TH, Shan L, Guo PY, Lin YP, Li T, Chen Q, Jiang XD, Li AN, Li X, Li YT, Wilde JJ, Bao J*, Dai J*, and Lu ZH* Circuit-specific gene therapy reverses core symptoms in a primate Parkinson's disease model. Cell. 2023 Nov 22;186(24):5394-5410.e18.",
@@ -1643,14 +1656,92 @@
         "is_official_source": 1
       }
     ],
-    "grants": []
+    "grants": [
+      {
+        "name": "Dr. Bao was awarded the Excellent Young Researcher Grant (Class A) from National Science Foundation of China (NSFC). Her research work has been published in leading neuroscience journals, such as Cell and Neuron. In the past five years, her work has been selected twice among the\"Top Ten Advances in Life Sciences in China\" and twice among the \"Important Advances in Neuroscience in China\". In 2019 one paper was selected as one of the nine\"Best of Cell\" papers. She has led multiple national research projects and Strategic Priority Research Program of the Chinese Academy of Sciences. She co-directs the China-EU joint laboratory for neuromodulation and holds several international collaborating grants.",
+        "year": null,
+        "funder": null,
+        "source_url": "https://isynbio.siat.ac.cn/siat/2025-02/12/article_2025021201135290997.html"
+      }
+    ]
   },
   {
     "name": "路中华",
     "institution": "中国科学院深圳先进技术研究院",
     "homepage_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
-    "bio": "路中华，现任中国科学院深圳先进技术研究院研究员，中国科学院大学博士生导师，中国科学院深圳先进技术研究院生物医学与健康工程研究所灵长类神经调控与影像解析研究中心主任，医学成像科学与技术系统全国重点实验室应用科学部副主任。 路中华课题组主要聚焦于制备非人灵长类和啮齿类脑疾病动物模型，解析脑疾病的发病机理，并发展脑疾病基因治疗干预策略。在包括Cell，Nature，Cell Reports等在内的学术期刊上发表论文四十余篇，成果入选2023年度“中国生命科学十大进展”和2023年度“中国神经科学重大进展”。入选“国家高层次人才特殊支持计划科技创新领军人才”，现兼任中国神经科学学会理事，广东省认知科学学会副会长。 路中华1999年本科毕业于山东大学生命科学学院，2002年硕士毕业于北京大学生命科学学院，2007年获得美国杜克大学博士学位，师从美国国家科学院院士（2024年当选）冯国平教授。2008年9月至2016年3月，在美国霍华德休斯医学研究所（HHMI）－弗雷德哈钦森癌症研究中心从事博士后工作，合作导师为美国国家科学院院士（2003年当选） Linda Buck 教授（2004年诺贝尔奖得主）。 人物经历 （1）1995年至1999年就读于山东大学（本科）； （2）1999年至2002年就读于北京大学（硕士研究生）； （3）2002年至2007年就读于美国杜克大学（博士研究生）； （4）2008年至2016年，美国霍华德休斯医学研究所－弗雷德哈钦森癌症研究中心从事博士后工作； （5）2016年至今，中国科学院深圳先进技术研究院 研究员。 社会任职 2017-2023 主讲《神经生物学基础》，中国科学院深圳先进技术研究院。 2021-2022 讲授《生命科学导论》，中国科学院深圳理工大学。 2021-2022 讲授《脑˙健康前沿研讨》，中国科学院深圳理工大学。 2016 讲授《神经生理学》，中国科学院深圳先进技术研究院。 2000-2001 助教，《细胞生物学》，北京大学。 社会任职 1. 理事，中国神经科学学会。 2. 副会长，广东省认知科学学会。 3. 理事，灵长类研究创新联盟。 4. 委员，中国神经科学学会青年工作委员会。 5. 委员，中国神经科学学会科普与继续教育工作委员会。 6. 委员，中国神经科学学会神经病学基础与临床分会。 7. 委员，中国生物工程学会灵长类生物医学分会。 8. 委员，中国遗传学会模式生物遗传学分会。 9. Member, Society for Neuroscience. 10. 编委，Sensory Neuroscience. 人物评价 美国国家医学科学院院士、美国国家精神卫生研究所前所长、著名神经疾病学家Steven Hyman教授对路中华团队在《Cell》杂志上发表的帕金森病研究成果给予了高度评价。他指出：“这项研究迈出了以精准靶向可控的化学遗传学技术治疗帕金森病的重要一步” 研究领域 主要聚焦于制备非人灵长类和啮齿类脑疾病动物模型，解析脑疾病的发病机理，并发展脑疾病基因治疗干预策略。",
-    "publications": [],
+    "bio": "主要聚焦于制备非人灵长类和啮齿类脑疾病动物模型，解析脑疾病的发病机理，并发展脑疾病基因治疗干预策略。",
+    "publications": [
+      {
+        "title": "1. Siyu Li#, Yan Shen#, Yefei Chen#, Zexuan Hong, Lewei Zhang, Lufeng Ding, Chao-Yu Yang, Xiaoyang Qi, Quqing Shen, Yanyang Xiao, Pak-Ming Lau*, Zhonghua Lu*, Fang Xu*, Guo-Qiang Bi. Single-Neuron Reconstruction of the Macaque Primary Motor Cortex Reveals the Diversity of Neuronal Morphology. Neuroscience Bulletin, 2025, DOI: 10.1007/s12264-025-01352-0.",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "3. Yefei Chen#, Jingyi Wang#, Jing Liu#, Jianbang Lin, Yunping Lin, Jinyao Nie, Qi Yue, Chunshan Deng, Xiaofei Qi*, Yuantao Li, Ji Dai*, Zhonghua Lu*. A Novel Retrograde AAV Variant for Functional Manipulation of Cortical Projection Neurons in Mice and Monkeys. Neuroscience Bulletin, 2024, 40(1):90-102.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "5. Yefei Chen#, Zexuan Hong#, Jingyi Wang, Kunlin Liu, Jing Liu, Jianbang Lin, Shijing Feng, Tianhui Zhang, Liang Shan, Taian Liu, Pinyue Guo, Yunping Lin, Tian Li, Qian Chen, Xiaodan Jiang, Anan Li, Xiang Li, Yuantao Li, Jonathan J. Wilde, Jin Bao*, Ji Dai*, Zhonghua Lu*. Circuit-Specific Gene Therapy Reverses Core Symptoms in a Primate Parkinson’s Disease Model. Cell, 2023, 186(24):5394-5410.",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "6. Jingyi Wang#, Jianbang Lin#, Yefei Chen#, Jing Liu, Qiongping Zheng, Mao Deng, Ruiqi Wang, Yujing Zhang, Shijing Feng, Zhenyan Xu, Weiyi Ye, Yu Hu, Jiamei Duan, Yunping Lin, Ji Dai, Yu Chen, Yuantao Li, Tao Luo, Qian Chen*, Zhonghua Lu*. An Ultra-Compact Promoter Drives Widespread Neuronal Expression in Mouse and Monkey Brains. Cell Reports, 2023, 42(11):113348.",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "8. Jiamin Li#, Taian Liu, Yun Dong, Kunio Kondoh, Zhonghua Lu*. Trans-synaptic Neural Circuit-Tracing with Neurotropic Viruses. Neuroscience Bulletin, 2019, 35 (5), 909-920.",
+        "year": 2019,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "9. Kunio Kondoh#, Zhonghua Lu#, Xiaolan Ye, David P. Olson, Bradford B. Lowell, Linda B. Buck*. A Specific Area of Olfactory Cortex Involved in Stress Hormone Responses to Predator Odours. Nature, 2016, 532, 103-106.",
+        "year": 2016,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "10. Zhonghua Lu#, Hyun-Soo Je, Paul Young, Jimmy Gross, Bai Lu, Guoping Feng*. Regulation of Synaptic Growth and Maturation by a Synapse-Associated E3 Ubiquitin Ligase at the Neuromuscular Junction. Journal of Cell Biology, 2007, 177, 1077-1089.",
+        "year": 2007,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ibhe.siat.ac.cn/siat/2025-02/28/article_2025022802085630106.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
     "grants": [
       {
         "name": "路中华课题组主要聚焦于制备非人灵长类和啮齿类脑疾病动物模型，解析脑疾病的发病机理，并发展脑疾病基因治疗干预策略",
@@ -1676,7 +1767,7 @@
     "name": "Yuanning Li",
     "institution": "上海科技大学",
     "homepage_url": "https://bme.shanghaitech.edu.cn/bme_en/2021/0326/c8252a502278/page.htm",
-    "bio": "Neural basis of speech and language processing Neural encoding and computation models of visual and auditory perception Speech decoding and brain-computer interface of Chinese language Close-loop neural modulation Copyright © ShanghaiTech University. All Rights Reserved沪公网安备 31011502006855号 Address：393 Middle Huaxia Road, Pudong, Shanghai Postcode：201210",
+    "bio": "Neural basis of speech and language processing Neural encoding and computation models of visual and auditory perception Speech decoding and brain-computer interface of Chinese language Close-loop neural modulation",
     "publications": [
       {
         "title": "Li, J., Guo, C., Zhang, C., Chang, E. F., & Li, Y. *(2026). High-fidelity neural speech reconstruction through an efficient acoustic-linguistic dual-pathway framework. eLife, 14, RP109400.",
@@ -1914,7 +2005,7 @@
     "name": "Mohamad Sawan",
     "institution": "西湖大学",
     "homepage_url": "https://cenbrain.westlake.edu.cn/info/1017/1613.htm",
-    "bio": "博士后Md Belal Bin Heyat凭借扎实的学术积累与优异的研究成果，入选2025年度“全球前2%顶尖科学家”榜单。 Postdoctoral fellow Md Belal Bin Heyat was listed among the \"Top 2% of Scientists” in 2025 for his solid academic foundation and outstanding research achievements. 助理研究员Razieh Eskandari与博士生吴辉的研究成果，分别荣获IEEE ISCAS’25会议WiCAS最佳研究论文奖和生物医学电路与系统领域最佳论文奖； 人才输出上，我们同样“稳”中有进。 In talent output, we also achieved steady progress. In 2025, the center successfully graduated Five PhD students (Xi Yang, Di Wu, Hongyong Zhang, Jinbo Chen, Yuqiao Zheng), with Jinbo Chen, Di Wu, and Hongyong Zhang recognized as outstanding graduates of the Westlake University-Zhejiang University Joint Program. Three postdoctoral fellow (Fahimeh Marvi, Yuchen Xu, Yi Su) completed their postdoctoral exit defenses and will continue researching in cutting-edge fields such as diagnosis of Alzheimer's disorder, stroke rehabilitation, and micro-nano biosensor design. 自2019年以来，中心累计培养博士毕业生10名，毕业生基本全员深耕科研领域：或入职哈尔滨工业大学（深圳）、东北大学秦皇岛分校等高校任教职，或进入杜克大学、中国科学院声学研究所、浙江大学、西湖大学等顶尖学府及研究机构开展博士后研究。相信他们将把先进神经芯片中心的科研精神，传递到更广阔的平台。 Since 2019, the center has cultivated 10 PhD graduates, with almost all of them deeply engaged in research. Some hold faculty positions at Harbin Institute of Technology (Shenzhen) and Northeastern University (Qinhuangdao Campus), while others have pursued postdoctoral research at top institutions such as Duke University, the Institute of Acoustics of the Chinese Academy of Sciences, Zhejiang University, and Westlake University. We believe they will carry the research spirit of our CenBRAIN Neuortech to broader platforms. 稳固纽带，协同发展 / Strengthening Connections, Collaborative Development 2025年，我们持续推进学术交流平台建设，一边“走出去”交流取经，一边“请进来”碰撞思想，继续加强与国内外专家学者的知识联动。 Mohamad Sawan教授全年受邀",
+    "bio": "领导先进神经芯片中心，研究脑机接口、神经信号采集处理和脑神经科学与 AI 交叉。",
     "publications": [
       {
         "title": "Later in the year, Ph.D student Hui Wu's work earned a coveted spot for presentation at the IEEE International Solid-State Circuits Conference (ISSCC) 2026, often regarded as the premier global stage for chip design.",
@@ -1990,7 +2081,7 @@
     "name": "杜久林",
     "institution": "中国科学院脑科学与智能技术卓越创新中心",
     "homepage_url": "https://cebsit.cas.cn/yjz/djl_/ry/",
-    "bio": "陈敏佳 北京京东振世信息技术有限公司 汪玙璠 中科院脑智卓越创新中心，博士后 张昌梅 中科院脑智卓越创新中心 ， 博士后 訾化星 中国科学院脑智卓越创新中心，博士后 李福宁 中科院脑智卓越创新中心，博士后 李红羽 耶鲁大学，神经病学系，博士后 李玉玺 中国科学院脑智卓越创新中心 博士后 中国科学院脑智卓越创新中心 助理研究员 向佩珊 中国科学院脑科学与智能技术 助理研究员 杨永鑫 中国科学院脑智卓越创新中心 博士后 邓秋穗 朱宇齐 已出站博士后 刘佳男 中科院脑科学与智能技术卓越创新中心，研究员 中国科学院上海高等研究院 副研究员 加利福尼亚大学圣迭戈分校，博士后；中国科学院脑智卓越中心，副研究员 彭小兰 中科院脑智卓越中心，助理研究员 张贺飞 麻省大学医学院，博士后；复旦大学，助理教授 张昌梅 国际灵长类脑研究中心 LOGOTHETIS Nikos组博士后 訾化星 广东医科大学 青年副研究员 冯维熙 康奈尔大学医学院，博士后 汪玙璠 中国科学院脑智卓越中心 副研究员 李福宁 原职工 房龙后 Houston Methodist Hospital，副教授 刘昌盛 讲师，柏林医学院 任永刚 博士研究生，海德堡大学曼海姆医学院 阿里巴巴淘宝技术部 尚春峰 暨南大学 研究员 岳志锋 浦江实验室，研究员 陶荣坤 厦门大学医学院 副教授 上海科技大学 助理教授 北京脑科学与类脑研究中心 博士后 合作培养研究生 徐道杰 现复旦大学附属华山医院麻醉科，副主任医师 现海军军医大学，副教授 刘春洁 现上海交通大学医学院附属儿童医院 内分泌科 医师 杜文杰 现复旦大学附属华山医院，主治医师 刘思捷 现武汉儿童医院 住院医师 杨笑萱 现上海交通大学医学院附属瑞金医院麻醉科，主治医生 现上海交通大学医学院附属第九人民医院麻醉科，住院医师 王鹏程 复旦大学附属儿科医院 住院医生 张宏飞 现复旦大学附属华山医院 神经外科，博士研究生 瑞金医院 急诊科医生 蒋伟青 上海市第六人民医院，住院医师 曹建斌 现温州医科大学附属台州医院麻醉科 副主任医师 刘明剑 现复旦大学附属华山医院 神经外科，博士研究生 访问研究人员",
+    "bio": "中科院脑智卓越创新中心， 研究员 杜旭飞 中科院脑智卓越创新中心，全脑介观神经联接图谱绘制平台，平台主任，副研究员",
     "publications": [],
     "grants": []
   },
@@ -2014,7 +2105,7 @@
     "name": "梁智锋",
     "institution": "中国科学院脑科学与智能技术卓越创新中心",
     "homepage_url": "https://cebsit.cas.cn/yjz/lzf_/ry/",
-    "bio": "招聘信息 联系我们 研究组组长 梁智锋 研究组组长、高级研究员 zliang@@ion.ac.cn; 梁智锋博士2008年毕业于复旦生命科学学院，获理学学士学位。2008年至2013年就读于美国马塞诸塞大学医学院比较神经成像中心，获博士学位。2013至2016年在美国宾夕法尼亚州立大学做博士后工作。2016年回国担任中国科学院神经科学研究所比较神经成像研究组组长。",
+    "bio": "比较神经成像研究组组长，研究跨物种脑成像和神经机制。",
     "publications": [],
     "grants": []
   },
@@ -2101,6 +2192,16 @@
     "homepage_url": "https://ia.cas.cn/rcdw/fyjy/202404/t20240422_7130929.html",
     "bio": "从事人工智能、神经编解码、多模态神经计算、脑机接口领域研究。",
     "publications": [
+      {
+        "title": "Chuncheng Zhang; Li Yao; Sutao Song; Xiaotong Wen; Xiaojie Zhao; Zhiying Long ; Euler Elastica Regularized Logistic Regression for Whole-Brain Decoding of fMRI Data, IEEE Transactions on Biomedical Engineering, 2018, 65(7): 1639-1653 (",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://ia.cas.cn/rcdw/fyjy/202404/t20240422_7130929.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
       {
         "title": "Chuncheng Zhang; Li Yao; Sutao Song; Xiaotong Wen; Xiaojie Zhao; Zhiying Long ; Euler Elastica Regularized Logistic Regression for Whole-Brain Decoding of fMRI Data, IEEE Transactions on Biomedical Engineering, 2018, 65(7): 1639-1653 (期刊论文) ( 本人标注: 唯一第一作者 );Chuncheng Zhang; Sutao Song; Xiaotong Wen; Li Yao; Zhiying Long ; Improved sparse decomposition based on a smoothed L0 norm using a Laplacian kernel to select features from fMRI data, Journal of Neuroscience Methods, 2014, 245(0): 15-24 (期刊论文) ( 本人标注: 唯一第一 作者 );Yuan Li; Chuncheng Zhang; Chunping Hou; Li Yao; Jiacai Zhang; Zhiying Long ; Stereoscopic processing of crossed and uncrossed disparities in the human visual cortex, BMC Neuroscience, 20",
         "year": 2018,
@@ -2269,7 +2370,7 @@
     "name": "龚辉",
     "institution": "华中科技大学",
     "homepage_url": "https://bmp.hust.edu.cn/info/1152/1374.htm",
-    "bio": "长期从事发展光电新技术新方法以满足生物医学需求的研究，研究方向包括：1）脑结构与脑网络连接的光学成像研究，包括显微光学切片断层成像获取鼠脑高分辨图谱及脑神经连接等；2）近红外光学联合脑电的多模式功能成像研究。 期刊论文： 8. Zhongqin Yang, Bihe Hu, Yuhui Zhang, Qingming Luo, Hui Gong*, Development of a plastic embedding method for large-volume and fluorescent-protein-expressing tissues, PLoS One, 2013, 8(4): e60877 15. Jianwei Fu, Xiaoquan Yang, Kan Wang, Qingming Luo, Hui Gong*, A generic, geometric co-calibration method for a combined system of fluorescence molecular tomography and micro-computed tomography with arbitrarily shaped objects, Medical Physics, 2011, 38(12), 6561-6570 专利： 1. 骆清铭，龚辉，李婷，光在生物组织中传输特性的定量蒙特卡罗模拟方法，中国发明专利，授权时间（2009.12.30），专利号：ZL200810047962.7 2. 骆清铭、龚辉、张斌、李安安、王青蒂，一种精密扫描式切削系统及切削样本加工方法，中国发明专利，授权时间（2011.4.6），专利号：ZL200810306499.3 3. 骆清铭，龚辉，李婷，吕晓华，一种实现近红外脑功能检测仪测量同步的方法和装置，中国发明专利，授权时间（2011.5.25），专利号：ZL 200810306739.X 4. 骆清铭，龚辉，全国涛，邓勇，适于小动物的荧光分子层析成像方法，中国发明专利，授权时间（2011.9.28），专利号：ZL200910061250.5 5. 骆清铭，龚辉，李婷，获取稳态/瞬态光漫射特性的分析系统及方法，中国发明专利，授权时间（2011.10.26），专利号：ZL 200910300161.1 6. 骆清铭，李安安，张斌，杨中琴，龚辉，一种显微光学扫描层析成像装置，中国发明专利，授权时间（2012.10.31），专利号：ZL200910300483.6 7. 骆清铭，龚辉，张中兴，李婷，一种光学多参数生理检测仪，中国发明专利，授权时间（2011.5.25），专利号：ZL200910303109.1 8. 骆清铭，龚辉，杨孝全，全国涛，邓勇，一种活体小动物成像系统及成像方法，授权时间（2012.1.11），专利号：ZL200910306890.8 9. 骆清铭，龚辉，张中兴，何勇，一种光纤近红外光谱检测仪，中国发明专利，授权时间（2012.7.4），专利号：ZL201010200035.1 10. 骆清铭，龚辉，傅建伟，杨孝全，X射线和荧光双模式活体成像系统的几何校准方法，中国发明专利，授权时间（2014.8.6），专利号：ZL201110293263.2 11. 骆清铭，杨孝全，龚辉，一种用于消除层析成像中环状伪影的方法及系统，中国发明专利，授权时间（2013.9.25），专利号：ZL201110293269.X 12. 骆清铭，龚辉，邓子林，杨孝全，一种光声显微成像的自适应图像重建方法，中国发明专利，授权时间（2013.9.11），专利号：ZL201110392620.0 13. 骆清铭，龚辉，许冬力，李安安，一种大样本快速三维显微成像的方法和系统，中国发明专利，授权时间（2014.10.19），专利号：ZL201210402820.4",
+    "bio": "长期从事发展光电新技术新方法以满足生物医学需求的研究，研究方向包括：1）脑结构与脑网络连接的光学成像研究，包括显微光学切片断层成像获取鼠脑高分辨图谱及脑神经连接等；2）近红外光学联合脑电的多模式功能成像研究。",
     "publications": [
       {
         "title": "1. Hanqing Xiong, Zhenqiao Zhou, Mingqiang Zhu, Xiaohua Lv, Anan Li, Shiwei Li, Longhui Li, Tao Yang, Siming Wang, Zhongqin Yang, Tonghui Xu, Qingming Luo, Hui Gong*, Shaoqun Zeng*, Chemical reactivation of quenched fluorescent protein molecules enables resin-embedded fluorescence microimaging, Nature Communications, 2014, 5: 3992, doi: 10.1038/ncomms4992",
@@ -2437,7 +2538,7 @@
     "name": "周栋焯",
     "institution": "上海交通大学",
     "homepage_url": "https://sai.sjtu.edu.cn/cn/show/355",
-    "bio": "学院领导 大事记 学院导览 师资队伍 专职教师 双聘/客座 博士后 科学研究 科研概况 科研动态 人才培养 本科生培养 研究生培养 学生工作 学工动态 党建德育 团学工作 学生事务 生涯导航 学创空间 党建工作 党建动态 工会动态 合作交流 合作概况",
+    "bio": "研究计算与应用数学，具体方向是计算神经科学。",
     "publications": [],
     "grants": []
   },
@@ -2592,7 +2693,7 @@
     "name": "徐光华",
     "institution": "西安交通大学",
     "homepage_url": "https://www.xjtu.edu.cn/jsnr.jsp?urltype=tree.TreeTempUrl&wbtreeid=1632&wbwbxjtuteacherid=360",
-    "bio": "研究脑机接口与康复机器人、脑机协同控制和训练评估技术。",
+    "bio": "学校领导 统计数据 校史沿革 学校标识 院系设置 数学学院 物理学院 化学学院 前沿院 机械学院 电气学院 能动学院 电信学部 人工智能学院 材料学院 人居学院 生命学院 航天学院 化工学院 仪器科学与技术学院 医学部 经金学院 金禾经济中心 管理学院 公管学院 人文学院 新媒体学院 马克思主义学院 法学院 外国语学院 体育学院 继续（网络）教育学院 国际教育学院 钱学森学院 创新创业学院 未来技术学院 西交米兰学院 国家储能平台（中心） 国家卓越工程师学院 国家医学攻关平台（中心） 组织机构 党群机构 行政部门 直属单位 附属单位 创新港研究院 本科书院 彭康书院 文治书院 宗濂书院 启德书院 仲英书院 励志书院 崇实书院 南洋书院 钱学森书院 医学教育 医学部 基础医学院 综合办公室 公共卫生学院",
     "publications": [],
     "grants": [
       {
@@ -2607,7 +2708,7 @@
     "name": "廖祥",
     "institution": "重庆大学",
     "homepage_url": "https://faculty.cqu.edu.cn/XiangLiao/zh_CN/yjfx/331563/content/1901.htm",
-    "bio": "计算神经科学与神经工程学 研究方向：（1）基于计算机视觉和机器学习技术，开展生物医学数据的自动化分析；（2）基于脑成像技术和神经计算方法，开展神经元及网络功能研究，建立生物脑启发的智能计算模型。 (C) Copyright Chongqing University All Rights Reserved. 重庆大学",
+    "bio": "计算神经科学与神经工程学 研究方向：（1）基于计算机视觉和机器学习技术，开展生物医学数据的自动化分析；（2）基于脑成像技术和神经计算方法，开展神经元及网络功能研究，建立生物脑启发的智能计算模型。",
     "publications": [],
     "grants": []
   },
@@ -2615,7 +2716,7 @@
     "name": "周喜川",
     "institution": "重庆大学",
     "homepage_url": "https://isbi.cqu.edu.cn/info/1064/1346.htm",
-    "bio": "Xichuan Zhou Brain-Inspired Chip System, Pervasive Intelligent Computing Professor/Doctorial Tutor He received the B.S. and Ph.D. degrees from Zhejiang University, Hangzhou, China, in 2005 and 2010, respectively. He was a visiting scholar at Arizona State University in 2009. He is currently a Professor and the Vice Dean of the School of Microelectronics and Communication Engineering in Chongqing University, Chongqing, China, and the founding professor of the Institute of Science on Brain Inspired Intelligence. Address: No. 1, No. 32 Xiyong Avenue, Shapingba District, Chongqing Office phone: 023-65103544 Human Resources: 023-65103544",
+    "bio": "Xichuan Zhou Brain-Inspired Chip System, Pervasive Intelligent Computing",
     "publications": [],
     "grants": [
       {
@@ -2638,11 +2739,131 @@
     "name": "钱洁慧",
     "institution": "中山大学",
     "homepage_url": "https://psy.sysu.edu.cn/teacher/309",
-    "bio": "研究视觉认知、脑电、计算建模、VR 和物体知觉恒常性的神经计算模型。",
+    "bio": "研究领域 致力于认知心理学和视觉科学研究，主要研究方向是视觉认知，利用行为学（心理物理）、脑电（EEG/ERP等）、计算建模和VR虚拟现实等方法探讨注意与意识、空间知觉、整体知觉、工作记忆等。目前实验室主要关注三维视空间工作记忆、深度知觉及相关视觉现象，探索深度信息对视空间工作记忆的影响、二维视觉信息与三维深度信息在视觉系统中的存储和内在机制，以及视知觉理论在临床（帕金森、阿尔兹海默症等）和虚拟现实场景中的应用等问题。",
     "publications": [
+      {
+        "title": "Wang, K.※, Lin, W.※, Wang, X.※, & Qian, J.* (2025). Separate storage mechanisms of absolute depth and relative depth in working memory: Encoding, maintenance, consolidation and attention engagements. Journal of Experimental Psychology: Learning Memory and Cognition. Advance online publication. https://dx.doi.org/ 10.1037/xlm0001444",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
       {
         "title": "按发表时间倒序排列；*为通讯作者 ※为学生 Wang, K.※, Lin, W.※, Wang, X.※, & Qian, J.* (2025). Separate storage mechanisms of absolute depth and relative depth in working memory: Encoding, maintenance, consolidation and attention engagements. Journal of Experimental Psychology: Learning Memory and Cognition. Advance online publication. https://dx.doi.org/ 10.1037/xlm0001444 Qian, J.*, Zheng, T.※, & Li, B.※ (2024). Ordinal Information, but Not Metric Information, Matters in Binding Feature With Depth Location in Three-Dimensional Contexts. Journal of Experimental Psychology: Human Perception and Performance, 50(11), 1083-1099. https://dx.doi.org/10.1037/xhp0001228 Li, B., Wang, X., Zhang, K. & Qian, J.* (2024). Effect of attention on ensemble perception: Comparison between exogenous attention, endogenous attention, and depth. Attention, Perception, & Psychophysics, 86, 2604–2623. Lin, W.※, & Qian, J.* (2024).",
         "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Qian, J.*, Zheng, T.※, & Li, B.※ (2024). Ordinal Information, but Not Metric Information, Matters in Binding Feature With Depth Location in Three-Dimensional Contexts. Journal of Experimental Psychology: Human Perception and Performance, 50(11), 1083-1099. https://dx.doi.org/10.1037/xhp0001228",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang, W.※, Yan, X.※, He, X.※, and Qian, J.*. (2024). Evidence for the Beneficial Effect of Reward on Working Memory: A Meta-Analytic Study. Journal of Intelligence,12, 88.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Fang, W.※, Wang, K.※, Zhang, K.※, and Qian, J.* (2023). Spatial attention based on 2-D location and relative depth order modulates visual working memory in a 3-D environment. British Journal of Psychology, 114, 112-131.",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Han, Y.※, Tan, Z.※, Zhuang H.※ & Qian, J.* (2022). Contrasting effects of exogenous and endogenous attention on size perception. British Journal of Psychology, 113, 153-175.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang, K.※ and Qian, J.* (2022). The role of ensemble average differs in working memory for depth and planar information. Journal of Vision, 22(6):4, 1–16, https://doi.org/10.1167/jov.22.6.4.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang, K.※, Jiang, Z.※, Huang, S.※ & Qian, J.* (2021). Increasing perceptual separateness affects working memory for depth – re-allocation of attention from boundaries to the fixated center. Journal of Vision, 21(7):8, 1–14.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Xiao, Y., Lin, Y., Ma, J., Qian, J., Ke, Z., Li, L., Yi, Y., Zhang, J. & Dai, Z.* (2021). Predicting visual working memory with multimodal magnetic resonance imaging. Human Brain Mapping, 42, 1446– 1462.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang, K.※, Gao, DG. & Qian, J. * (2021). Overestimation and contraction biases of depth information stored in working memory depend on spatial configuration. British Journal of Psychology, 112, 230-246.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Qian, J. *, Zhang, K.※, Wang, K.,※ Li, J.※ & Lei, Q. (2018). Saturation and brightness modulate the effect of depth on visual working memory. Journal of Vision, 18(9):16, 1-12.",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Qian, J. & Yazdanbakhsh, A.* (2015). A neural model of distance-dependent percept of object size constancy. PLoS ONE, 10(7):e0129377.",
+        "year": 2015,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/309",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Qian, J.* & Petrov, Y. (2013). Depth perception in the framework of General Object Constancy. Journal of Vision, 13(11):7, 1 - 9.",
+        "year": 2013,
         "authors": null,
         "venue": null,
         "source_url": "https://psy.sysu.edu.cn/teacher/309",
@@ -2657,8 +2878,129 @@
     "name": "库逸轩",
     "institution": "中山大学",
     "homepage_url": "https://psy.sysu.edu.cn/teacher/851",
-    "bio": "研究神经科学与人工智能交叉，使用 EEG、MEG、ECoG、fMRI、fNIRS、计算建模和人工神经网络等方法。",
-    "publications": [],
+    "bio": "记忆的认知模型与神经机制 工作记忆是核心认知能力，但容量和精度都极为有限，我们结合行为认知实验、多模态脑成像方法和计算建模，探究容量和精度限制的认知神经机制，包括脑区、神经振荡和分子机制等多个方面，并通过无创性脑调控（经颅电刺激、经颅磁刺激等）提升工作记忆表现。 情绪和情感加工与记忆的交互影响 奖赏、情绪、注意等因素对记忆的影响及其机制；应激对记忆和认知控制的影响；成瘾的加工机制。在精神分裂症、阿尔兹海默症（目前主要集中轻度认知障碍MCI）、成瘾等神经精神疾病或障碍人群中，关注其情感和记忆加工的变化，并尝试有效的认知训练和神经调控等干预手段。 神经科学与人工智能的跨学科交叉研究 人工智能领域的DNN、SNN、RNN等神经网络的应用，对生理信号的分析和比较，探索人脑和AI网络中的表征相似性，启发人工智能的新算法。 研究方法： 心理物理测量（psychophysics）、眼动（Eye-tracking）、脑电（EEG）、脑磁（MEG）、皮层脑电（ECoG，iEEG）、功能磁共振成像（fMRI）、近红外成像（fNIRS）、经颅磁刺激（TMS）、经颅电刺激（tDCS/tACS）、计算建模与人工神经网络等。",
+    "publications": [
+      {
+        "title": "Chen, Z., Mao, Y., Zheng, Z., Ku, Y.* (2024) How Long-term Memory Facilitates Working Memory: Evidence from Flexible Responses and Neural Oscillations. Journal of Experimental Psychology: Learning, Memory and Cognition. In press.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Ku, Y.* (2024). Mystery 40 Hz: Unraveling the Efficacy of Light Flickering in Alzheimer's Disease. Neuroscience Bulletin 17. (JCR Q1)",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Li, Z., Jiang, Q., Wu, Z., Liu, A., Wu, H., Huang, M., Huang, K. and Ku, Y*., (2024). Towards human-compatible autonomous car: A study of non-verbal Turing test in automated driving with affective transition modelling. IEEE Transactions on Affective Computing, 15(2): 478-492. https://doi.org/10.1109/TAFFC.2023.3279311 (JCR Q1)",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Xie, Y., Chang, H., Zhang, Y., Wang, C., Zhang, Y., Chen, L., Geng, F., Ku, Y., Menon, V. & Chen, F. (2024). Long‐term abacus training gains in children are predicted by medial temporal lobe anatomy and circuitry. Developmental Science. https://doi.org/10.1111/desc.13489 (JCR Q1)",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhao, Y.-J., Zhang, X., Ku, Y.* (2024) Divergent Roles of Early Visual Cortex and Inferior Frontal Junction in Visual Working Memory. Brain Stimulation. doi:10.1016/j.brs.2024.06.001. (中科院大类一区Top，JCR Q1)",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhou, W., Nan, W.*, Xiong, K., Ku, Y.* (2024). Alpha neurofeedback training improves visual working memory in healthy individuals. Npj Science of Learning, 9(1), 32. https://doi.org/10.1038/s41539-024-00242-w (中科院大类一区Top，JCR Q1)",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Lu, Z. & Ku, Y.* (2023). Bridging the gap between EEG and DCNNs reveals a fatigue mechanism of facial repetition suppression. iScience 26, 108501. (JCR Q1)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Nie, L., & Ku, Y.* (2023). Decoding emotion from high-frequency steady state visual evoked potential (SSVEP). Journal of Neuroscience Methods, 395, 109919.",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Pan, Y., Hao, N., Liu, N., Zhao, Y-J., Cheng, X., Ku, Y.*, Hu, Y.*, (2023) Mnemonic-trained brain tuning to a regular odd-even pattern subserves digit memory in children. npj Science of Learning, 8, 27 (2023). 8, 27. https://doi.org/10.1038/s41539-023-00177-8 (JCR Q1)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Chen, J., Meng, X., Liu, Z., Shang, B., Chang, C. & Ku, Y.* (2022). Decoding semantics from intermodulation responses in frequency-tagged stereotactic EEG. Journal of Neuroscience Methods, 382, 109727.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Sun, Y, Wang, H* & Ku, Y* (2022) Intermittent Theta-Burst Stimulation Increases the Working Memory Capacity of Methamphetamine Addicts. Brain Sciences 12, 1212.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhao, Y-J, Kay, K.N., Tian, Y, & Ku, Y* (2022). Sensory Recruitment Revisited: Ipsilateral V1 Involved in Visual Working Memory. Cerebral Cortex, 32(7), 1470-1479. (中科院大类一区Top, JCR Q1)",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://psy.sysu.edu.cn/teacher/851",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
     "grants": []
   },
   {

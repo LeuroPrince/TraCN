@@ -133,6 +133,127 @@ RESEARCH_CUES = (
     "model",
 )
 
+FOOTER_TERMS = (
+    "copyright",
+    "all rights reserved",
+    "沪公网安备",
+    "公网安备",
+    "icp",
+    "版权所有",
+    "©",
+    "tips please",
+    "address:",
+    "address：",
+    "postcode",
+    "邮政编码",
+    "邮编",
+    "访问量",
+    "开通时间",
+    "最后更新时间",
+)
+
+EDUCATION_TERMS = (
+    "教育经历",
+    "学习经历",
+    "工作经历",
+    "学术经历",
+    "简历",
+    "教育背景",
+    "招生信息",
+    "教授课程",
+    "指导学生",
+    "博士后",
+    "博士",
+    "硕士",
+    "学士",
+    "bachelor",
+    "master",
+    "ph.d",
+    "phd",
+    "postdoc",
+    "postdoctoral",
+    "he received",
+    "she received",
+    "visiting scholar",
+)
+
+PUBLICATION_MIX_TERMS = (
+    "代表性论文",
+    "代表论文",
+    "代表性文章",
+    "发表论文",
+    "论文发表",
+    "代表论著",
+    "selected publications",
+    "representative publications",
+    "recent publications",
+    "publications",
+    "期刊论文",
+    "论文列表",
+    "专利：",
+    "专利成果",
+    "授权时间",
+    "专利号",
+    "科研\\学术成果",
+    "google scholar",
+    "research was published",
+    "flagship journal",
+    "accepted by",
+)
+
+SITE_CHROME_TERMS = (
+    "courses taught",
+    "portal campuses",
+    "get in touch",
+    "research agreements",
+    "research news",
+    "centers & institutes",
+    "resources & support",
+    "human subjects",
+    "student affairs",
+    "programs and groups",
+    "social and behavioral science laboratory",
+    "new york shanghai abu dhabi",
+    "了解更多",
+    "招聘信息",
+    "联系我们",
+    "学院领导",
+    "大事记",
+    "学院导览",
+    "人才培养",
+    "学生工作",
+    "党建工作",
+    "professor/doctorial tutor",
+    "professional affiliations",
+    "new year's greetings",
+    "collaborative journey",
+    "overview of our",
+    "meet our cenbrainers",
+    "extra curriculum",
+    "ph.d student",
+    "news latest",
+)
+
+CONTACT_TERMS = (
+    "通信地址",
+    "电子邮件",
+    "个人主页",
+    "邮箱",
+    "电话",
+    "地址：",
+    "email",
+    "office",
+)
+
+AFFILIATION_TERMS = (
+    "共同主编",
+    "学会理事",
+    "专业委员会",
+    "中国自动化学会",
+    "中国认知科学学会",
+    "中国神经科学学会",
+)
+
 
 class TextExtractor(HTMLParser):
     def __init__(self) -> None:
@@ -213,6 +334,8 @@ def collect_after_heading(lines: list[str], headings: Iterable[str], *, max_char
         lowered = line.lower().strip(":：")
         if collected and is_heading(line) and any(stop in lowered for stop in (*STOP_HEADINGS, *PUBLICATION_HEADINGS)):
             break
+        if is_contaminating_line(line):
+            break
         if len(line) <= 2:
             continue
         collected.append(line)
@@ -236,6 +359,8 @@ def sections_after_heading(lines: list[str], headings: Iterable[str]) -> list[li
             for following in lines[index + 1 :]:
                 if section and is_heading(following):
                     break
+                if is_contaminating_line(following):
+                    break
                 if len(following) > 2:
                     section.append(following)
             if section:
@@ -254,6 +379,8 @@ def extract_research_and_projects(lines: list[str]) -> tuple[str, list[str]]:
             if any(cue in lowered for cue in PROJECT_CUES):
                 project_lines.append(line)
                 continue
+            if is_contaminating_line(line):
+                break
             if looks_like_publication(line):
                 continue
             research_lines.append(line)
@@ -301,16 +428,83 @@ def split_project_items(lines: list[str]) -> list[str]:
 
 def clean_section(text: str, *, max_chars: int) -> str:
     text = re.sub(r"\s+", " ", text).strip(" ;；")
-    text = re.sub(r"(上一页|下一页|打印|关闭|分享|版权所有).*", "", text)
+    truncate_terms = (
+        "上一页",
+        "下一页",
+        "打印",
+        "关闭",
+        "分享",
+        "教育背景",
+        "教育经历",
+        "学习经历",
+        "工作经历",
+        "个人简历",
+        *FOOTER_TERMS,
+        *SITE_CHROME_TERMS,
+        *CONTACT_TERMS,
+        *PUBLICATION_MIX_TERMS,
+    )
+    lowered = text.lower()
+    cut_positions = [lowered.find(term.lower()) for term in truncate_terms if lowered.find(term.lower()) >= 0]
+    if cut_positions:
+        text = text[: min(cut_positions)]
     return text[:max_chars].strip()
+
+
+def term_hit_count(text: str, terms: Iterable[str]) -> int:
+    lowered = text.lower()
+    return sum(1 for term in terms if term.lower() in lowered)
+
+
+def is_contaminating_line(line: str) -> bool:
+    lowered = line.lower()
+    if any(term.lower() in lowered for term in (*FOOTER_TERMS, *SITE_CHROME_TERMS, *CONTACT_TERMS)):
+        return True
+    if any(term.lower() in lowered for term in PUBLICATION_MIX_TERMS):
+        return True
+    if term_hit_count(line, EDUCATION_TERMS) >= 1 and re.search(r"(19|20)\d{2}|博士|硕士|学士|phd|bachelor|master", lowered):
+        return True
+    return False
 
 
 def is_noisy_text(text: str) -> bool:
     lowered = text.lower()
+    if not text.strip():
+        return True
+    if any(term.lower() in lowered for term in (*FOOTER_TERMS, *SITE_CHROME_TERMS)):
+        return True
+    if any(lowered.startswith(term.lower()) for term in CONTACT_TERMS):
+        return True
+    if term_hit_count(text, CONTACT_TERMS) >= 2:
+        return True
+    if any(term in text for term in AFFILIATION_TERMS) and not re.search(r"(研究方向|研究兴趣|主要研究|research focuses?|research interests?)", lowered):
+        return True
+    if any(lowered.startswith(term.lower()) for term in PUBLICATION_MIX_TERMS):
+        return True
+    if "发表论文列表" in text or "论文列表" in text:
+        return True
     navigation_hits = sum(1 for term in NAVIGATION_TERMS if term in lowered)
     if navigation_hits >= 2:
         return True
     if len(text) > 220 and navigation_hits >= 1 and not any(cue in lowered for cue in ("研究方向", "research interest")):
+        return True
+    education_hits = term_hit_count(text, EDUCATION_TERMS)
+    if education_hits >= 2:
+        return True
+    if education_hits >= 1 and len(re.findall(r"(19|20)\d{2}", text)) >= 2:
+        return True
+    if re.match(r"^(19|20)\d{2}[./-]", text):
+        return True
+    if re.match(r"^(january|february|march|april|may|june|july|august|september|october|november|december)\s+\d{1,2},\s+(19|20)\d{2}", lowered):
+        return True
+    publication_hits = term_hit_count(text, PUBLICATION_MIX_TERMS)
+    if publication_hits >= 1 and len(text) > 120 and not re.search(r"(研究方向|研究兴趣|research interests?|research focuses?|研究领域)", lowered):
+        return True
+    if len(re.findall(r"\b(19|20)\d{2}\b", text)) >= 4 and any(token in lowered for token in ("nature", "science", "journal", "ieee", "pnas", "neuron")):
+        return True
+    if len(re.findall(r"(19|20)\d{2}", text)) >= 4 and re.search(r"(第\d+卷|授权时间|专利号|科学出版社|页)", text):
+        return True
+    if re.match(r"^[A-Z][A-Za-z .#*'-]+,\s+[A-Z]", text) and re.search(r"\((19|20)\d{2}\)", text):
         return True
     if re.match(r"^\d+\.\s+[A-Z][A-Za-z .,'*-]+\(?(19|20)\d{2}", text):
         return True
@@ -320,6 +514,8 @@ def is_noisy_text(text: str) -> bool:
 def is_good_research_text(text: str) -> bool:
     lowered = text.lower()
     if len(text) < 40 or is_noisy_text(text):
+        return False
+    if term_hit_count(text, EDUCATION_TERMS) >= 2 or term_hit_count(text, PUBLICATION_MIX_TERMS) >= 2:
         return False
     return any(cue in lowered for cue in RESEARCH_CUES)
 
@@ -433,7 +629,7 @@ def fallback_bios_from_batches() -> dict[tuple[str, str], str]:
     fallbacks: dict[tuple[str, str], str] = {}
     if not IMPORT_BATCH_DIR.exists():
         return fallbacks
-    for path in IMPORT_BATCH_DIR.glob("*.json"):
+    for path in IMPORT_BATCH_DIR.glob("national_batch_*.json"):
         payload = json.loads(path.read_text(encoding="utf-8"))
         for item in payload:
             bio = item.get("bio") or item.get("evidence_sentence") or ""
@@ -466,9 +662,15 @@ def main() -> None:
             select(Teacher).where(Teacher.status == ReviewStatus.approved.value).order_by(Teacher.id)
         ).all()
         for teacher in teachers:
+            current_bio_repaired = False
+            if teacher.bio:
+                cleaned_bio = clean_section(teacher.bio, max_chars=2200)
+                if cleaned_bio and cleaned_bio != teacher.bio:
+                    teacher.bio = cleaned_bio
             if teacher.bio and is_noisy_text(teacher.bio):
                 teacher.bio = fallback_bio_for_teacher(teacher, batch_bios)
                 repaired_bio += 1
+                current_bio_repaired = True
 
             seen_publication_keys: set[str] = set()
             for publication in list(teacher.publications):
@@ -478,7 +680,7 @@ def main() -> None:
                     removed_publications += 1
                     continue
                 seen_publication_keys.add(key)
-            db.flush()
+            db.commit()
 
             url = source_url_for_teacher(teacher)
             if not url:
@@ -487,9 +689,12 @@ def main() -> None:
             try:
                 lines = normalize_lines(fetch_text(url))
                 research_text, project_items = extract_research_and_projects(lines)
-                if is_good_research_text(research_text) and len(research_text) > max(80, len(teacher.bio or "")):
+                if is_good_research_text(research_text) and (
+                    current_bio_repaired or len(research_text) > max(80, len(teacher.bio or ""))
+                ):
                     teacher.bio = research_text
                     updated_bio += 1
+                    current_bio_repaired = False
 
                 existing_grants = {grant.name.casefold() for grant in teacher.grants}
                 for item in project_items:
@@ -516,6 +721,9 @@ def main() -> None:
                     )
                     existing_titles.add(key)
                     added_publications += 1
+                if teacher.bio and is_noisy_text(teacher.bio):
+                    teacher.bio = fallback_bio_for_teacher(teacher, batch_bios)
+                    repaired_bio += 1
                 db.commit()
             except (urllib.error.URLError, TimeoutError, RuntimeError) as exc:
                 failed.append({"name": teacher.name, "reason": str(exc)[:180]})
