@@ -234,6 +234,18 @@ function CategoryView({
   const [activeKey, setActiveKey] = useState(firstKey);
   const [isReclassifying, setIsReclassifying] = useState(false);
   const activeCategory = categories.find((category) => category.direction.key === activeKey) || categories[0];
+  const institutionGroups = useMemo(() => {
+    const groups: { institution: string; teachers: TeacherSummary[] }[] = [];
+    for (const teacher of activeCategory?.teachers ?? []) {
+      const current = groups[groups.length - 1];
+      if (current?.institution === teacher.institution) {
+        current.teachers.push(teacher);
+      } else {
+        groups.push({ institution: teacher.institution, teachers: [teacher] });
+      }
+    }
+    return groups;
+  }, [activeCategory]);
 
   useEffect(() => {
     if (!activeKey && firstKey) {
@@ -282,16 +294,24 @@ function CategoryView({
           <h2>{activeCategory?.direction.name || "方向分类"}</h2>
           <span>{activeCategory?.teachers.length || 0} 条</span>
         </div>
-        {activeCategory?.teachers.map((teacher) => (
-          <TeacherRow
-            key={teacher.id}
-            teacher={teacher}
-            selected={selected?.id === teacher.id}
-            reviewMode={false}
-            onOpen={() => onOpenTeacher(teacher.id)}
-            onApprove={() => undefined}
-            onReject={() => undefined}
-          />
+        {institutionGroups.map((group) => (
+          <div className="institution-group" key={group.institution}>
+            <div className="institution-group-title">
+              <strong>{group.institution}</strong>
+              <span>{group.teachers.length} 位</span>
+            </div>
+            {group.teachers.map((teacher) => (
+              <TeacherRow
+                key={teacher.id}
+                teacher={teacher}
+                selected={selected?.id === teacher.id}
+                reviewMode={false}
+                onOpen={() => onOpenTeacher(teacher.id)}
+                onApprove={() => undefined}
+                onReject={() => undefined}
+              />
+            ))}
+          </div>
         ))}
         {!activeCategory?.teachers.length && <EmptyState text="该方向下暂无已归类导师" />}
       </section>

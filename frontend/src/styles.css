@@ -480,6 +480,27 @@ nav button.active {
   font-size: 13px;
 }
 
+.institution-group-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 10px;
+  min-height: 34px;
+  padding: 0 16px;
+  background: var(--surface-soft);
+  border-bottom: 1px solid var(--line);
+  color: var(--ink-soft);
+}
+
+.institution-group-title strong {
+  font-size: 13px;
+}
+
+.institution-group-title span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
 .teacher-row {
   display: grid;
   grid-template-columns: 50px minmax(0, 1fr) auto;

@@ -38,7 +38,7 @@ from .schemas import (
     TeacherStatusUpdate,
     TeacherSummary,
 )
-from .scoring import sort_teachers, summarize_teacher_score, teacher_to_detail, teacher_to_summary
+from .scoring import sort_teachers, sort_teachers_by_institution, summarize_teacher_score, teacher_to_detail, teacher_to_summary
 
 
 router = APIRouter(prefix="/api")
@@ -123,7 +123,7 @@ def list_direction_categories(db: Annotated[Session, Depends(get_db)]) -> list[D
     return [
         DirectionCategoryRead(
             direction=direction,
-            teachers=[teacher_to_summary(teacher) for teacher in sort_teachers(grouped[direction.key])],
+            teachers=[teacher_to_summary(teacher) for teacher in sort_teachers_by_institution(grouped[direction.key])],
         )
         for direction in ordered_directions
     ]

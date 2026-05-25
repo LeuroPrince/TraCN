@@ -87,3 +87,13 @@ def sort_teachers(teachers: list[Teacher]) -> list[Teacher]:
             teacher.name,
         ),
     )
+
+
+def sort_teachers_by_institution(teachers: list[Teacher]) -> list[Teacher]:
+    return sorted(
+        teachers,
+        key=lambda teacher: (
+            teacher.institution.casefold(),
+            teacher.name.casefold(),
+        ),
+    )

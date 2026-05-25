@@ -1,9 +1,14 @@
 from app.models import ResearchDirection, Teacher, TeacherDirectionMatch
-from app.scoring import sort_teachers, summarize_teacher_score
+from app.scoring import sort_teachers, sort_teachers_by_institution, summarize_teacher_score
 
 
-def make_teacher(name: str, latitude: float, matches: list[tuple[ResearchDirection, str]]) -> Teacher:
-    teacher = Teacher(name=name, institution=f"{name} University", latitude=latitude, status="approved")
+def make_teacher(
+    name: str,
+    latitude: float,
+    matches: list[tuple[ResearchDirection, str]],
+    institution: str | None = None,
+) -> Teacher:
+    teacher = Teacher(name=name, institution=institution or f"{name} University", latitude=latitude, status="approved")
     teacher.direction_matches = [
         TeacherDirectionMatch(id=index + 1, direction=direction, evidence_sentence=evidence)
         for index, (direction, evidence) in enumerate(matches)
@@ -38,3 +43,15 @@ def test_sort_uses_score_then_north_to_south() -> None:
     south = make_teacher("South", 30.0, [(direction, "建模")])
 
     assert [teacher.name for teacher in sort_teachers([south, north])] == ["North", "South"]
+
+
+def test_category_sort_groups_by_institution_before_score() -> None:
+    high = ResearchDirection(id=1, key="network_dynamics_modeling", name="Modeling", weight=4)
+    low = ResearchDirection(id=2, key="neural_representation", name="Representation", weight=3)
+    zeta = make_teacher("Zeta One", 31.0, [(high, "modeling"), (low, "representation")], "Zeta University")
+    alpha_b = make_teacher("Beta", 39.0, [(low, "representation")], "Alpha University")
+    alpha_a = make_teacher("Alpha", 39.0, [(low, "representation")], "Alpha University")
+
+    sorted_teachers = sort_teachers_by_institution([zeta, alpha_b, alpha_a])
+
+    assert [teacher.name for teacher in sorted_teachers] == ["Alpha", "Beta", "Zeta One"]
