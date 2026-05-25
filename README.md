@@ -76,3 +76,12 @@ cd backend
 ```
 
 Each user should create their own `backend/.env` and configure their own API key locally.
+
+To enrich local teacher profiles from official homepages:
+
+```powershell
+cd backend
+.\.venv\Scripts\python.exe scripts\enrich_official_pages.py
+```
+
+The enrichment script extracts research-direction text and publication entries only from official pages that can be fetched as text. Dynamic pages or pages without a clear publications section are left unchanged rather than filled with guessed data.

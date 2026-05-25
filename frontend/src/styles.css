@@ -691,16 +691,6 @@ nav button.active {
   line-height: 1.52;
 }
 
-.evidence {
-  border-left: 3px solid var(--teal);
-  padding-left: 11px;
-  margin-bottom: 10px;
-}
-
-.evidence b {
-  color: var(--ink);
-}
-
 .source-summary {
   border: 1px solid rgba(47, 120, 187, 0.18);
   background: var(--sage-soft);
@@ -715,6 +705,34 @@ nav button.active {
 
 .source-summary p {
   margin-bottom: 0;
+}
+
+.direction-keywords {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  flex-wrap: wrap;
+  margin-top: 10px;
+}
+
+.direction-keywords span {
+  color: var(--muted);
+  font-size: 12px;
+}
+
+.direction-keywords b {
+  border: 1px solid rgba(77, 65, 143, 0.16);
+  background: var(--teal-soft);
+  color: var(--teal);
+  border-radius: 6px;
+  padding: 3px 7px;
+  font-size: 12px;
+  font-weight: 600;
+}
+
+.publication-item {
+  padding-left: 12px;
+  border-left: 2px solid rgba(77, 65, 143, 0.24);
 }
 
 .source-link {

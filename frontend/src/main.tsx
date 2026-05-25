@@ -371,6 +371,7 @@ function TeacherRow({
 function TeacherDetailPane({ teacher }: { teacher: TeacherDetail | null }) {
   if (!teacher) return <aside className="detail-pane"><EmptyState text="选择一位导师查看详情" /></aside>;
   const homepage = teacher.homepage_url || teacher.lab_url;
+  const directionKeywords = teacher.directions.map((item) => item.direction_name);
   return (
     <aside className="detail-pane">
       <div className="detail-head">
@@ -396,12 +397,12 @@ function TeacherDetailPane({ teacher }: { teacher: TeacherDetail | null }) {
             <p>{teacher.bio}</p>
           </div>
         )}
-        {teacher.directions.map((item) => (
-          <div className="evidence" key={item.id}>
-            <b>{item.direction_name} · {item.effective_weight.toFixed(1)}</b>
-            <p>{item.evidence_sentence}</p>
+        {directionKeywords.length > 0 && (
+          <div className="direction-keywords">
+            <span>分类关键词</span>
+            {directionKeywords.map((keyword) => <b key={keyword}>{keyword}</b>)}
           </div>
-        ))}
+        )}
       </section>
       <section>
         <h3>联系方式</h3>
@@ -410,7 +411,9 @@ function TeacherDetailPane({ teacher }: { teacher: TeacherDetail | null }) {
       </section>
       <section>
         <h3>Publications</h3>
-        {teacher.publications.length ? teacher.publications.map((pub) => <p key={pub.id}>{pub.year || ""} {pub.title}</p>) : <p>官方主页暂未导入论文；可通过来源链接继续补全。</p>}
+        {teacher.publications.length ? teacher.publications.map((pub) => (
+          <p className="publication-item" key={pub.id}>{pub.year || ""} {pub.title}</p>
+        )) : <p>官方主页暂未提取到发表文章；可通过官方主页继续核对。</p>}
       </section>
       <section>
         <h3>主持项目</h3>
