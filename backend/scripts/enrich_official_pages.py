@@ -438,6 +438,7 @@ def clean_section(text: str, *, max_chars: int) -> str:
         "教育经历",
         "学习经历",
         "工作经历",
+        "简历",
         "个人简历",
         *FOOTER_TERMS,
         *SITE_CHROME_TERMS,
@@ -448,7 +449,7 @@ def clean_section(text: str, *, max_chars: int) -> str:
     cut_positions = [lowered.find(term.lower()) for term in truncate_terms if lowered.find(term.lower()) >= 0]
     if cut_positions:
         text = text[: min(cut_positions)]
-    return text[:max_chars].strip()
+    return text[:max_chars].strip(" [（(；;")
 
 
 def term_hit_count(text: str, terms: Iterable[str]) -> int:

@@ -3010,5 +3010,1072 @@
     "bio": "研究计算神经科学、计算社会科学、计算智能及其在心理学领域的创新应用。",
     "publications": [],
     "grants": []
+  },
+  {
+    "name": "郭增才",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+    "bio": "学习和记忆的神经机制。实验室以小鼠为主要模式系统，结合光遗传学操控、多通道电生理、双光子成像和定量行为学研究多脑区的神经网络如何促进工作记忆信息的产生，如何维持工作记忆；多脑区神经动力学如何协同变化以支持工作记忆行为的学习；同时开发新型结构和功能成像方法促进多脑区神经动力学的研究。",
+    "publications": [
+      {
+        "title": "Zhou S, Zhu Q, Eom M, Fang S, Subach OM, Ran C, ... Guo ZV*, Subach FV* and Piatkevic KD*. A sensitive soma-localized red fluorescent calcium indicator for in vivo imaging of neuronal populations at single-cell resolution. PLoS biology, 2025, 23(4): e3003048.",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Ocklenburg S* and Guo ZV*. Cross-hemispheric communication: Insights on lateralized brain functions. Neuron, 2024 Apr 17;112(8):1222-1234.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang Y, Wang M, Zhu Q, Guo Y, Liu B, Li J, Yao X, Kong C, Zhang Y, Huang Y, Qi H, Wu J*, Guo ZV* & Dai QH*. Long-term mesoscale observation of native 3D intercellular dynamics across a mammalian organ by RUSH3D. Cell, 2024 Oct 17;187(21):6104-6122.e25.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Yin X, Wang W, Li J, and Guo ZV*. Lateralization of short-term memory in the frontal cortex. Cell Reports, 2022. 40, 111190.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Chen H, Huang T, Yang Y, Yao X, Huo Y, Wang Y, Zhao W, Ji R, Yang H and Guo ZV*. Sparse imaging and reconstruction tomography for high-speed high-resolution whole brain imaging. Cell reports methods, 2021. 1(6), 100089.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang Y, Yin X, Zhang Z, Li J, Zhao W and Guo ZV*. A cortico-basal ganglia-thalamo-cortical channel underlying short-term memory. Neuron, 2021. 109, 3486-3499.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang Z, Yao X, Yin X, Ding J, Huang T, Huo Y, Ji R, Peng H and Guo ZV*. Multi-scale light-sheet fluorescence microscopy for fast whole brain imaging. Front neuroanat, 2021. 15: 732464",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Huo Y, Chen H and Guo ZV*. Mapping functional connectivity from the dorsal cortex to the thalamus. Neuron, 2020. 107, 1080-1094.",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Guo ZV, Inagaki HK, Daie K, Druckmann S, Gerfen CR and Svoboda K. Maintenance of persistent activity in a frontal thalamocortical loop. Nature. 2017. 545, 181-186.",
+        "year": 2017,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Guo ZV, Li N, Huber D, Ophir E, Gutnisky D, Ting JT, Feng G and Svoboda K. Flow of cortical activity underlying a tactile decision in mice. Neuron. 2014, 81, 179-194.",
+        "year": 2014,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Guo ZV, Hart AC and Ramanathan S. Optical interrogation of neural circuits in Caenorhabditis elegans. Nature Methods. 2009, 6, 891-896.",
+        "year": 2009,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Guo ZV and Mahadevan L. Limbless undulatory propulsion on land. PNAS. 2008, 105(9), 3179-3184.",
+        "year": 2008,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "贾晓轩",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+    "bio": "研究方向属于计算神经学和NeuralAI的交叉领域，主要以视觉系统为研究对象，研究视觉信息的表征和传递、神经动力学、神经网络等问题；方法包括大规模电生理记录、闭环脑机接口、数据分析和建模。",
+    "publications": [
+      {
+        "title": "Akella S *, Ledochowitsch P, Siegle JH, …, Jia X * (2025) Deciphering neuronal variability across states reveals dynamic sensory encoding. Nature Communication. 16, Article number: 1768",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Tang D †, Zylberberg J†*, Jia X†*, Choi H†* (2024) Stimulus type shapes the topology of cellular functional networks in mouse visual cortex. Nature Communications. 15, Article number: 5753",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Jia X*, Siegle JH, Durand S, Heller G, Ramirez T, Koch C , Olsen SR. (2022) Multi-regional module-based signal transmission in mouse visual cortex. Neuron doi: https://doi.org/10.1016/j.neuron.2022.01.027",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Jia X*, Hong H, DiCarlo JJ. (2021) Unsupervised changes in core object recognition behavioral performance are accurately predicted by unsupervised neural plasticity in inferior temporal cortex. eLife 2021;10:e60830 (Simons foundation global brain recommended)",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Siegle JH*, Jia X*, Durand S, Gale S, Bennett C, Graddis N, Heller G, ... Olsen SR*, Koch C. (2021) A survey of spiking activity reveals a functional hierarchy of mouse corticothalamic visual areas. Nature 592, 86-92",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Jia X*, Siegle JH, Bennett C, Gale SD, Denman DJ, Koch C, Olsen SR*. (2019) High-density extracellular probes reveal dendritic backpropagation and facilitate neuron classification. Journal of neurophysiology 121 (5), 1831-1847",
+        "year": 2019,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Jia X*, Tanabe S, Kohn A. (2013) Gamma and the coordination of spiking activity in early visual cortex. Neuron 77 (4), 762-774 (Faculty 1000 recommended)",
+        "year": 2013,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Jia X*, Xing D, Kohn A. (2013) No consistent relationship between gamma power and peak frequency in macaque primary visual cortex. Journal of Neuroscience 33 (1), 17-25",
+        "year": 2013,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Jia X*, Smith MA, Kohn A. (2011) Stimulus selectivity and spatial coherence of gamma components of the local field potential, Journal of Neuroscience 31 (25), 9390-9403",
+        "year": 2011,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "李坤",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
+    "bio": "研究两性社会认知与情绪行为差异的神经机制，结合钙成像、电生理记录、RNA测序、遗传操控、神经计算和转基因小鼠模型等技术，从分子、细胞、神经环路和系统等多个层面探索驱动两性社会行为和情绪行为差异的神经基础。",
+    "publications": [
+      {
+        "title": "Gao YX, Xin FY, Wang T, Shao CJ, Hu Y, Chen ZY, Wang YW, Xie FH, Li TY, Li SJ, Ren LQ, Li CQ, Yang X, Yang ZJ, Li MJ, Tan KM, Bai T, Wei CW, Peng HC, Li K, Jia YC, Yuan KX. VIVIT: Resolving trans-scale volumetric biological architectures via ionic glassy tissue. Cell. 188, 1-17. (2025)",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang Y*, Song X*, Chen XM*, Zhou Y*, Ma JH*, Zhang F*, Wei LQ*, Qi GX, Yadav N, Miao BJ, Yan YM, Yuan GH, Mi D, Rajasethupathy P, Ibañez-Tallon I, Jia XX, Heintz N# and Li K#. Integrating reproductive states and social cues in the control of sociosexual behaviors. Cell. 188, 3530-3549. (2025)",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang YW, You L, Tan KM, Li MJ, Zou JS, Zhao ZF, Hu WX, Li TY, Xie FH, Li CQ, Yuan RZ, Ding K, Cao LW, Xin FY, Shang CP, Liu MM, Gao YX, Wei LQ, You ZW, Gao XR, Xiong W, Cao P, Luo MM, Chen F, Li K, Wu JM, Hong B, Yuan KX. A common thalamic hub for general and defensive arousal control. Neuron. Oct 18;111(20):3270-3287. (2023).",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Li K, Nakajima M, Ibañez-Tallon I, Heintz N. A Cortical Circuit for Sexually Dimorphic Oxytocin-Dependent Anxiety Behaviors. Cell. Sep 22;167(1):60-72.e11. (2016)",
+        "year": 2016,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Li K*, Zhou T*, Liao L, Yang Z, Wong C, Henn F, Malinow R, Yates J, Hu H. βCaMKII in lateral habenula mediates core symptoms of depression. Science. 341:1016-1020. (2013)",
+        "year": 2013,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "李寅青",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1111.html",
+    "bio": "实验室同时发展创新实验技术与计算模型，研究神经细胞的转录-表观遗传稳态以及神经元如何保持活动依赖的基因表达程序，并发展基因组分析、编辑与调控技术和多组学、多模态数据分析框架，以解析稳态-失稳的能量景观。",
+    "publications": [
+      {
+        "title": "He J*, Huo X*, Pei G*, Jia Z*, Yan Y, Yu J, Qu H, Xie Y, Yuan J, Zheng Y, Hu Y, Shi M, You K, Li T, Ma T, Zhang MQ, Ding S, Li P#, Li Y#. Dual-role transcription factors stabilize intermediate expression levels. Cell. 2024 Apr 10:S0092-8674(24)00314-3.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1111.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Li Y*, Lopez-Huerta VG*, Adiconis X*, Levandowski K, Choi S, Simmons SK, Arias-Garcia MA, Guo B, Yao AY, Blosser TR, Wimmer RD, Aida T, Atamian A, Naik T, Sun X, Bi D, Malhotra D, Hession CC, Shema R, Gomes M, Li T, Hwang E, Krol A, Kowalczyk M, Peça J, Pan G, Halassa MM, Levin JZ#, Fu Z#, Feng G#. Distinct subnetworks of the thalamic reticular nucleus. Nature. 2020, 583(7818):819-824.",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1111.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Habib N*, Li Y*, Heidenreich M, Swiech L, Avraham-Davidi I, Trombetta JJ, Hession C, Zhang F#, Regev A#. Div-Seq: Single-nucleus RNA-Seq reveals dynamics of rare adult newborn neurons. Science. 2016, 353(6302):925-8.",
+        "year": 2016,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1111.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "周牧",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
+    "bio": "研究运动行为的神经环路机制，利用清醒动物在体电生理记录、定量运动行为范式、神经环路追踪及调控技术，研究生理状态下小脑及脑干神经环路如何对运动进行实时调控，以及特发性震颤的神经机制。",
+    "publications": [
+      {
+        "title": "Zhou M #, Melin MD, Xu W, Südhof TC. (2020) Dysfunction of parvalbumin neurons in the cerebellar nuclei produces action tremor in mice. Journal of Clinical Investigation 10, 5142-5156. (# Corresponding author",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhou M #, Liu Z, Melin MD, Ng YH, Xu W, Südhof TC #. (2018) A central amygdala to zona incerta projection is required for acquisition and remote recall of conditioned fear memory. Nature Neuroscience 11, 1515-1519 (# Co-corresponding authors)",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhou M *, Liang F *, Xiong XR, Li L, Li H, Xiao Z, Tao HW, Zhang LI. (2014) Scaling down of balanced excitation and inhibition by active behavioral states in auditory cortex. Nature Neuroscience 6, 841-850 (* Equal contribution)",
+        "year": 2014,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhou M, Li YT, Yuan W, Tao HW, Zhang LI. (2014) Synaptic mechanisms for generating temporal diversity of auditory representation in the dorsal cochlear nucleus. Journal of Neurophysiology 5, 1358-1368",
+        "year": 2014,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhou M, Tao HW, Zhang LI. (2012) Generation of intensity selectivity by differential synaptic tuning: fast-saturating excitation but slow-saturating inhibition. Journal of Neuroscience 50, 18068-18078",
+        "year": 2012,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "苑克鑫",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1121.html",
+    "bio": "对人类而言，听觉在语言交流，知识获取，音乐欣赏以及社会交往中扮演重要角色。对啮齿类动物而言（包括大鼠和小鼠），听觉对它们在自然环境中的生存以及社会性交流同样重要。已经有很多证据表明听觉障碍与大家所熟知的神经发育性疾病，例如精神分裂症，自闭症，紧密相关。然而，与其他感觉系统相比，我们对听觉系统的了解还非常有限。在我的实验室，我们对听觉信息加工的皮层和皮层下机制以及与动物听觉认知行为相关的神经环路尤为感兴趣。对这些机制和环路的研究将帮助我们理解听觉和认知的神经基础，并很可能会帮助我们为认知障碍的治疗开发新的治疗方式。",
+    "publications": [
+      {
+        "title": "Yuan K*, Shih JY, Winer JA and Schreiner CE (2011). Functional networks of parvalbumin-immunoreactive neurons in cat auditory cortex. J Neurosci 31(37): 13333-13342.",
+        "year": 2011,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1121.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "张伟",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+    "bio": "研究大脑与体内器官的双向交流如何调控生理和心理稳态，关注体内感受如何参与本能行为、高级认知行为、记忆、情绪和自我意识。实验室采用受体生物物理学、神经元细胞生物学、神经环路功能学和动物行为学的自下而上模式，研究体内感受的分子与神经环路机制。",
+    "publications": [
+      {
+        "title": "Chenxi Liu*, Ning Tian, Pei Chang, Wei Zhang*. Mating reconciles fitness and fecundity by switching diet preference in flies. Nature Communications.2024.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Jierui Qin, Tingting Yang, Kexin Li，Ting Liu, Wei Zhang*. Pharyngeal mechanosensory neurons control food swallow in Drosophila melanogaster. eLife,2024.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Liwei Zhang*#, Xuan Guo#, Wei Zhang*. Nutrients and pheromones promote insulin release to inhibit courtship drive. Science Advances. 2022",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Yinjun Jia*, Shuaishuai Li, Xuan Guo, Bo Lei, Junqiang Hu, Xiao-Hong Xu, Wei Zhang*.Selfee, self-supervised features extraction of animal behaviors. eLife, 2022.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Rui Luo, Yuxiang Zhang, Yinjun Jia, Yan Zhang, Zongyang Li, Jieqing Zhao, Ting Liu, Wei Zhang*. Molecular basis and homeostatic regulation of Zinc taste. Protein & Cell. 2021.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Tingting Yang, Zixuan Yuan, Chenxi Liu, Ting Liu, Wei Zhang*. A neural circuit integrates pharyngeal sensation to control feeding. Cell Reports. 2021.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Chenxi Liu, Bei Zhang, Liwei Zhang, Tingting Yang, Zhewei Zhang, Zihua Gao. Wei Zhang* .A neural circuit encoding mating states tunes defensive behavior in Drosophila. Nature Communications. 2020.",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Pingping Wang, Yinjun Jia, Ting Liu, Yuh-Nung Jan*, Wei Zhang*. Visceral Mechano-sensing Neurons Control Drosophila Feeding by Using Piezo as a Sensor. Neuron. 2020.",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Yufei Hu, Zhilin Wang, Ting Liu, Wei Zhang*. Piezo-like Gene Regulates Locomotion in Drosophila Larvae. Cell Reports. 2019.",
+        "year": 2019,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang, W.#, Cheng, L.E.#, Kittelmann, M. #, Li, J., Petkovic, M., Cheng, T., Jin, P., Guo, Z., Goepfert, M., Jan, L.Y., Jan, Y.N. (2015). Ankyrin Repeats Act as a Tether for Conveying Force to Gate the NOMPC Mechanotransduction Channel. Cell. 10 September 2015, 162, Issue 6, p1391–1403. *: Co-first authors.",
+        "year": 2015,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang, W#., Yan, Z. #, Li, B., Jan, Y.L., Jan, Y.N. (2014). Identification of motor neurons and a mechanosensitive sensory neuron in the defecation circuitry of Drosophila larvae. eLife. 2014; 10.7554/eLife.03293. #: Co-first authors.",
+        "year": 2014,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Yan, Z. #, Zhang, W. #, He, Y., Gorczyca, D., Xiang, Y., Cheng, L., Meltzer, S., Jan, Y.L., Jan, Y.N. (2013). Drosophila NompC is a mechanotransduction channel subunit for gentle-touch sensation. Nature. 2013 Jan 10; 493(7431): 221-5. #: Co-first authors.",
+        "year": 2013,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "张颖",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+    "bio": "研究丘脑的非转导功能及其在脑疾病中的作用，关注丘脑神经元活动与学习记忆、睡眠和情绪的关系；结合基因编辑、电生理、在体钙成像等技术，从基因到环路多个层面探索丘脑功能及其在神经精神疾病中的作用。",
+    "publications": [
+      {
+        "title": "Tome DF*#, Zhang Y*#, Aida T, Mosto O, Lu YF, Chen M, Sadeh S, Roy DS#, Clopath C#, “Dynamic and selective engrams emerge with memory consolidation”, Nature Neuroscience, 2024.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Roy DS*#, Zhang Y*#, Aida T, Shen C, Skaggs KM, Hou Y, Fleishman M, Mosto O, Weninger A, Feng G#, “Anterior thalamic circuits crucial for working memory”, PNAS, 2022.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Roy DS*, Park YG*, Kim ME*, Zhang Y*, Ogawa SK*, DiNapoli N, Gu X, Cho JH, Choi H, Kamensky L, Martin J, Mosto O, Aida T, Chung K, Tonegawa S, “Brain-wide mapping reveals that engrams for a single memory are distributed across multiple brain regions”, Nature Communications, 2022.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang Y*#, Roy DS*#, Zhu Y, Chen Y, Aida T, Hou Y, Shen C, Lea NE, Schroeder ME, Skaggs KM, Sullivan HA, Fischer KB, Callaway EM, Wickersham IR, Dai J, Li XM, Lu Z, Feng G#, “Targeting thalamic circuits rescues motor and mood deficits in PD mice”, Nature, 2022.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Roy DS*, Zhang Y*, Aida T, Choi S, Chen Q, Hou Y, Lea NE, Skaggs KM, Quay JC, Liew M, Maisano H, Le V, Jones C, Xu J, Kong D, Sullivan HA, Saunders A, McCarroll SA, Wickersham IR, Feng G, “Anterior thalamic dysfunction underlies cognitive deficits in a subset of neuropsychiatric disease models”, Neuron, 2021.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang Y*, Zhu Y*, Cao SX*, Sun P, Yang JM, Xia YF, Xie SZ, Yu XD, Fu JY, Shen CJ, He HY, Pan HQ, Chen XJ, Wang H, Li XM, “MeCP2 in cholinergic interneurons of nucleus accumbens regulates fear learning”, Elife, 2020.",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Cao SX*, Zhang Y*, Hu XY, Hong B, Sun P, He HY, Geng HY, Bao AM, Duan SM, Yang JM, Gao TM, Lian H, Li XM, “ErbB4 deletion in noradrenergic neurons in the locus coeruleus induces mania-like behavior via elevated catecholamines”, Elife, 2018.",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhang Y*, Cao SX*, Sun P, He HY, Yang CH, Chen XJ, Shen CJ, Wang XD, Chen Z, Berg D, Duan SM, Li XM, “Loss of MeCP2 in cholinergic neurons causes part of RTT-like phenotypes via a7 receptor in hippocampus”, Cell Research, 2016.",
+        "year": 2016,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "张元龙",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+    "bio": "研究高度分布的局部功能网络的涌现特性，开创新型光学与计算方法提升大规模在体神经记录的时空通量、准确性及成像深度极限，并深入理解神经环路的计算模型；关注感觉信息如何编码、转换与表征，神经表征如何与动机、注意力和记忆等内部状态交互以驱动行为，以及基于大脑工作机制优化人工神经网络。",
+    "publications": [
+      {
+        "title": "1. Yuanlong Zhang*, Mingrui Wang*, Qiyu Zhu*, Yuduo Guo, Bo Liu, Jiamin Li, Xiao Yao, Chui Kong, Yi Zhang, Yuchao Huang, Hai Qi, Jiamin Wu‡, Zengcai V. Guo‡, & Qionghai Dai‡. “Long-term mesoscale imaging of 3D intercellular dynamics across a mammalian organ”, Cell (2024).",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "2. Yuanlong Zhang*, Lekang Yuan*, Qiyu Zhu*, Jiamin Wu,Tobias Nöbauer, Rujin Zhang, Guihua Xiao, Mingrui Wang, Hao Xie, Zengcai Guo, Qionghai Dai‡, and Alipasha Vaziri‡. “A miniaturized mesoscope for the large-scale single-neuron-resolved imaging of neuronal activity in freely behaving mice”, Nature Biomedical Engineering (2024)",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "3. Guoxun Zhang*, Xiaopeng Li*, Yuanlong Zhang*, Xiaofei Han, Xinyang Li, Jinqiang Yu, Boqi Liu, Jiamin Wu‡, Li Yu‡, and Qionghai Dai‡. “Bio-friendly long-term subcellular dynamic recording by self-supervised image enhancement microscopy”, Nature Methods (2023)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "4. Xinyang Li*, Yuanlong Zhang*, Jiamin Wu*‡, and Qionghai Dai*‡. “Challenges and opportunities in bioimage analysis”. Nature Methods (2023)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "5. Yuanlong Zhang*, Xiaofei Song*, Jiachen Xie*, Jing Hu*, Jiawei Chen, Xiang Li, Chui Kong, Yibing Shen, Jiamin Wu‡, Lu Fang‡, and Qionghai Dai‡. “Large depth-of-field ultra-compact microscope by progressive optimization and deep learning”, Nature Communications (2023)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "6. Yuanlong Zhang*, Guoxun Zhang*, Xiaofei Han, Jiamin Wu, Ziwei Li, Xinyang Li, Guihua Xiao, Hao Xie, Lu Fang‡, and Qionghai Dai‡. “Rapid detection of neurons in widefield calcium imaging datasets after training with synthetic data”, Nature Methods (2023)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "7. Tobias Nöbauer*, Yuanlong Zhang*, Hyewon Kim, and Alipasha Vaziri‡. “Mesoscale volumetric light-field (MesoLF) imaging of neuroactivity across cortical areas at 18 Hz”, Nature Methods (2023)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "8. Yuanlong Zhang*, Xiong Bo*, Yi Zhang, Zhi Lu, Jiamin Wu‡, and Qionghai Dai‡, “DiLFM: an artifact-suppressed and noise-robust light-field microscopy through dictionary learning”, Light: Science & Applications (2021)",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "赵昕宇",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
+    "bio": "研究大脑如何学习，借助神经生物学与计算科学的结合，探索神经网络在学习过程中通过何种算法调整神经元之间的连接，以及神经网络如何将已学习知识迁移到新的学习任务中；采用电生理、光学成像、光遗传学、计算神经科学和机器学习等手段。",
+    "publications": [
+      {
+        "title": "Zhao X*, Hsu CL* and Spruston N. Rapid synaptic plasticity contributes to a learned conjunctive code of position and choice-related information in the hippocampus. Neuron. 2022. 110(1):96-108",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Sun W*, Zhao X* and Spruston N. Bursting potentiates the neuro–AI connection. Nature Neuroscience. 2021. 24:905-906",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhao X, Wang Y, Spruston N & Magee J. Membrane potential dynamics underlying context-dependent sensory responses in the hippocampus. Nature Neuroscience. 2020. 23(5):881-891",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhao X*, Liu M* and Cang J. Visual Cortex Modulates the Magnitude but Not the Selectivity of Looming-Evoked Responses in the Superior Colliculus of Awake Mice. Neuron. 2014. 84(1):202-213",
+        "year": 2014,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhao X, Chen H, Liu X and Cang J. Orientation-selective Responses in the Mouse Lateral Geniculate Nucleus. Journal of Neuroscience. 2013. 33(31):12751-63",
+        "year": 2013,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zhao X, Liu M and Cang J. Sublinear binocular integration preserves orientation selectivity in mouse visual cortex. Nature Communication. 2013. 4:2088.",
+        "year": 2013,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "时松海",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+    "bio": "大脑神经系统是如何组装的，以及如何调控动物的行为和认知一直是神经科学的研究热点和终极目标之一。我们运用神经生物学（如电生理和成像）、遗传学、分子、细胞和发育生物学等方法研究大脑的组装和运行机制，集中于活体神经干细胞的调控、神经细胞的产生迁移、神经环路的精准组装和运行、以及动物行为的神经基础；同时致力于与神经发育相关的重大疾病如小脑症和自闭症的致病机制研究。",
+    "publications": [
+      {
+        "title": "Yang, J., Dong, Y., Liu, J., Peng, Y., Wang, D., Li, L., Hu, X., Li, J., Wang, L., Chu, J., Ma, J., Shi, H., and Shi, S.-H. (2025) Primary ciliary protein kinase A activity in the prefrontal cortex modulates stress in mice. Neuron 113(8):1276-1289. (PMID: 40056898)",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Shen, Z.*, Yang, J.*, Zhang, Q.*, Wang, K.*, Hu, X., Ma, J., and Shi, S.-H. (2023) How variable progenitor clones construct a largely invariant neocortex. National Science Review 11(1):nwad247 (PMID: 38274004)",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Lv, X.*, Li, S.*, Li, J., Yu, X.-Y., Ge, X., Li, B., Hu, S., Lin, Y., Zhang, S., Yang, J., Zhang, X., Yan, J., Joyner, A. L., Shi, H., Wu, Q., and Shi, S.-H. (2022) Patterned cPCDH expression regulates the fine organization of the neocortex. Nature 612(7940):503-511. (PMID: 36477535)",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Shen, Z.*, Lin, Y.*, Yang, J., Jorg, D.J., Peng, Y., Zhang, X., Xu, Y., Hernandez, L., Ma, J., Simons, B.D., and Shi, S.-H. (2021) Distinct Progenitor Behavior Underlying Neocortical Gliogenesis Related to Tumorigenesis. Cell Rep. 34(11) (2021): 108853. (PMID: 33730566)",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Shao, W.*, Yang, J.*, He, M., Yu, X.-Y., Lee, C.H., Yang, Z., Joyner, A.L., Anderson, K. V., Zhang, J., Tsou, M.B., Shi, H., and Shi, S.-H. (2020) Centrosome Anchoring Regulates Progenitor Properties and Cortical Formation. (* Co-first author) Nature 580:106-112. (PMCID: PMC7138347)",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Ren, S.Q., Li, Z., Lin, S., Bergami, M., and Shi, S.-H. (2019) Precise Long-range Microcircuit-to-microcircuit Communication Connects the Frontal and Sensory Cortices in the Mammalian Brain. Neuron 104: 1-17. (PMCID: PMC6813886)",
+        "year": 2019,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "The Vilcek Prize for Creative Promise in Biomedical Science, Finalist (2012)",
+        "year": 2012,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Amersham Biosciences and Science Prize for Young Scientists, Grand Prize (2001)",
+        "year": 2001,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Runner-up, Breakthrough of the Year, Science (1999)",
+        "year": 1999,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "姚骏",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+    "bio": "我们的研究涵盖了神经精神疾病、神经退行性疾病、以及脑血管疾病，具体有以下方面：1）结合多能干细胞/脑类器官、动物模型和临床样本，探索双相障碍和抑郁症的致病机理；2）开发有临床应用潜力的脑类器官移植、胶质细胞转分化等技术，以期用于神经退行病的临床治疗；3）利用血管化脑类器官模型研究烟雾病等脑血管疾病；4）小胶质细胞、星形胶质细胞在阿尔茨海默病和双相障碍发病中的机制和调控手段。",
+    "publications": [
+      {
+        "title": "Liu YN, Wang QW, Lu SY, Shen W, Guo CY, Xing ZK, Mi S, Yao J. Insulin hypoactivity caused by Synaptotagmin-7 deficits contributes to depression-like behaviors and diurnal behavioral fluctuation. iScience. 2025 Apr 4;28(5):112354. doi: 10.1016/j.isci.2025.112354. eCollection 2025 May 16.",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Liu YN, Wang QW, She XY, Li LJ, Wang B, Yang R, Li Q, Lu SY, Wang YH, Shen W, Fu CL, Yi L, Wang CX, Shi W., Cheng X, Cao L, Mi S, Yao J. Disturbed rhythm of pancreatic insulin secretion induces circadian-based bipolar swings of behaviors. Nature Neuroscience. 2025 (in press).",
+        "year": 2025,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Fu CL, Dong BC, Jiang X, Li D, Yao J. A cell therapy approach based on iPSC-derived midbrain organoids for the restoration of motor function in a Parkinson’s disease mouse model. Heliyon. 2024 Jan 9;10(2):e24234. doi: 10.1016/j.heliyon.2024.e24234. eCollection 2024 Jan 30.",
+        "year": 2024,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang QW, Qin J, Chen YF, Tu Y, Xing YY, Wang Y, Yang LY, Lu SY, Geng L, Shi W, Yang Y, Yao J. 16p11.2 CNV gene Doc2α functions in neurodevelopment and social behaviors through interaction with Secretagogin. Cell Rep. 2023 Jul 25;42(7):112691. doi: 10.1016/j.celrep.2023.112691. Epub 2023 Jun 22.",
+        "year": 2023,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Lu SY, Fu CL, Liang L, Yang B, Shen W, Wang QW, Chen Y, Chen YF, Liu YN, Zhu L, Zhao J, Shi W, Mi S, and Yao J. miR-218-2 regulates cognitive functions in the hippocampus through C3-dependent modulation of synaptic vesicle release. Proc Natl Acad Sci U S A. 2021 Apr 6:118(14):e2021770118. doi: 10.1073/pnas.2021770118",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang QW, Wang YH, Wang B, Chen Y, Lu SY, Yao J. Synaptotagmin-7-mediated activation of spontaneous NMDAR currents is disrupted in bipolar disorder susceptibility variants. PLOS Biology. 2021 Jul 6;19(7):e3001323. doi: 10.1371/journal.pbio.3001323. eCollection 2021 Jul.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Shen W, Wang QW, Liu YN, Marchetto MC, Linker S, Lu SY, Chen Y, Liu C, Guo C, Xing Z, Shi W, Kelsoe JR, Alda M, Wang H, Zhong Y, Sui SF, Zhao M, Yang Y, Mi S, Cao L, Gage FH, Yao J. Synaptotagmin-7 is a key factor for bipolar-like behavioral abnormalities in mice. Proc Natl Acad Sci U S A. 2020 Feb 25;117(8):4392-4399. doi: 10.1073/pnas.1918165117. Epub 2020 Mar 16.",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Wang QW, Lu SY, Liu YN, Chen Y, Wei H, Shen W, Chen YF, Fu CL, Wang YH, Dai A, Huang X, Gage FH, Xu Q, Yao J. Synaptotagmin-7 deficiency induces mania-like behavioral abnormalities through attenuating GluN2B activity. Proc Natl Acad Sci U S A. 2020 Dec 8;117(49):31438-31447. doi: 10.1073/pnas.2016416117. Epub 2020 Nov 23.",
+        "year": 2020,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Zheng Y, Shen W, Zhang J, Yang B, Liu YN, Qi H, Yu X, Lu SY, Chen Y, Xu YZ, Li Y, Gage FH, Mi S, and Yao J. CRISPR interference-based specific and efficient gene inactivation in the brain. Nature Neuroscience. 2018 Mar;21(3):447-454. doi: 10.1038/s41593-018-0077-",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "Mertens J, Wang QW, Kim Y, Yu DX, Pham S, Yang B, Zheng Y, Diffenderfer KE, Zhang J, Soltani S, Eames TJ, Schafer ST, Boyer L, Marchetto MC, Nurnberger JI, Calabrese JR, Ødegaard KJ, McCarthy MJ, Zandi PP, PBDS, Mi S, Brennand KJ, Kelsoe JR, Gage FH, Yao J. Differential Responses to Lithium in Hyperexcitable Neurons from Bipolar Patients. Nature. 2015 Nov 5;527(7576):95-9. doi: 10.1038/nature15526.",
+        "year": 2015,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
+  },
+  {
+    "name": "米达",
+    "institution": "清华大学",
+    "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+    "bio": "研究大脑皮层中不同类型神经细胞如何有序产生和特化成熟，结合单细胞测序、空间转录组测序、大脑类器官培养和细胞谱系追踪等技术，探索大脑皮层发育过程中细胞命运决定和神经细胞多样性形成的分子、细胞调控机制，以及不同物种间神经细胞多样性产生机制。",
+    "publications": [
+      {
+        "title": "1. Ma S, Skarica M, Li Q, Xu C, Risgaard RD, Tebbenkamp ATN, Mato-Blanco X, Kovner R, Krsnik Ž, de Martin X, Luria V, Martí-Pérez X, Liang D, Karger A, Schmidt DK, Gomez-Sanchez Z, Qi C, Gobeske KT, Pochareddy S, Debnath A, Hottman CJ, Spurrier J, Teo L, Boghdadi AG, Homman-Ludiye J, Ely JJ, Daadi EW, Mi D, Daadi M, Marín O, Hof PR, Rasin MR, Bourne J, Sherwood CC, Santpere G, Girgenti MJ, Strittmatter SM, Sousa AMM*, Sestan N*. (2022) Molecular and cellular evolution of the primate dorsolateral prefrontal cortex. Science. abo7257.",
+        "year": 2022,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "2. Shi Y#, Wang M#, Mi D#, Lu T, Wang B, Dong H, Zhong S, Chen Y, Sun L, Zhou X, Ma Q, Liu Z, Wang W, Zhang J, Wu Q*, Marín O*, Wang X*. (2021) Mouse and human share conserved transcriptional programs for interneuron development. Science. 10; 374.",
+        "year": 2021,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "3. Mi, D#., Li, Z#., Lim, L., Li, M., Moissidis, M., Yang, Y., Gao, T., Hu, T.X., Pratt, T., Price, D.J., Sestan, N., and Marín, O*. (2018) Early emergence of cortical interneuron diversity in the mouse embryo. Science. 360, 81-85.",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "4.Lim, L#., Mi, D#., Llorca, A., and Marín, O*. (2018) Development and Functional Diversification of Cortical Interneurons. Neuron. 100, 294-313.",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "5.Mi D, Manuel MN, Huang Y-T, Mason JO and Price DJ*. (2018) Pax6 lengthens G1 phase and decreases oscillating Cdk6 levels in murine embryonic cortical progenitors. Front. Cell. Neurosci. 12:419. doi: 10.3389/fncel.2018.00419.",
+        "year": 2018,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "6.Manuel MN#, Mi D#, Mason JO and Price DJ*. (2015) Regulation of cerebral cortical neurogenesis by the Pax6 transcription factor. Front. Cell. Neurosci. 9:70. doi: 10.3389/fncel.2015.00070.",
+        "year": 2015,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      },
+      {
+        "title": "7.Mi, D., Carr, C.B., Georgala, P.A., Huang, Y.T., Manuel, M.N., Jeanes, E., Niisato, E., Sansom, S.N., Livesey, F.J., Theil, T., Hasenpusch-Theil, K., Simpson, T., Mason, J., and Price D.J*. (2013) Pax6 Exerts regional control of cortical progenitor proliferation via direct repression of Cdk6 and Hypophosphorylation of pRb. Neuron. 78, 269–284.",
+        "year": 2013,
+        "authors": null,
+        "venue": null,
+        "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
+        "doi_url": null,
+        "scholar_url": null,
+        "is_official_source": 1
+      }
+    ],
+    "grants": []
   }
 ]
