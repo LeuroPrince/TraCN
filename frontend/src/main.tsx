@@ -284,7 +284,10 @@ function CategoryView({
               onClick={() => setActiveKey(category.direction.key)}
             >
               <strong>{category.direction.name}</strong>
-              <span>{category.teachers.length} 位 · 权重 {category.direction.weight.toFixed(1)}</span>
+              <span>
+                {category.teachers.length} 位
+                {category.direction.weight > 0 ? ` · 权重 ${category.direction.weight.toFixed(1)}` : " · 补充库"}
+              </span>
             </button>
           ))}
         </div>

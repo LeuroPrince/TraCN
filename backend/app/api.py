@@ -38,7 +38,14 @@ from .schemas import (
     TeacherStatusUpdate,
     TeacherSummary,
 )
-from .scoring import sort_teachers, sort_teachers_by_institution, summarize_teacher_score, teacher_to_detail, teacher_to_summary
+from .scoring import (
+    SUPPLEMENTAL_DIRECTION_KEY,
+    sort_teachers,
+    sort_teachers_by_institution,
+    summarize_teacher_score,
+    teacher_to_detail,
+    teacher_to_summary,
+)
 
 
 router = APIRouter(prefix="/api")
@@ -60,7 +67,11 @@ def health() -> dict[str, str]:
 
 @router.get("/directions", response_model=list[ResearchDirectionRead])
 def list_directions(db: Annotated[Session, Depends(get_db)]) -> list[ResearchDirection]:
-    return db.scalars(select(ResearchDirection).order_by(ResearchDirection.sort_order)).all()
+    return db.scalars(
+        select(ResearchDirection)
+        .where(ResearchDirection.key != SUPPLEMENTAL_DIRECTION_KEY)
+        .order_by(ResearchDirection.sort_order)
+    ).all()
 
 
 @router.patch("/directions/{direction_id}", response_model=ResearchDirectionRead)
@@ -103,6 +114,8 @@ def list_teachers(
             for teacher in teachers
             if any(match.direction.key == direction for match in teacher.direction_matches)
         ]
+    else:
+        teachers = [teacher for teacher in teachers if has_computational_direction(teacher)]
     return [teacher_to_summary(teacher) for teacher in sort_teachers(teachers)]
 
 
@@ -118,8 +131,10 @@ def list_direction_categories(db: Annotated[Session, Depends(get_db)]) -> list[D
         score = summarize_teacher_score(teacher)
         if score.primary_direction_key and score.primary_direction_key in grouped:
             grouped[score.primary_direction_key].append(teacher)
+        elif is_supplemental_only(teacher) and SUPPLEMENTAL_DIRECTION_KEY in grouped:
+            grouped[SUPPLEMENTAL_DIRECTION_KEY].append(teacher)
 
-    ordered_directions = sorted(directions, key=lambda item: (-item.weight, item.sort_order, item.name))
+    ordered_directions = sorted(directions, key=lambda item: (item.key == SUPPLEMENTAL_DIRECTION_KEY, -item.weight, item.sort_order, item.name))
     return [
         DirectionCategoryRead(
             direction=direction,
@@ -138,7 +153,11 @@ async def reclassify_teachers(
         runtime = get_active_runtime(db, settings)
     except LlmConfigurationError as exc:
         raise HTTPException(status_code=400, detail=str(exc)) from exc
-    directions = db.scalars(select(ResearchDirection).order_by(ResearchDirection.sort_order)).all()
+    directions = db.scalars(
+        select(ResearchDirection)
+        .where(ResearchDirection.key != SUPPLEMENTAL_DIRECTION_KEY)
+        .order_by(ResearchDirection.sort_order)
+    ).all()
     direction_payload = [
         {
             "key": direction.key,
@@ -155,6 +174,8 @@ async def reclassify_teachers(
     results: list[TeacherReclassifyResult] = []
 
     for teacher in teachers:
+        if is_supplemental_only(teacher):
+            continue
         payload = teacher_for_llm(teacher)
         payload["sources"] = [
             {"source_type": source.source_type, "field_name": source.field_name, "quote": source.quote}
@@ -444,7 +465,7 @@ async def match_profile(
     teachers = db.scalars(
         select(Teacher).options(*teacher_options()).where(Teacher.status == ReviewStatus.approved.value)
     ).unique().all()
-    sorted_candidates = sort_teachers(teachers)[:40]
+    sorted_candidates = sort_teachers([teacher for teacher in teachers if has_computational_direction(teacher)])[:40]
 
     try:
         runtime = get_active_runtime(db, settings)
@@ -504,6 +525,14 @@ def add_direction_matches(db: Session, teacher: Teacher, direction_keys: list[st
                 weight_override=override,
             )
         )
+
+
+def has_computational_direction(teacher: Teacher) -> bool:
+    return any(match.direction.key != SUPPLEMENTAL_DIRECTION_KEY for match in teacher.direction_matches)
+
+
+def is_supplemental_only(teacher: Teacher) -> bool:
+    return bool(teacher.direction_matches) and not has_computational_direction(teacher)
 
 
 def teacher_for_llm(teacher: Teacher) -> dict:

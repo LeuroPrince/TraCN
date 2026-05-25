@@ -4,6 +4,8 @@ from typing import Optional
 from .models import ResearchDirection, Teacher
 from .schemas import DirectionMatchRead, TeacherDetail, TeacherSummary
 
+SUPPLEMENTAL_DIRECTION_KEY = "neuroscience_supplement"
+
 
 @dataclass(frozen=True)
 class TeacherScore:
@@ -16,23 +18,26 @@ class TeacherScore:
 
 def summarize_teacher_score(teacher: Teacher) -> TeacherScore:
     directions: list[DirectionMatchRead] = []
+    scored_directions: list[DirectionMatchRead] = []
     for match in teacher.direction_matches:
         direction: ResearchDirection = match.direction
         effective_weight = match.weight_override if match.weight_override is not None else direction.weight
-        directions.append(
-            DirectionMatchRead(
-                id=match.id,
-                direction_id=direction.id,
-                direction_key=direction.key,
-                direction_name=direction.name,
-                effective_weight=effective_weight,
-                evidence_sentence=match.evidence_sentence,
-            )
+        direction_read = DirectionMatchRead(
+            id=match.id,
+            direction_id=direction.id,
+            direction_key=direction.key,
+            direction_name=direction.name,
+            effective_weight=effective_weight,
+            evidence_sentence=match.evidence_sentence,
         )
+        directions.append(direction_read)
+        if direction.key != SUPPLEMENTAL_DIRECTION_KEY:
+            scored_directions.append(direction_read)
 
     directions.sort(key=lambda item: (-item.effective_weight, item.direction_name))
-    match_score = round(sum(item.effective_weight for item in directions), 2)
-    primary = directions[0] if directions else None
+    scored_directions.sort(key=lambda item: (-item.effective_weight, item.direction_name))
+    match_score = round(sum(item.effective_weight for item in scored_directions), 2)
+    primary = scored_directions[0] if scored_directions else None
     return TeacherScore(
         match_score=match_score,
         primary_direction_key=primary.direction_key if primary else None,

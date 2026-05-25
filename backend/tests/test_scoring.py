@@ -55,3 +55,18 @@ def test_category_sort_groups_by_institution_before_score() -> None:
     sorted_teachers = sort_teachers_by_institution([zeta, alpha_b, alpha_a])
 
     assert [teacher.name for teacher in sorted_teachers] == ["Alpha", "Beta", "Zeta One"]
+
+
+def test_neuroscience_supplement_does_not_affect_score_or_primary() -> None:
+    supplement = ResearchDirection(id=1, key="neuroscience_supplement", name="神经科学", weight=0)
+    dynamics = ResearchDirection(id=2, key="network_dynamics_modeling", name="动力学", weight=4)
+    supplemental_only = make_teacher("Circuit", 40.0, [(supplement, "系统神经环路")])
+    mixed = make_teacher("Mixed", 40.0, [(supplement, "系统神经环路"), (dynamics, "计算建模")])
+
+    supplemental_score = summarize_teacher_score(supplemental_only)
+    mixed_score = summarize_teacher_score(mixed)
+
+    assert supplemental_score.match_score == 0
+    assert supplemental_score.primary_direction_key is None
+    assert mixed_score.match_score == 4
+    assert mixed_score.primary_direction_key == "network_dynamics_modeling"

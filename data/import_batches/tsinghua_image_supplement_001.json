@@ -9,7 +9,12 @@
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
     "bio": "学习和记忆的神经机制。实验室以小鼠为主要模式系统，结合光遗传学操控、多通道电生理、双光子成像和定量行为学研究多脑区的神经网络如何促进工作记忆信息的产生，如何维持工作记忆；多脑区神经动力学如何协同变化以支持工作记忆行为的学习；同时开发新型结构和功能成像方法促进多脑区神经动力学的研究。",
     "evidence_sentence": "结合光遗传学、多通道电生理、双光子成像和定量行为学研究多脑区神经网络、工作记忆和神经动力学，并启发新型人工智能计算模型。",
-    "direction_keys": ["network_dynamics_modeling", "neural_representation", "neuroimaging", "brain_inspired_intelligence"],
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging",
+      "brain_inspired_intelligence"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1109.html",
     "source_type": "official",
     "status": "approved"
@@ -24,7 +29,12 @@
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
     "bio": "研究方向属于计算神经学和NeuralAI的交叉领域，主要以视觉系统为研究对象，研究视觉信息的表征和传递、神经动力学、神经网络等问题；方法包括大规模电生理记录、闭环脑机接口、数据分析和建模。",
     "evidence_sentence": "官方主页明确写明其研究方向属于计算神经学和NeuralAI交叉，研究视觉表征、神经动力学、神经网络，并使用大规模电生理、闭环脑机接口、数据分析和建模。",
-    "direction_keys": ["network_dynamics_modeling", "neural_representation", "ai_for_neuroscience", "brain_inspired_intelligence"],
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "ai_for_neuroscience",
+      "brain_inspired_intelligence"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2412.html",
     "source_type": "official",
     "status": "approved"
@@ -38,8 +48,10 @@
     "title": "副教授、研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
     "bio": "研究两性社会认知与情绪行为差异的神经机制，结合钙成像、电生理记录、RNA测序、遗传操控、神经计算和转基因小鼠模型等技术，从分子、细胞、神经环路和系统等多个层面探索驱动两性社会行为和情绪行为差异的神经基础。",
-    "evidence_sentence": "官方主页列出钙成像、电生理记录、神经计算等方法，研究社会认知、情绪行为及神经环路系统机制。",
-    "direction_keys": ["neural_representation", "network_dynamics_modeling", "neuroimaging"],
+    "evidence_sentence": "研究两性社会认知与情绪行为差异的神经机制，结合钙成像、电生理记录、RNA测序、遗传操控、神经计算和转基因小鼠模型等技术，从分子、细胞、神经环路和系统等多个层面探索驱动两性社会行为和情绪行为差异的神经基础。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2096.html",
     "source_type": "official",
     "status": "approved"
@@ -54,7 +66,11 @@
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1111.html",
     "bio": "实验室同时发展创新实验技术与计算模型，研究神经细胞的转录-表观遗传稳态以及神经元如何保持活动依赖的基因表达程序，并发展基因组分析、编辑与调控技术和多组学、多模态数据分析框架，以解析稳态-失稳的能量景观。",
     "evidence_sentence": "官方主页明确写明发展计算模型、多组学和多模态数据分析框架，研究神经细胞转录-表观遗传稳态及阿尔茨海默病、成瘾等问题。",
-    "direction_keys": ["ai_for_neuroscience", "network_dynamics_modeling", "neural_representation"],
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1111.html",
     "source_type": "official",
     "status": "approved"
@@ -68,8 +84,10 @@
     "title": "研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
     "bio": "研究运动行为的神经环路机制，利用清醒动物在体电生理记录、定量运动行为范式、神经环路追踪及调控技术，研究生理状态下小脑及脑干神经环路如何对运动进行实时调控，以及特发性震颤的神经机制。",
-    "evidence_sentence": "官方主页显示其使用在体电生理、定量运动行为范式和神经环路调控研究运动控制的神经环路机制。",
-    "direction_keys": ["neural_representation", "network_dynamics_modeling"],
+    "evidence_sentence": "研究运动行为的神经环路机制，利用清醒动物在体电生理记录、定量运动行为范式、神经环路追踪及调控技术，研究生理状态下小脑及脑干神经环路如何对运动进行实时调控，以及特发性震颤的神经机制。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2146.html",
     "source_type": "official",
     "status": "approved"
@@ -83,8 +101,10 @@
     "title": "副教授、研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1121.html",
     "bio": "研究声音信号在听觉皮层中的表征以及情绪、注意和动机等认知功能对这些表征的调控；研究抑制性神经环路在听觉皮层功能发育中的作用、听觉任务切换灵活性的神经环路和皮层机制，以及动物社会性行为的神经环路机制。",
-    "evidence_sentence": "官方主页明确列出声音信号在听觉皮层中的表征、认知功能对表征的调控，以及任务切换灵活性的神经环路和皮层机制。",
-    "direction_keys": ["neural_representation", "network_dynamics_modeling"],
+    "evidence_sentence": "研究声音信号在听觉皮层中的表征以及情绪、注意和动机等认知功能对这些表征的调控；研究抑制性神经环路在听觉皮层功能发育中的作用、听觉任务切换灵活性的神经环路和皮层机制，以及动物社会性行为的神经环路机制。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1121.html",
     "source_type": "official",
     "status": "approved"
@@ -98,8 +118,10 @@
     "title": "副教授、研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
     "bio": "研究大脑与体内器官的双向交流如何调控生理和心理稳态，关注体内感受如何参与本能行为、高级认知行为、记忆、情绪和自我意识。实验室采用受体生物物理学、神经元细胞生物学、神经环路功能学和动物行为学的自下而上模式，研究体内感受的分子与神经环路机制。",
-    "evidence_sentence": "官方主页显示其研究体内感受、记忆、情绪和自我意识的神经环路机制，属于系统神经科学与行为机制方向。",
-    "direction_keys": ["neural_representation", "network_dynamics_modeling"],
+    "evidence_sentence": "研究大脑与体内器官的双向交流如何调控生理和心理稳态，关注体内感受如何参与本能行为、高级认知行为、记忆、情绪和自我意识。实验室采用受体生物物理学、神经元细胞生物学、神经环路功能学和动物行为学的自下而上模式，研究体内感受的分子与神经环路机制。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2377.html",
     "source_type": "official",
     "status": "approved"
@@ -113,8 +135,10 @@
     "title": "助理教授、研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
     "bio": "研究丘脑的非转导功能及其在脑疾病中的作用，关注丘脑神经元活动与学习记忆、睡眠和情绪的关系；结合基因编辑、电生理、在体钙成像等技术，从基因到环路多个层面探索丘脑功能及其在神经精神疾病中的作用。",
-    "evidence_sentence": "官方主页显示其结合电生理和在体钙成像研究丘脑活动、学习记忆、情绪和神经精神疾病中的环路机制。",
-    "direction_keys": ["neural_representation", "network_dynamics_modeling", "neuroimaging"],
+    "evidence_sentence": "研究丘脑的非转导功能及其在脑疾病中的作用，关注丘脑神经元活动与学习记忆、睡眠和情绪的关系；结合基因编辑、电生理、在体钙成像等技术，从基因到环路多个层面探索丘脑功能及其在神经精神疾病中的作用。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2505.html",
     "source_type": "official",
     "status": "approved"
@@ -129,7 +153,13 @@
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
     "bio": "研究高度分布的局部功能网络的涌现特性，开创新型光学与计算方法提升大规模在体神经记录的时空通量、准确性及成像深度极限，并深入理解神经环路的计算模型；关注感觉信息如何编码、转换与表征，神经表征如何与动机、注意力和记忆等内部状态交互以驱动行为，以及基于大脑工作机制优化人工神经网络。",
     "evidence_sentence": "官方主页明确写明新型光学与计算方法、神经环路计算模型、感觉信息编码转换与表征，以及基于大脑机制优化人工神经网络。",
-    "direction_keys": ["network_dynamics_modeling", "neural_representation", "neuroimaging", "brain_inspired_intelligence", "ai_for_neuroscience"],
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging",
+      "brain_inspired_intelligence",
+      "ai_for_neuroscience"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2792.html",
     "source_type": "official",
     "status": "approved"
@@ -144,7 +174,12 @@
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
     "bio": "研究大脑如何学习，借助神经生物学与计算科学的结合，探索神经网络在学习过程中通过何种算法调整神经元之间的连接，以及神经网络如何将已学习知识迁移到新的学习任务中；采用电生理、光学成像、光遗传学、计算神经科学和机器学习等手段。",
     "evidence_sentence": "官方主页明确写明神经生物学与计算科学结合，研究神经网络学习算法和迁移，并使用计算神经科学、机器学习、电生理和光学成像。",
-    "direction_keys": ["network_dynamics_modeling", "neural_representation", "ai_for_neuroscience", "brain_inspired_intelligence"],
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "ai_for_neuroscience",
+      "brain_inspired_intelligence"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2429.html",
     "source_type": "official",
     "status": "approved"
@@ -158,8 +193,10 @@
     "title": "教授、研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
     "bio": "研究大脑神经系统如何组装以及如何调控动物行为和认知，运用电生理、成像、遗传学、分子、细胞和发育生物学等方法，研究神经干细胞调控、神经细胞产生迁移、神经环路精准组装和运行，以及动物行为的神经基础。",
-    "evidence_sentence": "官方主页显示其使用电生理和成像研究神经环路组装、运行以及动物行为和认知的神经基础。",
-    "direction_keys": ["network_dynamics_modeling", "neural_representation", "neuroimaging"],
+    "evidence_sentence": "研究大脑神经系统如何组装以及如何调控动物行为和认知，运用电生理、成像、遗传学、分子、细胞和发育生物学等方法，研究神经干细胞调控、神经细胞产生迁移、神经环路精准组装和运行，以及动物行为的神经基础。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1918.html",
     "source_type": "official",
     "status": "approved"
@@ -173,8 +210,10 @@
     "title": "副教授、研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
     "bio": "研究神经精神疾病、神经退行性疾病和脑血管疾病，结合多能干细胞、脑类器官、动物模型和临床样本探索双相障碍和抑郁症的致病机理，并研究小胶质细胞、星形胶质细胞在阿尔茨海默病和双相障碍发病中的机制和调控手段。",
-    "evidence_sentence": "官方主页显示其研究神经精神疾病和神经退行性疾病中的神经元、类脑和胶质细胞机制；与计算神经科学关联较弱，但与疾病机制和脑类器官数据分析相关。",
-    "direction_keys": ["neural_representation"],
+    "evidence_sentence": "研究神经精神疾病、神经退行性疾病和脑血管疾病，结合多能干细胞、脑类器官、动物模型和临床样本探索双相障碍和抑郁症的致病机理，并研究小胶质细胞、星形胶质细胞在阿尔茨海默病和双相障碍发病中的机制和调控手段。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-1120.html",
     "source_type": "official",
     "status": "approved"
@@ -188,8 +227,10 @@
     "title": "副教授、研究员",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
     "bio": "研究大脑皮层中不同类型神经细胞如何有序产生和特化成熟，结合单细胞测序、空间转录组测序、大脑类器官培养和细胞谱系追踪等技术，探索大脑皮层发育过程中细胞命运决定和神经细胞多样性形成的分子、细胞调控机制，以及不同物种间神经细胞多样性产生机制。",
-    "evidence_sentence": "官方主页显示其结合单细胞测序、空间转录组、大脑类器官等数据密集型方法研究大脑皮层发育和神经细胞多样性。",
-    "direction_keys": ["ai_for_neuroscience", "neural_representation"],
+    "evidence_sentence": "研究大脑皮层中不同类型神经细胞如何有序产生和特化成熟，结合单细胞测序、空间转录组测序、大脑类器官培养和细胞谱系追踪等技术，探索大脑皮层发育过程中细胞命运决定和神经细胞多样性形成的分子、细胞调控机制，以及不同物种间神经细胞多样性产生机制。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
     "source_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2061.html",
     "source_type": "official",
     "status": "approved"
