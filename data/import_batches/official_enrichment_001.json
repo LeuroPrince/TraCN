@@ -890,10 +890,10 @@
     ]
   },
   {
-    "name": "于歆杰",
+    "name": "于国强",
     "institution": "清华大学",
     "homepage_url": "https://mcgovern.life.tsinghua.edu.cn/ch/infoshow-2730.html",
-    "bio": "清华麦戈文官网页面显示其研究涉及脑机接口、神经信息处理和智能系统方向。",
+    "bio": "胶质细胞、机器学习、计算脑科学。主要研究领域为计算科学与脑科学的交叉领域，即理论脑科学或计算神经科学，具体研究对象为超大规模、复杂、高维脑科学数据理解与分析中的数学模型、理论与方法，具体数据类型包括光学显微镜视频、电子显微镜图像、单细胞组学和空间转录组学等，具体生物问题涉及星形胶质细胞、多突出细胞和小胶质细胞在大脑正常功能与疾病中的作用。",
     "publications": [
       {
         "title": "Xuelong Mi, Mengfan Wang, Alex Bo-Yuan Chen, Jing-Xuan Lim, Yizhi Wang, Misha Ahrens, Guoqiang Yu*, “BILCO: An Efficient Algorithm for Joint Alignment of Time Series”, Advances in Neural Information Processing Systems (NeurIPS’22), November 28, 2022. (*corresponding author)",
