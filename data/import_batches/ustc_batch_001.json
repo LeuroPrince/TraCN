@@ -1,0 +1,531 @@
+[
+  {
+    "name": "温泉",
+    "institution": "中国科学技术大学",
+    "department": "生命科学学院 / 大数据学院",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/wenquan/zh_CN/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/wenquan/zh_CN/index.htm",
+    "source_type": "official",
+    "bio": "官网研究方向列出：小型动物运动控制原理及其神经环路基础；小型动物多感官整合以及感官和运动环路整合的机制和原理；计算神经生物学和机器学习；连接组学及神经环路结构和功能关系；发展和完善监测、操纵小型动物行为和神经环路的光学技术。生命科学学院页面进一步说明其以秀丽线虫、斑马鱼等小型模式动物为对象，开发自由行为下高时空分辨率钙动态成像技术，使用机器学习和深度学习提取全脑神经元活动，定量刻画全脑神经元动态变化和自然行为，并结合动态脑活动图谱、脑联结组、组学和行为学数据构建可计算模型。",
+    "evidence_sentence": "官网列出计算神经生物学和机器学习、连接组学、全脑神经元活动提取、可计算模型以及脑启发机制的人工智能项目。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "ai_for_neuroscience",
+      "neural_representation",
+      "brain_inspired_intelligence",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "代表成果发表于 Neuron, Nature Neuroscience, PNAS, PLoS Computational Biology 等期刊；官网/学院页称其围绕小型动物神经环路、计算神经生物学和机器学习展开。",
+        "source_url": "https://biox.ustc.edu.cn/2014/0121/c24188a542966/page.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "秀丽线虫运动控制神经环路的逆向工程研究",
+        "source_url": "https://faculty.ustc.edu.cn/wenquan/zh_CN/kyxm/123727/list/index.htm"
+      },
+      {
+        "name": "幼年斑马鱼捕食行为中全脑功能成像和分析",
+        "source_url": "https://faculty.ustc.edu.cn/wenquan/zh_CN/kyxm/123727/list/index.htm"
+      },
+      {
+        "name": "高通量长时程运动线虫全脑成像系统的研制",
+        "source_url": "https://faculty.ustc.edu.cn/wenquan/zh_CN/kyxm/123727/list/index.htm"
+      },
+      {
+        "name": "脑启发机制的人工智能模型与算法规划研究",
+        "year": 2020,
+        "funder": "国务院其他部门",
+        "source_url": "https://faculty.ustc.edu.cn/wenquan/zh_CN/kyxm/123727/content/14149.htm"
+      },
+      {
+        "name": "类脑智能关键技术及系统研究",
+        "year": 2019,
+        "funder": "省、市、自治区科技项目",
+        "source_url": "https://faculty.ustc.edu.cn/wenquan/zh_CN/kyxm/123727/content/13417.htm"
+      }
+    ]
+  },
+  {
+    "name": "王潇潇",
+    "institution": "中国科学技术大学",
+    "department": "生命科学与医学部 / 脑影像方向",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "特任副研究员",
+    "homepage_url": "https://faculty.ustc.edu.cn/wangxiaoxiao/zh_CN/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/wangxiaoxiao/zh_CN/zhym/125386/list/index.htm",
+    "source_type": "official",
+    "bio": "官网科学研究页面列出三条研究领域：基于功能磁共振的脑机接口，利用深度学习结合功能磁共振成像进行认知状态解码、图像重建和疾病辅助诊断；人类感知觉系统的信息传输及调控机制，利用功能磁共振成像研究视觉、味觉皮层及脑白质的信息传输与调控；人类疾病的脑功能与脑结构损伤，利用多模态磁共振影像研究脑小血管病、艾滋病、自闭症和斜弱视等疾病的脑损伤位点并寻找早期影像标记物。其研究方向页还说明 DNN 对 4D fMRI 数据具有编码能力，并探索任务态 fMRI、静息态 fMRI 和眼动预测的深度学习方法。",
+    "evidence_sentence": "官网明确写到用深度学习处理 4D fMRI，进行认知状态解码、图像重建、脑活动解读和疾病辅助诊断。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "White matter BOLD signals at 7 Tesla reveal visual field maps in optic radiation and vertical occipital fasciculus",
+        "year": 2023,
+        "authors": "Wang H., Wang X., Wang Y., Zhang D., Yang Y., Zhou Y., Qiu B., Zhang P.",
+        "venue": "NeuroImage",
+        "doi_url": "https://doi.org/10.1016/j.neuroimage.2023.119916",
+        "source_url": "https://faculty.ustc.edu.cn/wangxiaoxiao/zh_CN/zhym/125386/list/index.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Attention module improves both performance and interpretability of four-dimensional functional magnetic resonance imaging decoding neural network",
+        "year": 2022,
+        "authors": "Jiang Z., Wang Y., Shi C., Wu Y., Hu R., Chen S., Hu S., Wang X., Qiu B.",
+        "venue": "Human Brain Mapping",
+        "doi_url": "https://doi.org/10.1002/hbm.25813",
+        "source_url": "https://faculty.ustc.edu.cn/wangxiaoxiao/zh_CN/zhym/125386/list/index.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "White matter hyperintensities induce distal deficits in the connected fibers",
+        "year": 2021,
+        "venue": "Human Brain Mapping",
+        "doi_url": "https://doi.org/10.1002/hbm.25338",
+        "source_url": "https://faculty.ustc.edu.cn/wangxiaoxiao/zh_CN/zhym/125386/list/index.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "基于自然场景的人类视觉环路脑图谱的构建",
+        "source_url": "https://faculty.ustc.edu.cn/wangxiaoxiao/zh_CN/zhym/125386/list/index.htm"
+      },
+      {
+        "name": "人类视觉环路的“新一代脑图谱”的构建",
+        "source_url": "https://faculty.ustc.edu.cn/wangxiaoxiao/zh_CN/zhym/125386/list/index.htm"
+      }
+    ]
+  },
+  {
+    "name": "毕国强",
+    "institution": "中国科学技术大学",
+    "department": "生命科学学院 / 神经生物与生物物理学系",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/biguoqiang/zh_CN/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/biguoqiang/zh_CN/index.htm",
+    "source_type": "official",
+    "bio": "官网和学院页面显示其研究围绕神经突触可塑性与神经网络动力学特性，及其在学习记忆和相关疾病中的表达；前沿光学、电子显微成像与大数据分析技术及其在生物医学领域的应用。生命科学与医学部页面还说明神经物理学与生理学实验室通过发展和应用跨尺度显微成像等前沿技术，解析从突触到环路的复杂结构和动态变化，以破译大脑学习的计算规则和生物机制。",
+    "evidence_sentence": "官网列出神经突触可塑性、神经网络动力学、显微成像和大数据分析，学院页强调破译大脑学习的计算规则和生物机制。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "代表性方向包括 STDP、突触可塑性计算规则、神经网络回响活动以及跨尺度显微成像；学校页面说明相关成果发表于神经生物学和脑环路解析方向。",
+        "source_url": "https://biox.ustc.edu.cn/2010/0626/c24188a508657/page.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "中枢神经兴奋性突触稳态可塑性的超微结构机制",
+        "year": 2017,
+        "funder": "国家自然科学基金重点项目",
+        "source_url": "https://faculty.ustc.edu.cn/biguoqiang/zh_CN/kyxm/245583/content/10676.htm"
+      }
+    ]
+  },
+  {
+    "name": "刘北明",
+    "institution": "中国科学技术大学",
+    "department": "生命科学学院 / 神经物理学与神经生理学实验室",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/~JFf63a/zh_CN/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/~JFf63a/zh_CN/index.htm",
+    "source_type": "official",
+    "bio": "官网简介显示其最近工作综合电生理与光学手段，在离体培养神经元中发现网络持续回响活动及其突触机理。相关实验室介绍列出研究方向包括神经系统多尺度结构解析与图谱绘制，神经突触可塑性与神经网络动力学特性及其在学习记忆和相关疾病中的表达，以及前沿光学、电子显微成像与大数据分析技术。",
+    "evidence_sentence": "官网写到网络持续回响活动及其突触机理，实验室方向包括神经网络动力学、多尺度结构解析和大数据分析。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "团队与合作研究在 VISoR 全脑/全身三维成像、神经网络持续回响活动和突触机理等方向有代表成果。",
+        "source_url": "https://advancedguideforsds.gitbook.io/advancedguide/jin-jie-pian/shi-yan-shi-jie-shao-2023.4.18-geng-xin/shen-jing-wu-li-xue-yu-shen-jing-sheng-li-xue-shi-yan-shi-bi-guo-qiang-jiao-shou-yu-liu-bei-ming-jia",
+        "is_official_source": false
+      }
+    ]
+  },
+  {
+    "name": "计洋",
+    "institution": "中国科学技术大学",
+    "department": "信息科学技术学院",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "特任教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/jiyang",
+    "source_url": "https://faculty.ustc.edu.cn/jiyang",
+    "source_type": "official",
+    "email": "jiyang@ustc.edu.cn",
+    "bio": "官网简介显示其聚焦智能医学信号处理与医学磁共振成像，致力于开发下一代 MRI 技术；依托 10.5T 超高场人体 MRI 系统，开展 AI 驱动的 MRI 信号采集、图像重建及定量分析，覆盖脑功能、脑结构、血流定量分析及脑疾病临床应用，并希望揭示大脑工作原理、支撑脑科学计划等重大科学目标。",
+    "evidence_sentence": "官网写到 AI 驱动的 MRI 信号采集、图像重建、脑功能/结构/血流定量分析和揭示大脑工作原理。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "Achieving Robust Labeling Above the Circle of Willis with Vessel-Encoded Arterial Spin Labeling",
+        "year": 2025,
+        "authors": "Ji Y. et al.",
+        "venue": "Magnetic Resonance in Medicine",
+        "source_url": "https://faculty.ustc.edu.cn/jiyang",
+        "is_official_source": true
+      },
+      {
+        "title": "SNR-Efficient Whole-Brain Pseudo-Continuous Arterial Spin Labeling Perfusion Imaging at 7 T",
+        "year": 2025,
+        "authors": "Ji Y. et al.",
+        "venue": "Magnetic Resonance in Medicine",
+        "source_url": "https://faculty.ustc.edu.cn/jiyang",
+        "is_official_source": true
+      },
+      {
+        "title": "Highly accelerated intracranial time-of-flight magnetic resonance angiography using wave-encoding",
+        "year": 2023,
+        "authors": "Ji Y. et al.",
+        "venue": "Magnetic Resonance in Medicine",
+        "source_url": "https://faculty.ustc.edu.cn/jiyang",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "何晓松",
+    "institution": "中国科学技术大学",
+    "department": "人文与社会科学学院 / 脑网络与功能实验室",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "特任研究员、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/HEXIAOSONG/zh_CN/more/998716/tdgd/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/HEXIAOSONG/zh_CN/more/998716/tdgd/index.htm",
+    "source_type": "official",
+    "phone": "(+86) 0551-63607882",
+    "bio": "官网团队页面显示其团队为脑网络与功能实验室，主要研究方向包括大脑结构、功能网络组织特征与认知功能的关系；神经系统疾病对大脑结构、功能网络的影响及对认知功能的损害；大脑结构、功能网络组织特征在神经系统疾病诊疗中的应用；网络神经科学的发展。其个人页研究方向列为神经影像学。",
+    "evidence_sentence": "官网团队介绍聚焦脑结构/功能网络、认知功能、神经系统疾病诊疗应用和网络神经科学。",
+    "direction_keys": [
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "脑网络与功能实验室围绕结构与功能网络组织、认知功能及神经系统疾病开展网络神经科学研究。",
+        "source_url": "https://faculty.ustc.edu.cn/HEXIAOSONG/zh_CN/more/998716/tdgd/index.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "闻捷",
+    "institution": "中国科学技术大学",
+    "department": "附属第一医院影像科 / 生物医学工程",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "研究员、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/wenjie/zh_CN/zhym/24069/list/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/wenjie/zh_CN/zhym/24069/list/index.htm",
+    "source_type": "official",
+    "phone": "0551-62283486",
+    "bio": "官网科学研究页面列出研究领域：临床前动物神经影像方法学和医学影像学。项目列表包括多模态融合脑成像方法学研究、发展基于磁共振与荧光双模态成像探针的磁共振成像方法分析视觉神经环路、发展活体解析神经环路结构与功能网络的磁共振新方法，以及基于医学影像与人工智能的新冠诊断和病情评估。",
+    "evidence_sentence": "官网列出临床前动物神经影像方法学、多模态融合脑成像、视觉神经环路 MRI 分析和医学影像 AI 项目。",
+    "direction_keys": [
+      "neuroimaging",
+      "ai_for_neuroscience",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "In vivo labeling and quantitative imaging of neuronal populations using MRI",
+        "year": 2023,
+        "authors": "Li S., Xu X., Li C., Xu Z., Wu K., Ye Q., Zhang Y., Jiang X., Cang C., Tian C., Wen J.",
+        "venue": "NeuroImage",
+        "source_url": "https://faculty.ustc.edu.cn/wenjie/en/lwcg/344548/content/54810.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Impaired glymphatic transport in hypoxic-ischemic encephalopathy",
+        "year": 2025,
+        "authors": "Shen J. et al.",
+        "venue": "NeuroImage",
+        "source_url": "https://faculty.ustc.edu.cn/wenjie/zh_CN/zhym/24069/list/index.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Neuroimaging of neuropsychological disturbances following ischaemic stroke (CONNECT): a prospective cohort study protocol",
+        "year": 2024,
+        "venue": "BMJ Open",
+        "source_url": "https://faculty.ustc.edu.cn/wenjie/zh_CN/zhym/24069/list/index.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "多模态融合脑成像方法学研究",
+        "year": 2022,
+        "funder": "科技部国家重点研发计划课题",
+        "source_url": "https://faculty.ustc.edu.cn/wenjie/zh_CN/zhym/24069/list/index.htm"
+      },
+      {
+        "name": "发展基于磁共振与荧光双模态成像探针的磁共振成像方法分析视觉神经环路",
+        "year": 2021,
+        "funder": "国家自然科学基金面上项目",
+        "source_url": "https://faculty.ustc.edu.cn/wenjie/zh_CN/zhym/24069/list/index.htm"
+      },
+      {
+        "name": "发展活体解析神经环路结构与功能网络的磁共振新方法",
+        "year": 2020,
+        "funder": "中国科学院合肥大科学中心协同创新培育基金",
+        "source_url": "https://faculty.ustc.edu.cn/wenjie/zh_CN/zhym/24069/list/index.htm"
+      }
+    ]
+  },
+  {
+    "name": "陈勋",
+    "institution": "中国科学技术大学",
+    "department": "先进技术研究院",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "讲席教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/chenxun/zh_CN/",
+    "source_url": "https://faculty.ustc.edu.cn/chenxun/zh_CN/",
+    "source_type": "official",
+    "bio": "官网简介显示其主要从事医学人工智能、脑机接口、多模态图像分析等领域研究，承担科技部、基金委等国家级项目/课题十余项，在 IEEE SPM/TIP/TNSRE/TBME 等期刊发表论文 150 余篇，并担任中国人工智能学会脑机融合专委会副主委、中国图象图形学学会医学影像专委会副主委等。",
+    "evidence_sentence": "官网研究方向明确为医学人工智能、脑机接口、多模态图像分析。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "官网简介列出其在 IEEE SPM/TIP/TNSRE/TBME 等国际期刊发表论文 150 余篇，方向为医学人工智能、脑机接口和多模态图像分析。",
+        "source_url": "https://faculty.ustc.edu.cn/chenxun/zh_CN/",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "承担科技部、基金委等国家级项目/课题十余项",
+        "source_url": "https://faculty.ustc.edu.cn/chenxun/zh_CN/"
+      }
+    ]
+  },
+  {
+    "name": "陈雪锦",
+    "institution": "中国科学技术大学",
+    "department": "电子工程与信息科学系 / 视觉几何组",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/xuejinchen/zh_CN/zhym/222378/list/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/xuejinchen/zh_CN/zhym/222378/list/index.htm",
+    "source_type": "official",
+    "bio": "官网科学研究页面列出研究领域：三维场景理解和重建；脑神经结构重建和分析。类脑智能技术与应用国家工程实验室页面显示其所在研究团队参与脑成像分析与建模研究，外部学会访谈进一步说明其面向全脑神经连接图谱构建，结合传统几何重建算法与深度学习技术，提升神经元重建和几何形态分析能力。",
+    "evidence_sentence": "官网列出脑神经结构重建和分析，项目包括全脑神经系统重建与分析的关键技术研究。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "官网科学研究页面列出脑神经结构重建和分析相关成果与项目，重点面向大规模生物医学影像中的精细结构重建。",
+        "source_url": "https://faculty.ustc.edu.cn/xuejinchen/zh_CN/zhym/222378/list/index.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "全脑神经系统重建与分析的关键技术研究",
+        "source_url": "https://faculty.ustc.edu.cn/ChenXuejin/en/kyxm/222399/content/14654.htm"
+      },
+      {
+        "name": "大规模生物医学影像中的超长精细结构重建方法研究",
+        "source_url": "https://faculty.ustc.edu.cn/xuejinchen/zh_CN/zhym/222378/list/index.htm"
+      }
+    ]
+  },
+  {
+    "name": "张效初",
+    "institution": "中国科学技术大学",
+    "department": "生命科学与医学部 / 认知神经心理学实验室",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/zhangxiaochu/zh_CN/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/zhangxiaochu/zh_CN/index.htm",
+    "source_type": "official",
+    "phone": "+86-551-63607295",
+    "bio": "官网研究方向显示其采用脑电、磁共振等神经影像手段研究认知障碍的神经机制，研究高级认知功能的神经机制，并探索认知心理治疗、神经信号实时反馈及经颅电刺激技术在成瘾及其他精神或神经类疾病治疗中的应用。",
+    "evidence_sentence": "官网列出脑电、磁共振、认知障碍和高级认知功能神经机制，以及神经信号实时反馈与经颅电刺激。",
+    "direction_keys": [
+      "neuroimaging",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "官网简介称相关研究发表于 Nature Human Behaviour, Brain, Advanced Science, Biological Psychiatry, NeuroImage, Human Brain Mapping 等期刊。",
+        "source_url": "https://faculty.ustc.edu.cn/zhangxiaochu/zh_CN/index.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "2024年中华医学科技奖二等奖等省部级奖项；神经信号实时反馈与经颅电刺激治疗应用方向",
+        "source_url": "https://faculty.ustc.edu.cn/zhangxiaochu/en/index/211609/list/index.htm"
+      }
+    ]
+  },
+  {
+    "name": "王艳明",
+    "institution": "中国科学技术大学",
+    "department": "生命科学与医学部 / 磁共振与神经调控方向",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "特任副研究员",
+    "homepage_url": "https://faculty.ustc.edu.cn/WangYanming/zh_CN/yjfx/922947/content/7655.htm",
+    "source_url": "https://faculty.ustc.edu.cn/WangYanming/zh_CN/yjfx/922947/content/7655.htm",
+    "source_type": "official",
+    "bio": "官网研究方向包括神经影像、神经调控和深度学习。神经影像方向说明其基于多模态磁共振成像研究脑白质功能特性，定位帕金森病、阿尔茨海默病及癫痫等疾病的脑损伤靶点，并评估神经调控干预前后的神经环路功能动态变化；神经调控方向关注时域干涉刺激等新型无创神经调控技术。",
+    "evidence_sentence": "官网列出神经影像、神经调控和深度学习，并研究脑白质功能特性和神经环路动态变化。",
+    "direction_keys": [
+      "neuroimaging",
+      "ai_for_neuroscience",
+      "neuroscience_supplement"
+    ],
+    "publications": [
+      {
+        "title": "官网方向页列出基于多模态 MRI 的脑白质功能、疾病靶点定位和神经调控干预评估。",
+        "source_url": "https://faculty.ustc.edu.cn/WangYanming/zh_CN/yjfx/922947/content/7655.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "陈涛",
+    "institution": "中国科学技术大学",
+    "department": "微电子学院",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "特任教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/tchen/zh_CN/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/tchen/zh_CN/index.htm",
+    "source_type": "official",
+    "email": "tchen@ustc.edu.cn",
+    "bio": "官网研究方向简介显示团队致力于探索智能的本质并发展非常规信息处理技术，通过构建多自由度物理体系考察复杂动力学过程并揭示其在类脑信息处理中的作用；研究涵盖微纳电子器件、复杂网络与机器学习领域，融合神经科学、计算机科学等学科，重点发展高能效非冯诺依曼计算体系，并结合人工神经网络拓展复杂物理建模及新型传感器件应用。",
+    "evidence_sentence": "官网写到复杂动力学过程、类脑信息处理、复杂网络、机器学习和探索智能本质。",
+    "direction_keys": [
+      "brain_inspired_intelligence"
+    ],
+    "publications": [
+      {
+        "title": "官网简介称研究成果发表在 Nature 等期刊，方向为类脑信息处理、复杂网络和机器学习。",
+        "source_url": "https://faculty.ustc.edu.cn/tchen/zh_CN/index.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "赵峰",
+    "institution": "中国科学技术大学",
+    "department": "类脑智能技术及应用国家工程实验室",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "特任教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/zhaofeng1/zh_CN/",
+    "source_url": "https://faculty.ustc.edu.cn/zhaofeng1/zh_CN/",
+    "source_type": "official",
+    "email": "fzhao1@ustc.edu.cn",
+    "bio": "官网个人简介显示其为类脑智能技术及应用国家工程实验室成员，研究方向包括人工智能、类脑视觉、机器人、机器学习、模式识别、计算机视觉、图像处理和医学图像处理与分析。该方向更偏工程类脑智能和视觉 AI，暂不按神经科学机制方向拔高。",
+    "evidence_sentence": "官网列出人工智能、类脑视觉、机器学习、计算机视觉和医学图像处理与分析。",
+    "direction_keys": [
+      "brain_inspired_intelligence",
+      "ai_for_neuroscience"
+    ],
+    "publications": [
+      {
+        "title": "官网研究方向列为人工智能、类脑视觉、机器人、机器学习、模式识别、计算机视觉、医学图像处理与分析。",
+        "source_url": "https://faculty.ustc.edu.cn/zhaofeng1/zh_CN/",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "王杰",
+    "institution": "中国科学技术大学",
+    "department": "电子工程与信息科学系",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://faculty.ustc.edu.cn/wangjie1/zh_CN/index.htm",
+    "source_url": "https://faculty.ustc.edu.cn/wangjie1/zh_CN/index.htm",
+    "source_type": "official",
+    "email": "jwangx@ustc.edu.cn",
+    "bio": "官网简介显示其主要研究人工智能和机器学习，包括大规模机器学习算法、深度学习、自然语言处理、强化学习、图像处理、计算机视觉等。其科研项目页面列出国家自然科学基金重点项目“基于脑成像的视听深度神经网络构建与应用”。该条目主要作为 AI for neuroscience 相关补充。",
+    "evidence_sentence": "官网项目页列出基于脑成像的视听深度神经网络构建与应用。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "brain_inspired_intelligence"
+    ],
+    "publications": [
+      {
+        "title": "官网简介称其在大规模机器学习、深度学习、计算机视觉等方向发表 NIPS/ICML/KDD/JMLR/TPAMI/TIP/TKDD 等论文。",
+        "source_url": "https://faculty.ustc.edu.cn/wangjie1/zh_CN/index.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "基于脑成像的视听深度神经网络构建与应用",
+        "year": 2019,
+        "funder": "国家自然科学基金重点项目",
+        "source_url": "https://faculty.ustc.edu.cn/wangjie1/zh_CN/kyxm/202287/content/13321.htm"
+      }
+    ]
+  },
+  {
+    "name": "王子磊",
+    "institution": "中国科学技术大学",
+    "department": "类脑智能 / 计算机视觉方向",
+    "city": "合肥",
+    "latitude": 31.82,
+    "title": "教师",
+    "homepage_url": "https://faculty.ustc.edu.cn/wangzilei/zh_CN/yjfx/190377/content/4682.htm",
+    "source_url": "https://faculty.ustc.edu.cn/wangzilei/zh_CN/yjfx/190377/content/4682.htm",
+    "source_type": "official",
+    "bio": "官网研究方向列为计算机视觉、深度学习、类脑智能。该条目目前更偏计算机视觉与类脑工程，不直接显示生物神经机制解释，按类脑智能弱相关展示。",
+    "evidence_sentence": "官网研究方向列为计算机视觉、深度学习、类脑智能。",
+    "direction_keys": [
+      "brain_inspired_intelligence"
+    ],
+    "publications": [
+      {
+        "title": "官网研究方向列为计算机视觉、深度学习、类脑智能。",
+        "source_url": "https://faculty.ustc.edu.cn/wangzilei/zh_CN/yjfx/190377/content/4682.htm",
+        "is_official_source": true
+      }
+    ]
+  }
+]
