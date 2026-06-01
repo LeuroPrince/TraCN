@@ -45,6 +45,10 @@ OPENAI_API_KEY=your-key
 
 The API key is never returned by backend APIs and should not be committed.
 
+## CV / PS Matching
+
+The matching page accepts `.pdf`, `.docx`, `.txt`, `.md`, and `.csv` files. PDF/DOCX uploads are converted to text on the backend before the extracted content is sent to the configured LLM provider. Scanned image-only PDFs require OCR before upload.
+
 ## CSV Import
 
 Use the review page to import pending teacher candidates from CSV. Supported headers:

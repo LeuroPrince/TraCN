@@ -10,6 +10,7 @@ from sqlalchemy.orm import Session, selectinload
 
 from .config import Settings, get_settings
 from .database import get_db
+from .document_text import DocumentTextError, extract_document_text
 from .fetcher import fetch_page_preview
 from .llm import LlmConfigurationError, classify_teacher_directions, extract_profile_summary, rank_teachers_with_llm, test_llm
 from .llm import runtime_from_db, runtime_from_settings
@@ -454,9 +455,12 @@ async def match_profile(
     settings: Annotated[Settings, Depends(get_settings)],
     file: UploadFile = File(...),
 ) -> MatchProfileResponse:
-    raw_text = (await file.read()).decode("utf-8", errors="ignore").strip()
+    try:
+        raw_text = extract_document_text(file.filename, file.content_type, await file.read())
+    except DocumentTextError as exc:
+        raise HTTPException(status_code=400, detail=str(exc)) from exc
     if not raw_text:
-        raise HTTPException(status_code=400, detail="Uploaded file is empty or not readable as text.")
+        raise HTTPException(status_code=400, detail="Uploaded file is empty or not readable.")
     profile = ApplicationProfile(filename=file.filename, raw_text=raw_text)
     db.add(profile)
     db.commit()

@@ -485,10 +485,10 @@ function MatchView({ onOpenTeacher }: { onOpenTeacher: (id: number) => void }) {
       <div className="match-upload">
         <FlaskConical size={22} />
         <h2>CV / PS 匹配</h2>
-        <p>上传文本格式的简历或个人陈述。内容会发送到你在后端 `.env` 配置的外部大模型服务。</p>
+        <p>上传 PDF、DOCX 或文本格式的简历/个人陈述。提取出的文本会发送到你在后端 `.env` 配置的外部大模型服务。</p>
         <label className="upload-button">
           <FileUp size={16} /> {busy ? "匹配中..." : "上传并匹配"}
-          <input type="file" accept=".txt,.md,.csv" onChange={(event) => upload(event.target.files?.[0])} />
+          <input type="file" accept=".pdf,.docx,.txt,.md,.csv" onChange={(event) => upload(event.target.files?.[0])} />
         </label>
       </div>
       {result && (
