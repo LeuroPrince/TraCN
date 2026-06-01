@@ -1,0 +1,464 @@
+[
+  {
+    "name": "刘河生",
+    "institution": "北京大学",
+    "department": "生物医学前沿创新中心（BIOPIC）/ 昌平实验室脑科学与类脑研究部",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、首席科学家",
+    "homepage_url": "https://biopic.pku.edu.cn/zxpi/107bdswyxqycxzxgb527814.htm",
+    "source_url": "https://biopic.pku.edu.cn/zxpi/107bdswyxqycxzxgb527814.htm",
+    "source_type": "official",
+    "email": "hesheng@biopic.pku.edu.cn",
+    "bio": "BIOPIC 官方页面显示，刘河生教授长期专注于脑功能成像研究，是将功能磁共振成像技术（fMRI）推向临床应用的重要贡献者之一。其主要研究方向包括：开创个体化脑功能剖分技术（pBFS），突破 fMRI 临床转化关键技术瓶颈；构建脑影像人工智能平台 DeepPrep，提升影像处理效率与精度；揭示帕金森病的脑功能异常环路；开发“优点疗法”等个体化神经调控技术，用于帕金森病、阿尔茨海默症、卒中等脑疾病临床试验；研发国产化小型磁共振成像系统，推动脑功能成像轻量化、低成本和高性能发展。",
+    "evidence_sentence": "BIOPIC 官方页面明确列出 fMRI、个体化脑功能剖分、脑影像人工智能平台 DeepPrep、脑功能异常环路和个体化神经调控。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "Robust dynamic brain coactivation states estimated in individuals",
+        "year": 2023,
+        "venue": "Science Advances",
+        "source_url": "https://www.cpl.ac.cn/scientific_research/research_news/4028c1f188547f7e018855e9a3fb0010.html",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "个体化脑功能剖分技术（pBFS）与脑影像人工智能平台 DeepPrep 相关研究",
+        "source_url": "https://biopic.pku.edu.cn/zxpi/107bdswyxqycxzxgb527814.htm"
+      }
+    ]
+  },
+  {
+    "name": "高家红",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 磁共振成像研究中心 / 物理学院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "讲席教授",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1580/2745.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1580/2745.htm",
+    "source_type": "official",
+    "email": "jgao@pku.edu.cn",
+    "bio": "前沿交叉学科研究院官方页面显示，高家红为北京大学讲席教授、北大医学物理和工程北京市重点实验室主任、北大磁共振成像研究中心主任、北大麦戈文脑科学研究所研究员，长期从事脑成像和脑科学领域研究，研究方向包括医学物理、脑成像、磁共振成像。学院科研进展页面还显示其团队通过功能磁共振成像与脑网络模型分析方法研究语言听力功能的脑神经网络机制。",
+    "evidence_sentence": "官方页面列出脑成像、磁共振成像，并有团队使用功能磁共振成像与脑网络模型分析语言听力功能的研究证据。",
+    "direction_keys": [
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "高家红团队通过功能磁共振成像与脑网络模型分析方法揭示人类语言听力功能的脑神经网络机制",
+        "source_url": "https://www.aais.pku.edu.cn/info/1355/1719.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "邹启红",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 磁共振成像研究中心",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "副研究员",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1599/2748.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1599/2748.htm",
+    "source_type": "official",
+    "email": "zouqihong@pku.edu.cn",
+    "bio": "前沿交叉学科研究院官方页面显示，邹启红研究睡眠神经影像，使用 fMRI、PSG/EEG、MEG 等技术研究睡眠过程的脑网络机制、睡眠-觉醒障碍的脑网络异常模式及神经调制机制，以及睡眠与记忆、情绪等的关系。",
+    "evidence_sentence": "官方页面明确写到使用 fMRI、PSG/EEG、MEG 研究睡眠过程脑网络机制和脑网络异常模式。",
+    "direction_keys": [
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "Coupling of functional connectivity and regional cerebral blood flow reveals a physiological basis for network hubs of the human brain",
+        "year": 2013,
+        "venue": "PNAS",
+        "source_url": "https://www.aais.pku.edu.cn/info/1599/2748.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Intrinsic Resting-State Activity Predicts Working Memory Brain Activation and Behavioral Performance",
+        "year": 2013,
+        "venue": "Human Brain Mapping",
+        "source_url": "https://www.aais.pku.edu.cn/info/1599/2748.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "鲍平磊",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 心理与认知科学学院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "研究员",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1386/2554.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1386/2554.htm",
+    "source_type": "official",
+    "email": "pbao@pku.edu.cn",
+    "bio": "官方页面显示其研究方向为物体识别、深度网络、脑成像、电生理。实验室致力于高级视觉功能认知的神经机制探索，采用电生理、脑功能成像、微电刺激以及心理物理等方法对人和非人灵长类视觉系统进行多层面研究，并结合深度学习网络等手段构建视知觉的数学模型。",
+    "evidence_sentence": "官方页面列出物体识别、深度网络、脑成像和电生理，并明确写到结合深度学习网络构建视知觉数学模型。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "A map of object space in primate inferotemporal cortex",
+        "year": 2020,
+        "authors": "Bao, P., She, L., McGill, M. & Tsao, D.Y.",
+        "venue": "Nature",
+        "doi_url": "https://doi.org/10.1038/s41586-020-2350-5",
+        "source_url": "https://www.aais.pku.edu.cn/info/1386/2554.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Representation of multiple objects in macaque category-selective areas",
+        "year": 2018,
+        "venue": "Nature Communications",
+        "source_url": "https://www.aais.pku.edu.cn/info/1386/2554.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "张航",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 心理与认知科学学院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "研究员",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1410/2648.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1410/2648.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，张航使用行为实验、计算建模和非侵入式脑成像技术研究人类知觉、运动和认知领域的各种决策问题，核心问题是大脑如何表征和计算不确定性，并从行为、计算算法和实现计算的神经回路等多个层面回答该问题。",
+    "evidence_sentence": "官方页面明确写到计算建模、非侵入式脑成像、大脑如何表征和计算不确定性以及神经回路层面的解释。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "Human representation of visuo-motor uncertainty as mixtures of orthogonal basis distributions",
+        "year": 2015,
+        "venue": "Nature Neuroscience",
+        "source_url": "https://www.aais.pku.edu.cn/info/1410/2648.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Testing Whether Humans Have an Accurate Model of Their Own Motor Uncertainty in a Speeded Reaching Task",
+        "year": 2013,
+        "venue": "PLoS Computational Biology",
+        "source_url": "https://www.aais.pku.edu.cn/info/1410/2648.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "李毓龙",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 生命科学学院 / PTN项目",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1423/2789.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1423/2789.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，李毓龙实验室集中在神经元通讯的基本结构突触上，一方面开发新型成像探针，用于在时间和空间尺度上解析神经系统复杂功能；另一方面借助先进工具探究突触传递调节机制，特别是在生理及病理条件下对神经递质释放的调节。具体方向包括结合光遗传学和荧光成像研究神经元电突触连接、开发可遗传编码的神经递质/调质荧光探针、结合双光子成像和荧光探针研究嗅觉传导或睡眠过程中脑的工作机制。",
+    "evidence_sentence": "官方页面写到新型成像探针、时空尺度解析神经系统复杂功能、光遗传学、荧光成像、双光子成像和睡眠/嗅觉脑机制。",
+    "direction_keys": [
+      "neuroimaging",
+      "neural_representation",
+      "ai_for_neuroscience"
+    ],
+    "publications": [
+      {
+        "title": "A genetically encoded fluorescent sensor for rapid and specific in vivo detection of norepinephrine",
+        "year": 2019,
+        "venue": "Neuron",
+        "source_url": "https://www.aais.pku.edu.cn/info/1355/1818.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "A genetically encoded fluorescent acetylcholine indicator for in vitro and in vivo studies",
+        "year": 2018,
+        "venue": "Nature Biotechnology",
+        "source_url": "https://www.aais.pku.edu.cn/info/1355/1791.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "唐世明",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 生命科学学院 / PTN项目",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1431/2810.htm",
+    "lab_url": "https://bio.pku.edu.cn/homes/Index/news_cont_jl/16/66.html",
+    "source_url": "https://www.aais.pku.edu.cn/info/1431/2810.htm",
+    "source_type": "official",
+    "email": "tangshm@pku.edu.cn",
+    "phone": "62760531",
+    "bio": "前沿交叉学科研究院官方页面显示，唐世明研究方向为视觉认知神经科学和视觉神经生理学。其代表论文包括猕猴前额叶序列工作记忆几何结构、猕猴 V1 空间频率调谐的功能组织、猕猴 V1/V2/V4 层级颜色加工表征、清醒非人灵长类皮层神经元长期全光学 interrogation，以及大规模双光子成像揭示猕猴初级视觉皮层复杂模式选择性。",
+    "evidence_sentence": "官方页面列出视觉认知神经科学、视觉神经生理学，并有工作记忆几何结构、大规模双光子成像和层级视觉表征论文。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "Geometry of sequence working memory in macaque prefrontal cortex",
+        "year": 2022,
+        "venue": "Science",
+        "source_url": "https://www.aais.pku.edu.cn/info/1431/2810.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Complex Pattern Selectivity in Macaque Primary Visual Cortex Revealed by Large-Scale Two-Photon Imaging",
+        "year": 2018,
+        "venue": "Current Biology",
+        "source_url": "https://www.aais.pku.edu.cn/info/1431/2810.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "罗冬根",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 生命科学学院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1423/2794.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1423/2794.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，罗冬根课题组利用果蝇、小鼠和非人灵长类等模式动物研究视觉“暗光”的分子机制、嗅觉编码机制、机械感知对进食决策的调控以及生物钟神经机制。正在进行的研究课题包括感觉信号编码和加工的神经机制、进食等本能行为的神经机制以及生物钟和睡眠的神经机制。",
+    "evidence_sentence": "官方页面明确列出感觉信号编码和加工、嗅觉编码机制、进食决策和生物钟/睡眠神经机制。",
+    "direction_keys": [
+      "neural_representation",
+      "neuroscience_supplement"
+    ],
+    "publications": [
+      {
+        "title": "官方页面列出嗅觉编码机制、机械感知对进食决策调控和生物钟神经机制等方向代表成果。",
+        "source_url": "https://www.aais.pku.edu.cn/info/1423/2794.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "邹鹏",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 化学与分子工程学院 / PTN项目",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1437/2825.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1437/2825.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，邹鹏具体研究方向包括发展可遗传编码的膜电位荧光探针及相应的光学成像技术，研究神经细胞网络的电生理活性；发展蛋白质、核酸化学标记技术，研究与神经活性相关的生物大分子相互作用；研究与学习、记忆相关的蛋白质时空动态调控机制。",
+    "evidence_sentence": "官方页面明确写到膜电位荧光探针、光学成像技术、神经细胞网络电生理活性和学习记忆蛋白质时空动态调控。",
+    "direction_keys": [
+      "neuroimaging",
+      "neural_representation",
+      "network_dynamics_modeling"
+    ],
+    "publications": [
+      {
+        "title": "A far-red hybrid voltage indicator enabled by bioorthogonal engineering of rhodopsin on live neurons",
+        "year": 2021,
+        "venue": "Nature Chemistry",
+        "source_url": "https://www.aais.pku.edu.cn/info/1355/1915.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "于翔",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 生命科学学院 / PTN项目",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1436/2819.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1436/2819.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，于翔团队研究大脑发育早期跨模态全局可塑性机制，关注环境刺激对神经元生长、突触形成和神经环路建立的影响。团队将结合单细胞表达谱分析、分子生物学、遗传学、免疫组化、电生理、光学成像和行为学等方法，研究感觉经验与环境因素对发育早期神经元、胶质细胞和神经血管单元的调控，从而解析细胞与环路机制。",
+    "evidence_sentence": "官方页面写到神经网络、神经环路发育、跨模态可塑性、电生理、光学成像和行为学。",
+    "direction_keys": [
+      "neural_representation",
+      "neuroscience_supplement"
+    ],
+    "publications": [
+      {
+        "title": "PDGFRβ cells rapidly relay inflammatory signal from the circulatory system to neurons via chemokine CCL2",
+        "year": 2018,
+        "venue": "Neuron",
+        "source_url": "https://www.aais.pku.edu.cn/info/1436/2819.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "王征",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 心理与认知科学学院 / 麦戈文脑科学研究所",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "研究员、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1407/2628.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1407/2628.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，王征研究领域包括磁共振成像、猕猴模型、精神疾病和神经调控技术。课题组主要运用影像学和神经调控技术研究精神疾病诊断与预后评估，特别是结合非人灵长类模型解析临床强迫症、物质成瘾等疾病的病理环路，推进精神疾病影像学临床诊断，并研创新神经技术开展干预调控。",
+    "evidence_sentence": "官方页面列出磁共振成像、神经调控技术、病理环路和精神疾病影像学诊断。",
+    "direction_keys": [
+      "neuroimaging",
+      "neural_representation",
+      "ai_for_neuroscience"
+    ],
+    "publications": [
+      {
+        "title": "Common and differential connectivity profiles of deep brain stimulation and capsulotomy in refractory obsessive-compulsive disorder",
+        "year": 2021,
+        "venue": "Molecular Psychiatry",
+        "source_url": "https://www.aais.pku.edu.cn/info/1355/1954.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Diagnostic classification for human autism and obsessive-compulsive disorder based on machine learning from a primate genetic model",
+        "year": 2021,
+        "venue": "American Journal of Psychiatry",
+        "source_url": "https://www.aais.pku.edu.cn/info/1407/2628.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "余聪",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 心理与认知科学学院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1409/2645.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1409/2645.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，余聪视觉实验室主要结合心理物理学方法和脑成像技术，通过创新实验范式研究知觉学习的脑机制，并将相关范式应用到眼科疾病视觉康复以及工程有关的感觉训练。其方向与视觉可塑性、脑成像和神经信息表征相关。",
+    "evidence_sentence": "官方页面写到结合心理物理学和脑成像技术研究知觉学习的脑机制。",
+    "direction_keys": [
+      "neural_representation",
+      "neuroimaging",
+      "neuroscience_supplement"
+    ],
+    "publications": [
+      {
+        "title": "官方页面列出结合心理物理学和脑成像技术研究知觉学习脑机制及视觉康复应用。",
+        "source_url": "https://www.aais.pku.edu.cn/info/1409/2645.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "陈良怡",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 未来技术学院 / 生命科学联合中心",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1360/3813.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1360/3813.htm",
+    "source_type": "official",
+    "bio": "官方页面显示，陈良怡实验室希望提升活细胞超分辨成像分辨率到优于 10 纳米水平，探索稀疏解卷积恢复高频信号的边界条件和数学证明，整合先验知识并用深度学习引入样本特异的复杂先验知识实现终极分辨率。生物学应用包括综合应用活细胞超分辨、在体微型化双光子以及 PET 等多尺度成像手段，在细胞、组织以及整体水平揭示 tau 蛋白突变如何导致错误 tau 缠结形成以及在不同细胞、脑区中传播的机制。",
+    "evidence_sentence": "官方页面写到稀疏解卷积、深度学习、超分辨成像、在体微型化双光子、PET 和 tau 蛋白在不同脑区传播机制。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "Sparse deconvolution improves the resolution of live-cell super-resolution fluorescence microscopy",
+        "year": 2022,
+        "venue": "Nature Biotechnology",
+        "source_url": "https://www.aais.pku.edu.cn/info/1360/3813.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "周专",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 未来技术学院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1410/2659.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1410/2659.htm",
+    "source_type": "official",
+    "email": "zzhou@pku.edu.cn",
+    "phone": "+86-10-62753212",
+    "bio": "官方页面显示，周专主要研究细胞分泌发生机理、细胞分泌和内吞动力学、细胞离子通道、受体和动作电位，以及细胞分泌对神经、内分泌和心血管系统功能的贡献。其使用膜片钳、细胞膜电容、电化学微碳纤电极、细胞内钙离子荧光测量、共聚焦荧光 FM 成像、光裂解细胞内钙离子络合物等生物物理技术，在单个细胞、组织薄片或活体动物上进行电生理和电化学实时记录。",
+    "evidence_sentence": "官方页面写到动作电位、膜片钳、电化学实时记录、细胞内钙离子荧光测量和分析理论，偏细胞神经生理机制。",
+    "direction_keys": [
+      "neuroscience_supplement"
+    ],
+    "publications": [
+      {
+        "title": "Differential co-release of two neurotransmitters from a vesicle fusion pore in mammalian adrenal chromaffin cells",
+        "year": 2019,
+        "venue": "Neuron",
+        "source_url": "https://www.aais.pku.edu.cn/info/1355/1812.htm",
+        "is_official_source": true
+      }
+    ]
+  },
+  {
+    "name": "包燕",
+    "institution": "北京大学",
+    "department": "前沿交叉学科研究院 / 心理与认知科学学院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "副教授、博士生导师",
+    "homepage_url": "https://www.aais.pku.edu.cn/info/1359/3760.htm",
+    "source_url": "https://www.aais.pku.edu.cn/info/1359/3760.htm",
+    "source_type": "official",
+    "email": "baoyan@pku.edu.cn",
+    "bio": "官方页面显示，包燕近年来研究兴趣集中在时间知觉、空间注意和神经美学三个领域。研究方法包括行为实验、fMRI、ERP 和 MEG 等神经成像技术；在注意领域关注不同视野区域的注意功能差异，在时间领域关注高频和低频时间窗的信息加工及日节律，在神经美学领域关注绘画、音乐和诗歌中的空间和时间加工机制。",
+    "evidence_sentence": "官方页面写到 fMRI、ERP、MEG 等神经成像技术，以及时间知觉、空间注意和神经美学的信息加工机制。",
+    "direction_keys": [
+      "neural_representation",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "Does cue processing modulate inhibition of return in a detection task?",
+        "year": 2018,
+        "venue": "PsyCh Journal",
+        "source_url": "https://www.aais.pku.edu.cn/info/1359/3760.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "时间信息加工：基于高频和低频时间窗的行为及神经成像研究",
+        "funder": "NSFC面上项目",
+        "source_url": "https://www.aais.pku.edu.cn/info/1359/3760.htm"
+      }
+    ]
+  }
+]
