@@ -1,0 +1,505 @@
+[
+  {
+    "name": "柳昀哲",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室 / 北京脑科学与类脑研究中心",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、研究员",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/18e25c12984e48eb966932924b9b76c7.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/18e25c12984e48eb966932924b9b76c7.htm",
+    "source_type": "official",
+    "email": "yunzhe.liu@bnu.edu.cn",
+    "bio": "官方主页显示，柳昀哲研究人类高级智能行为的计算和神经机制，关注认知地图的形成和发展，解析从具体经验中抽象关系并实现推理迁移的机制。实验室结合跨物种认知原理机制解析、无创神经成像（M/EEG、fMRI）和侵入性电生理技术（iEEG、ePhys），开发神经编解码模型和脑机接口，为脑疾病和精神疾病诊疗与调控提供新手段；主页还明确欢迎有志于计算认知神经科学的学生加入。",
+    "evidence_sentence": "官方主页明确写到“人类高级智能行为的计算和神经机制”、神经编解码模型、脑机接口和计算认知神经科学。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "brain_inspired_intelligence",
+      "ai_for_neuroscience",
+      "neuroimaging"
+    ],
+    "publications": [
+      {
+        "title": "Development of non-spatial grid-like neural codes tracks inference and intelligence",
+        "year": 2026,
+        "venue": "Cell",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/18e25c12984e48eb966932924b9b76c7.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Human hippocampal ripples coordinate planning sequences and compositional representation in neocortex",
+        "year": 2026,
+        "venue": "Nature Neuroscience",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/18e25c12984e48eb966932924b9b76c7.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "北京师范大学与北京脑科学与类脑研究中心联合研究岗位，围绕认知地图、神经编解码模型和脑机接口开展计算认知神经科学研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/18e25c12984e48eb966932924b9b76c7.htm"
+      }
+    ]
+  },
+  {
+    "name": "贺永",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室 / 神经影像大数据与人脑连接组学北京市重点实验室 / IDG麦戈文脑科学研究院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Hjs/ab46221d9ce24a96a20300195a1792be.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Hjs/ab46221d9ce24a96a20300195a1792be.htm",
+    "source_type": "official",
+    "email": "yong.he@bnu.edu.cn",
+    "bio": "官方主页显示，贺永研究计算神经影像、人脑连接组学和儿童脑发育。主要方向包括：采用结构、功能、弥散等多模态神经影像技术研究活体人脑结构和功能连接组的构建、描述、评价计算方法和计算模型，并探索其认知功能和生理基础；采用影像连接组学方法研究人脑网络发育与神经精神疾病脑网络受损机制及诊疗评估方法；开发基于神经影像的人脑连接组分析和可视化软硬件计算平台。",
+    "evidence_sentence": "官方主页明确列出计算神经影像、人脑连接组学、脑网络计算模型和连接组分析可视化平台。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroimaging",
+      "ai_for_neuroscience"
+    ],
+    "publications": [
+      {
+        "title": "Progressive stabilization of brain network dynamics during childhood and adolescence",
+        "year": 2021,
+        "venue": "Cerebral Cortex",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Hjs/ab46221d9ce24a96a20300195a1792be.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Graph theoretical modeling of baby brain networks",
+        "year": 2019,
+        "venue": "NeuroImage",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Hjs/ab46221d9ce24a96a20300195a1792be.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "神经影像大数据与人脑连接组学北京市重点实验室创始主任，开展人脑连接组计算方法、脑网络发育和脑疾病评估平台研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Hjs/ab46221d9ce24a96a20300195a1792be.htm"
+      }
+    ]
+  },
+  {
+    "name": "隋婧",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "研究员、博士生导师",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/4450c122cb5544c4bedc2ff328249725.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/4450c122cb5544c4bedc2ff328249725.htm",
+    "source_type": "official",
+    "email": "jsui@bnu.edu.cn",
+    "bio": "官方主页显示，隋婧研究多模态脑影像大数据分析、计算神经科学、发育障碍的预警与分型。课题组面向脑科学、心理学与人工智能交叉前沿，专注脑发育障碍与精神疾病的计算医学模型，尤其是多模态影像组学协同分析理论与定量预测算法；主要方向包括多模态脑影像大数据融合分析与个体化预测评估理论、儿童青少年发育/学习障碍客观影像学标记检测、基于多模态神经影像的脑疾病早期预警与干预性研究。",
+    "evidence_sentence": "官方主页明确列出计算神经科学、多模态脑影像大数据分析、人工智能交叉、计算医学模型和定量预测算法。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "Multimodal neuromarkers in schizophrenia via cognition-guided MRI fusion",
+        "year": 2018,
+        "venue": "Nature Communications",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/4450c122cb5544c4bedc2ff328249725.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "The brain structure, inflammatory, and genetic mechanisms mediate the association between physical frailty and depression",
+        "year": 2024,
+        "venue": "Nature Communications",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/4450c122cb5544c4bedc2ff328249725.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "国家优秀青年基金；中国科学院引进人才资助；多模态影像组学协同分析理论与定量预测算法相关研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/4450c122cb5544c4bedc2ff328249725.htm"
+      }
+    ]
+  },
+  {
+    "name": "夏明睿",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "研究员、博士生导师",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/9263ee2b68bd42699a6709af16fddfc0.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/9263ee2b68bd42699a6709af16fddfc0.htm",
+    "source_type": "official",
+    "email": "mxia@bnu.edu.cn",
+    "bio": "官方主页显示，夏明睿研究多中心脑影像计算方法，及其在脑发育和脑疾病中的应用。其研究领域为多中心脑影像计算方法，及其在脑发育和脑疾病中的应用研究，涉及大规模连接组影像数据、精神疾病功能连接组、脑连接组动态、规范模型和多站点静息态 fMRI 等主题。",
+    "evidence_sentence": "官方主页明确写到多中心脑影像计算方法、脑发育和脑疾病应用，并列出 connectome dynamics、functional connectome 和 normative models 等论文。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "Big connectome imaging data in psychiatric disorders",
+        "year": 2024,
+        "venue": "Med Plus",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/9263ee2b68bd42699a6709af16fddfc0.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Mapping Neurophysiological Subtypes of Major Depressive Disorder Using Normative Models of the Functional Connectome",
+        "year": 2023,
+        "venue": "Biological Psychiatry",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/9263ee2b68bd42699a6709af16fddfc0.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "科技创新2030“脑科学与类脑研究”重大项目青年科学家项目负责人；北京市杰出青年基金获得者。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/9263ee2b68bd42699a6709af16fddfc0.htm"
+      }
+    ]
+  },
+  {
+    "name": "龚高浪",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室 / IDG麦戈文脑科学研究院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、PI",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Gjs/5e4bc183f942446c9e0836684214a91e.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Gjs/5e4bc183f942446c9e0836684214a91e.htm",
+    "source_type": "official",
+    "email": "gaolang.gong@bnu.edu.cn",
+    "bio": "官方主页显示，龚高浪研究左右脑、脑白质连接和脑影像计算方法。研究工作包括基于结构、弥散、功能磁共振等多模态脑成像技术，解析左右半脑偏侧化、脑白质发育在系统水平的个体差异规律，揭示其相关机理和认知行为后果，并发展相关影像计算新方法与工具平台。",
+    "evidence_sentence": "官方主页明确列出脑影像计算方法、多模态脑成像、脑白质连接和影像计算工具平台。",
+    "direction_keys": [
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation",
+      "ai_for_neuroscience"
+    ],
+    "publications": [
+      {
+        "title": "Activation network mapping for integration of heterogeneous fMRI findings",
+        "year": 2022,
+        "venue": "Nature Human Behaviour",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Gjs/5e4bc183f942446c9e0836684214a91e.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Callosal fiber length scales with brain size according to functional lateralization, evolution, and development",
+        "year": 2022,
+        "venue": "Journal of Neuroscience",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Gjs/5e4bc183f942446c9e0836684214a91e.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "国家杰出青年基金、优秀青年基金、科技部863计划青年科学家项目、科技创新2030“脑科学与类脑研究”重大项目课题。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Gjs/5e4bc183f942446c9e0836684214a91e.htm"
+      }
+    ]
+  },
+  {
+    "name": "舒妮",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/50af5095f6aa43929fc83735b422108d.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/50af5095f6aa43929fc83735b422108d.htm",
+    "source_type": "official",
+    "email": "nshu@bnu.edu.cn",
+    "bio": "官方主页显示，舒妮研究扩散磁共振成像、人脑连接组学、脑白质结构定量分析、认知老化与认知障碍。课题组利用基于神经影像的脑白质结构功能定量分析技术，开展认知行为个体差异与认知障碍神经机制研究，内容包括白质结构与功能神经影像的定量计算分析方法、脑疾病白质损伤的个体化定量评估、认知发展与认知老化个体差异的神经机制、认知障碍风险建模与个体预测。",
+    "evidence_sentence": "官方主页明确写到扩散磁共振成像、人脑连接组学、定量计算分析方法、风险建模和个体预测。",
+    "direction_keys": [
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "ai_for_neuroscience",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "AI-powered integration of multimodal imaging in precision medicine for neuropsychiatric disorders",
+        "year": 2025,
+        "venue": "Cell Reports Medicine",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/50af5095f6aa43929fc83735b422108d.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Spatial and temporal pattern of structure-function coupling of human brain connectome with development",
+        "year": 2024,
+        "venue": "eLife",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/50af5095f6aa43929fc83735b422108d.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "围绕脑白质结构功能定量分析、认知障碍风险建模与个体预测开展研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Sjs/50af5095f6aa43929fc83735b422108d.htm"
+      }
+    ]
+  },
+  {
+    "name": "赵腾达",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "副研究员",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/162bdf8fb5744332b4604f771aa50b46.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/162bdf8fb5744332b4604f771aa50b46.htm",
+    "source_type": "official",
+    "email": "tengdazhao@bnu.edu.cn",
+    "bio": "官方主页显示，赵腾达研究儿童脑发育图谱、脑发育连接组学和多模态脑发育影像计算。课题组基于多模态神经影像的人脑连接组技术，从脑网络视角揭示人脑发育规律与机制，结合神经影像学、脑连接组学、信息科学、人工智能算法等交叉技术，开展儿童脑影像计算（伪影校正、分割、配准）、儿童脑图谱构建和儿童脑网络建模等研究。",
+    "evidence_sentence": "官方主页明确写到多模态脑发育影像计算、脑连接组学、人工智能算法和儿童脑网络建模。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neuroimaging",
+      "ai_for_neuroscience",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "Structural Connectome Architecture Shapes the Maturation of Cortical Morphology from Childhood to Adolescence",
+        "year": 2024,
+        "venue": "Nature Communications",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/162bdf8fb5744332b4604f771aa50b46.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "3D-Masnet: 3D Mixed-Scale Asymmetric Convolutional Segmentation Network for 6-Month-Old Infant Brain MR Images",
+        "year": 2023,
+        "venue": "Human Brain Mapping",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/162bdf8fb5744332b4604f771aa50b46.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "儿童脑发育图谱、儿童脑影像计算和儿童脑网络建模相关研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/162bdf8fb5744332b4604f771aa50b46.htm"
+      }
+    ]
+  },
+  {
+    "name": "姜荣涛",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "研究员",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Jjs/c941c59b61d74279932a2692cd021681.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Jjs/c941c59b61d74279932a2692cd021681.htm",
+    "source_type": "official",
+    "email": "rongtaojiang@bnu.edu.cn",
+    "bio": "官方主页显示，姜荣涛研究脑疾病早期风险识别、身-脑交互和个体化预测。其研究兴趣包括从身-脑交互角度研究可控风险因素对抑郁症等脑疾病发病的影响及机制，脑疾病与躯体疾病共病关联模式及多组学机制，以及基于人工智能和 MRI 影像数据构建多模态预测模型，对个体认知能力和精神疾病症状进行精准预测。",
+    "evidence_sentence": "官方主页明确写到基于人工智能和 MRI 影像数据构建多模态预测模型，用于认知能力和精神疾病症状精准预测。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "The brain structure, inflammatory, and genetic mechanisms mediate the association between physical frailty and depression",
+        "year": 2024,
+        "venue": "Nature Communications",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Jjs/c941c59b61d74279932a2692cd021681.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "A functional connectome signature of blood pressure in more than 30000 participants from the UK Biobank",
+        "year": 2023,
+        "venue": "Cardiovascular Research",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Jjs/c941c59b61d74279932a2692cd021681.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "基于人工智能和 MRI 影像数据的多模态个体化预测模型研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Jjs/c941c59b61d74279932a2692cd021681.htm"
+      }
+    ]
+  },
+  {
+    "name": "李小俚",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、博士生导师",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/0f04a81f60614f47a5f2f5178d78e344.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/0f04a81f60614f47a5f2f5178d78e344.htm",
+    "source_type": "official",
+    "email": "xiaoli@bnu.edu.cn",
+    "bio": "官方主页显示，李小俚研究神经信息与工程、脑功能成像、调控技术和认知神经工效。其提出非线性和谐波方法，提取脑电信号中的振荡和同步特征，设计癫痫发作检测、预测和定位监控系统、麻醉深度监测仪和脑功能异常检测系统；研制集成脑电和近红外技术的新型脑成像系统；开展基于 TMS-EEG 的意识障碍诊断、治疗和评价；研制经颅电刺激、经颅磁刺激、神经反馈训练系统和经颅磁声刺激系统。",
+    "evidence_sentence": "官方主页明确写到脑电振荡与同步特征提取、癫痫检测预测定位、集成 EEG/fNIRS 脑成像系统和脑功能异常检测系统。",
+    "direction_keys": [
+      "ai_for_neuroscience",
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "Stability-driven non-negative matrix factorization-based approach for extracting dynamic network from resting-state EEG",
+        "year": 2020,
+        "venue": "Neurocomputing",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/0f04a81f60614f47a5f2f5178d78e344.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Resting-state EEG signal classification of amnestic mild cognitive impairment with type 2 diabetes mellitus based on multispectral image and convolutional neural network",
+        "year": 2020,
+        "venue": "Journal of Neural Engineering",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/0f04a81f60614f47a5f2f5178d78e344.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "脑电信号非线性分析、脑功能成像系统、神经调控和神经反馈训练系统相关研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Ljs/0f04a81f60614f47a5f2f5178d78e344.htm"
+      }
+    ]
+  },
+  {
+    "name": "朱朝喆",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/e35d46c71e5245aeb3e8a35a984f9fcd.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/e35d46c71e5245aeb3e8a35a984f9fcd.htm",
+    "source_type": "official",
+    "email": "czzhu@bnu.edu.cn",
+    "bio": "官方主页显示，朱朝喆长期从事脑成像与神经调控研究，建立经颅脑成像与非侵入神经调控技术通用的标准脑颅骨坐标系统，绘制经颅脑图谱并开发神经导航系统；提出非侵入神经调控脑网络靶向模型，为神经与精神疾病 TMS 靶向参数优化提供理论框架；提出并验证利用 fNIRS 测量静息态脑功能连接的可行性，建立相应计算方法体系，开辟静息态 fNIRS 脑连接组学领域；开发单脑与双脑 fNIRS 脑机接口神经反馈系统，并基于静息态 fMRI 脑网络模型揭示中风后运动功能康复过程中脑网络拓扑属性动态变化规律。",
+    "evidence_sentence": "官方主页明确写到脑网络靶向模型、fNIRS 脑连接组计算方法、脑机接口神经反馈系统和静息态 fMRI 脑网络模型。",
+    "direction_keys": [
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "ai_for_neuroscience",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "MNI2CPC: A probabilistic cortex-to-scalp mapping for non-invasive brain stimulation targeting",
+        "year": 2023,
+        "venue": "Brain Stimulation",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/e35d46c71e5245aeb3e8a35a984f9fcd.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "NIRS-KIT: a MATLAB toolbox for both resting-state and task fNIRS data analysis",
+        "year": 2021,
+        "venue": "Neurophotonics",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/e35d46c71e5245aeb3e8a35a984f9fcd.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "国家自然科学基金重点项目；科技部重大仪器专项课题；经颅脑图谱、脑网络靶向模型和 fNIRS 脑连接组计算方法相关研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/e35d46c71e5245aeb3e8a35a984f9fcd.htm"
+      }
+    ]
+  },
+  {
+    "name": "左西年",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/a57671c4d59d4c0689f079da30eca4fc.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/a57671c4d59d4c0689f079da30eca4fc.htm",
+    "source_type": "official",
+    "email": "xinian.zuo@bnu.edu.cn; zuoxn@psych.ac.cn",
+    "bio": "官方主页显示，左西年研究发展人口神经科学，致力于革新个体差异神经影像测量的信效度，发起国际信度与可重复性联盟并领衔建设中国彩巢计划，实证学龄儿童青少年脑发育的中美差异，揭示青春期脑功能梯度转换规律及其网络基础，参与绘制人类生命周期脑图表。",
+    "evidence_sentence": "官方主页明确写到个体差异神经影像测量、脑功能梯度转换规律及其网络基础、人类生命周期脑图表。",
+    "direction_keys": [
+      "neuroimaging",
+      "network_dynamics_modeling",
+      "neural_representation"
+    ],
+    "publications": [
+      {
+        "title": "A Chinese multi-modal neuroimaging data release for increasing diversity of human brain mapping",
+        "year": 2022,
+        "venue": "Scientific Data",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/a57671c4d59d4c0689f079da30eca4fc.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Brain charts for the human lifespan",
+        "year": 2022,
+        "venue": "Nature",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/a57671c4d59d4c0689f079da30eca4fc.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "国际信度与可重复性联盟；中国彩巢计划；发展人口神经科学和生命周期脑图表相关研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Zjs/a57671c4d59d4c0689f079da30eca4fc.htm"
+      }
+    ]
+  },
+  {
+    "name": "邢大军",
+    "institution": "北京师范大学",
+    "department": "认知神经科学与学习国家重点实验室 / IDG麦戈文脑科学研究院",
+    "city": "北京",
+    "latitude": 39.9042,
+    "title": "教授、研究员",
+    "homepage_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/f330c453503b48e188eec8ad67d4ef98.htm",
+    "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/f330c453503b48e188eec8ad67d4ef98.htm",
+    "source_type": "official",
+    "email": "dajun_xing@bnu.edu.cn",
+    "bio": "官方主页显示，邢大军研究视知觉、神经振荡和计算模型。其研究兴趣是通过电生理、解剖学和数学计算等方法研究视知觉的神经机制和神经振荡，理解视觉系统如何加工亮度、颜色、运动等视觉感知信息，研究大脑振荡与视知觉及其他认知功能之间的关系、大脑振荡如何产生，以及大脑对复杂非线性动力系统的信息加工过程。",
+    "evidence_sentence": "官方主页明确写到神经振荡、计算模型、数学计算方法和复杂非线性动力系统的信息加工过程。",
+    "direction_keys": [
+      "network_dynamics_modeling",
+      "neural_representation",
+      "neuroscience_supplement"
+    ],
+    "publications": [
+      {
+        "title": "Neuronal representation of visual working memory content in the primate primary visual cortex",
+        "year": 2024,
+        "venue": "Science Advances",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/f330c453503b48e188eec8ad67d4ef98.htm",
+        "is_official_source": true
+      },
+      {
+        "title": "Nonuniform and pathway-specific laminar processing of spatial frequencies in the primary visual cortex of primates",
+        "year": 2024,
+        "venue": "Nature Communications",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/f330c453503b48e188eec8ad67d4ef98.htm",
+        "is_official_source": true
+      }
+    ],
+    "grants": [
+      {
+        "name": "围绕视知觉神经机制、神经振荡、计算模型和非线性动力系统信息加工开展研究。",
+        "source_url": "https://brain.bnu.edu.cn/kytd/jsyjy/Xjs/f330c453503b48e188eec8ad67d4ef98.htm"
+      }
+    ]
+  }
+]
