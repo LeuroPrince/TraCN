@@ -8,6 +8,13 @@ $Url = "http://127.0.0.1:5173/"
 $EnvFile = Join-Path $Backend ".env"
 $EnvExample = Join-Path $Backend ".env.example"
 $Database = Join-Path $Backend "tracn.db"
+$LogDir = Join-Path $Root "logs"
+$BackendOutLog = Join-Path $LogDir "backend.out.log"
+$BackendErrLog = Join-Path $LogDir "backend.err.log"
+$FrontendOutLog = Join-Path $LogDir "frontend.out.log"
+$FrontendErrLog = Join-Path $LogDir "frontend.err.log"
+
+New-Item -ItemType Directory -Force -Path $LogDir | Out-Null
 
 if (-not (Test-Path -LiteralPath $Python)) {
     Write-Host "Creating backend virtual environment..."
@@ -51,11 +58,15 @@ foreach ($port in 8000, 5173) {
 Start-Process -FilePath $Python `
     -ArgumentList @("-m", "uvicorn", "app.main:app", "--host", "127.0.0.1", "--port", "8000") `
     -WorkingDirectory $Backend `
+    -RedirectStandardOutput $BackendOutLog `
+    -RedirectStandardError $BackendErrLog `
     -WindowStyle Hidden
 
 Start-Process -FilePath "npm.cmd" `
     -ArgumentList @("run", "dev", "--", "--host", "127.0.0.1") `
     -WorkingDirectory $Frontend `
+    -RedirectStandardOutput $FrontendOutLog `
+    -RedirectStandardError $FrontendErrLog `
     -WindowStyle Hidden
 
 $deadline = (Get-Date).AddSeconds(25)
@@ -72,7 +83,10 @@ do {
 } until (($backendOk -and $frontendOk) -or (Get-Date) -gt $deadline)
 
 if (-not ($backendOk -and $frontendOk)) {
-    throw "TraCN did not become reachable within 25 seconds."
+    Write-Host "TraCN did not become reachable within 25 seconds."
+    Write-Host "Backend logs: $BackendOutLog ; $BackendErrLog"
+    Write-Host "Frontend logs: $FrontendOutLog ; $FrontendErrLog"
+    throw "TraCN startup failed. Check the log files above."
 }
 
 Start-Process $Url
